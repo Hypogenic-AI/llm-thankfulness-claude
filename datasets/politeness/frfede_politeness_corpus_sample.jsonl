@@ -1,0 +1,500 @@
+{"text": "Is it an ordered list? Ie, will the cells appear in the order of the indicies, or no?", "label": 2, "sentiment": "Polite"}
+{"text": "In the bike lane, obviously. What're they gonna do?", "label": 2, "sentiment": "Polite"}
+{"text": "What version of bash are you using? Is it 4.x or 3.x?", "label": 2, "sentiment": "Polite"}
+{"text": "There are many factors that influence the layout and size of an ImageView. Are you able to share the layout file?", "label": 2, "sentiment": "Polite"}
+{"text": "I'm afraid I don't know what you mean Arcayne. What comment?", "label": 2, "sentiment": "Polite"}
+{"text": "Well? What do you think?", "label": 1, "sentiment": "Neutral"}
+{"text": "\"I + have\" = proper agreement; \"she + is\" = agreement; \"she + would\" = agreement.  Am I missing something?", "label": 1, "sentiment": "Neutral"}
+{"text": "What if you attach the MDF file to SQL Server Express and inspect it using SQL Server Mgmt Studio Express?? Do you see anything??", "label": 1, "sentiment": "Neutral"}
+{"text": "And wasting our time as well. I can only repeat: why don't you do constructive work by adding contents about your beloved Makedonia?", "label": 0, "sentiment": "Impolite"}
+{"text": "I'm happy to help!  After all, what's the point of acquiring knowledge about a process if I don't use that knowledge to help others?", "label": 2, "sentiment": "Polite"}
+{"text": "Great.  Any reason why SCIRS is still an essay and not a content guideline?", "label": 0, "sentiment": "Impolite"}
+{"text": "I notice that you're adding <person> to places of histrical significance, but in some cases they are not listed on the <url>.  Are you trying to follow the list, or expanding it to places that perhaps should be on the list?", "label": 1, "sentiment": "Neutral"}
+{"text": "Thanks, but I believe I've covered the sustance. Could you also get Beeblebrox to strike the \"Mr\" insult, unless he was doing it deliberately?", "label": 0, "sentiment": "Impolite"}
+{"text": "Hmm, I'm not sure...maybe you need to clear your cache? Or did you create the new username first, before asking me to change your old one?", "label": 1, "sentiment": "Neutral"}
+{"text": "I noticed you put \"NB\" and then the credit for the original picture that I cropped. What does \"NB\" stand for?", "label": 1, "sentiment": "Neutral"}
+{"text": "I don't understand the reason for <url>. Would you please explain it to me?", "label": 2, "sentiment": "Polite"}
+{"text": "I guess you could have mis-typed the name of the textbox control. Is it TextBox1? :)", "label": 2, "sentiment": "Polite"}
+{"text": "Thanks for the advice. Quick question, is the efficiency gain in both the where and sum methods?", "label": 2, "sentiment": "Polite"}
+{"text": "How are you accessing the image?  Loaded via Request?", "label": 2, "sentiment": "Polite"}
+{"text": "Such as the redundant link to ''Roe v. Wade''? Not an improvement?", "label": 0, "sentiment": "Impolite"}
+{"text": "Do you know any of your classmates? Maybe ask one of them? :)", "label": 1, "sentiment": "Neutral"}
+{"text": "@Monish If you don't know how to implement modes of operation, you shouldn't be implementing your own crypto code. Why not use an existing library, like KeyCzar?", "label": 0, "sentiment": "Impolite"}
+{"text": "Do you always start from 0,0 (or the bottom-left-most point)?  Or can you start from any point?", "label": 2, "sentiment": "Polite"}
+{"text": "Stephan, what did you mean by ''\"Is English your native language? You seem to fill in a lot of things not said with your assumptions.\"'' on my talk?", "label": 0, "sentiment": "Impolite"}
+{"text": "Yes, we can. But should we?", "label": 1, "sentiment": "Neutral"}
+{"text": "Why not keep the numbers in memory? Should be what, 100 MBytes?", "label": 0, "sentiment": "Impolite"}
+{"text": "Inch es gartsum? <url>...do you have email by the way?", "label": 1, "sentiment": "Neutral"}
+{"text": "How r u doing? what are u upto these days?...what are your current contribs?", "label": 1, "sentiment": "Neutral"}
+{"text": "For one phonological citation I need an uppercase \"I\", as in \"Italy\", with _serifs_ to distinguish it from lowercase L.  You advised \"The Classic skin uses a serifed font, if you can accept a personal solution.\"  I'm sorry, I don't catch your meaning.  Where do I find the Classic skin, what is a personal solution, and why wouldn't I accept it?", "label": 0, "sentiment": "Impolite"}
+{"text": "Do the squares have to be the same size? Do they have to be axis-aligned (i.e., have the same orientation as the rectangle)?", "label": 2, "sentiment": "Polite"}
+{"text": "I notice that you added a period to the middle of a sentence in the article about <url>. Why?", "label": 0, "sentiment": "Impolite"}
+{"text": "Thank you for semiprotecting that page.  Why is it that everyone seems to vandalize one page at the same time?", "label": 1, "sentiment": "Neutral"}
+{"text": "<url> is one of the three fundamental Wikipedia content policies; why is it a \"shame\" you have to follow it? What did you mean by \"people like you\"?", "label": 0, "sentiment": "Impolite"}
+{"text": "I based my sentence on the citation. Are you saying the citation is wrong?", "label": 0, "sentiment": "Impolite"}
+{"text": "'''<url>'''Please also answer the questions at paragraph '''<url>''' above, as you are looking like a classic bully admin who abuses his powers and should be stripped of that role.  Is there any review process in wikipedia, for proposing that you be stripped of your admin powers for bullyism?", "label": 0, "sentiment": "Impolite"}
+{"text": "Also, what time are you synchronising? And why?", "label": 0, "sentiment": "Impolite"}
+{"text": "You've been asking the ''sensible'' sysops...!?", "label": 0, "sentiment": "Impolite"}
+{"text": "\"I've simply been told before that itsa flow of electrons, but this seems to basic and does show that electricity is instant.\" Why would this mean that electricity is \"instantaneous\" ?", "label": 0, "sentiment": "Impolite"}
+{"text": "Agian, wishful thinking is one thing, fantasyland, now back to reality, Can you provide me ONE journal, ONE book that mentioned the term \"palestinians\" before 1960's??? Why not?", "label": 0, "sentiment": "Impolite"}
+{"text": "Very nice. How could I doubt you?", "label": 2, "sentiment": "Polite"}
+{"text": "Would it be a better question if it were \"Why are Perl threads so $#@$&!*@# slow compared to other languages?\"", "label": 0, "sentiment": "Impolite"}
+{"text": "So, let me make sure I understand this. You think that, if we remove an image as it does not meet the NFCC, you would then be able to upload the same image, only this time, it would meet the NFCC?", "label": 0, "sentiment": "Impolite"}
+{"text": "Out of curiosity what are you actually trying to accomplish? To put it another way, _why_ do you want to do this?", "label": 0, "sentiment": "Impolite"}
+{"text": "But the template didnxb4t refer to any problems. What are the problems?", "label": 1, "sentiment": "Neutral"}
+{"text": "Which call to Print fails?  The first call?", "label": 1, "sentiment": "Neutral"}
+{"text": "Hi, I was removed from the \"request for approval\" list at the vandalproof, and not put on either the \"approved\" or \"denied\" lists. Could you tell me why, please?", "label": 2, "sentiment": "Polite"}
+{"text": "I don't understand this sentence \"We are to find such placement of this polygons (we could make rotations and movements), when rectangle, which circumscribes this polygons has minimal area.\" Can you clarify?", "label": 2, "sentiment": "Polite"}
+{"text": "Why do you want to disable either Javascript or cookies, or both?  What benefits will that provide?", "label": 0, "sentiment": "Impolite"}
+{"text": "There's no apparent reason for the warnings to be caused by the `\\cite` commands. Can you please add the exact warning message that you are getting?", "label": 1, "sentiment": "Neutral"}
+{"text": "this has nothing to do with C#.  Why did you add it as a tag?", "label": 0, "sentiment": "Impolite"}
+{"text": "Thankyou.  So it's the norm to not show the day of the week in the lead-in?", "label": 1, "sentiment": "Neutral"}
+{"text": "I solved the problem, and I can assure you it is trivial. Is it homework or not?", "label": 0, "sentiment": "Impolite"}
+{"text": "I'd like not to receive any notices from this bot on my talk page. Is there a way to do this?", "label": 1, "sentiment": "Neutral"}
+{"text": "What E-Mail library are you using? Can you show the full code?", "label": 2, "sentiment": "Polite"}
+{"text": "Hi - how's it going?  Do you need more time?", "label": 2, "sentiment": "Polite"}
+{"text": "You could specify whether you need an introduction on applied statistics, or one on (theoretical) statistical inference. I.e., do you want the framework of testing, regression and ANOVA explained or do you want to know what the central limit theorem and the inequality of Chebiyshev have to do with the weak law of large numbers?", "label": 0, "sentiment": "Impolite"}
+{"text": "Why did you revert my edits on that page? You say it was unsourced but it was sourced, I put two references to two fair sources (not blogs nor politicaly bound), so why did you remove them?", "label": 0, "sentiment": "Impolite"}
+{"text": "Visual Studio 2080? Are you from the future? O_O", "label": 0, "sentiment": "Impolite"}
+{"text": "As I recall, SoftIce was very sensitive about which version of Windows it was running on. Have you made sure the version you installed is compatible with whatever service pack you are running?", "label": 2, "sentiment": "Polite"}
+{"text": "Well, what does the message say? It must give some more detail than that *somewhere?*", "label": 2, "sentiment": "Polite"}
+{"text": "Just looking at that photo and the one in the article makes me feel cold :).   I just finished this article <url> a week or so ago, and wonder if those Forward Operating Locations are tied into intercepts from those NORAD radar sites ?", "label": 2, "sentiment": "Polite"}
+{"text": "That is a weird site. For one they count forum software as \"Content Management\" but then neglect Wordpress?", "label": 2, "sentiment": "Polite"}
+{"text": "Dear Fred, your question is very general.  You will get people saying \"yes i intend\" , \"no I don't\", but with regards to the feedback - what is it you expect to read?", "label": 1, "sentiment": "Neutral"}
+{"text": "Please be a little more specific! did you install it in an unusual way or is it just a \"normal\" Ubuntu package?", "label": 1, "sentiment": "Neutral"}
+{"text": "Thanks Dave.  As long as I reference your project on my site, thats ok right?", "label": 2, "sentiment": "Polite"}
+{"text": "The instructions you linked mention using Visual C++ Express, yet your output tells that distutils tries to use gcc.  What are you actually using?", "label": 0, "sentiment": "Impolite"}
+{"text": "Bingo!  Since you've seen the light, now will you stop trying to craft PR statements?", "label": 0, "sentiment": "Impolite"}
+{"text": "Are you kidding me? Do you even bother to click on <url> to see its fleet?", "label": 0, "sentiment": "Impolite"}
+{"text": "Do you have a specific question ? E.g. which part are you having difficulty with ?", "label": 0, "sentiment": "Impolite"}
+{"text": "Major grammar reconstruction from @chills42 and myself. Maybe it's a clearer question now?", "label": 0, "sentiment": "Impolite"}
+{"text": "Is this homework, or some other type of assignment? If not, what is the bigger problem you're trying to solve?", "label": 1, "sentiment": "Neutral"}
+{"text": "If it's alright with you, I'm next going to start from 1930 and work back towards where you are, since I'm particularly interested in the Lang era. Is that okay?", "label": 2, "sentiment": "Polite"}
+{"text": "I am genuinely trying to do something useful and helpful. Why are you attacking it?", "label": 0, "sentiment": "Impolite"}
+{"text": "Is this just a confused marketing statement?  Or can you point us to a product that does this or a use of this notion in the wild?", "label": 1, "sentiment": "Neutral"}
+{"text": "Why avoid it? Is \"November 6,<br>2010\" somehow a more desired rendering than \"6 November<br>2010\"?", "label": 0, "sentiment": "Impolite"}
+{"text": "Yeah- using a stack for depth first. Did you know that you use a queue for breadth first?", "label": 2, "sentiment": "Polite"}
+{"text": "sorry I can't find a folding trike on the Catrike website, do you know the model name?", "label": 2, "sentiment": "Polite"}
+{"text": "I noticed, that for users warned before, Huggle still uses level 1 warning. Is there anything I can do?", "label": 2, "sentiment": "Polite"}
+{"text": "What do you mean by usernames of a process?  Do you want to know the user that created each process?", "label": 1, "sentiment": "Neutral"}
+{"text": "There seems to have been something wrong with the pages you made on the V8 Supercar Championship Series - a glitch with the \"align\" tags in the beginning infobox made the text grotesquely overflow the margins. I've trimmed these down; mind checking my work?", "label": 2, "sentiment": "Polite"}
+{"text": "OK, then, define \"bias\", propose a way to quantify it, and if it's accepted by consensus, we'll apply it to ''all'' the admins on that page. Or, perhaps as a starting point, how about presenting some evidence?", "label": 0, "sentiment": "Impolite"}
+{"text": "Can you explain why {{1,2},{3,4}} is not \"interesting\"? What is the relabeling that gives the same section?", "label": 1, "sentiment": "Neutral"}
+{"text": "Could you please be more specific? Which paragraphs from the [link](http://reactivated.net/writing_udev_rules.html) are relevant to me?", "label": 2, "sentiment": "Polite"}
+{"text": "A background image for what? How is the image being used?", "label": 1, "sentiment": "Neutral"}
+{"text": "i searched through the history and the question at http://en.wikipedia.org/wiki/Talk:Telephone_numbering_plan#coincidence.3F relates to infomation <url>. could you possiblly answer it?", "label": 2, "sentiment": "Polite"}
+{"text": "Can you please elaborate a bit? Like write few-word intro to those algorithms?", "label": 0, "sentiment": "Impolite"}
+{"text": "You tags are misleading - Algorithm, data structures and in your question you are asking for an answer to the puzzle. what do you want?", "label": 0, "sentiment": "Impolite"}
+{"text": "Thanks, this was easier to understand. Can you please add a few more lines to last three definitions?", "label": 2, "sentiment": "Polite"}
+{"text": "Well, in that case we should simply point the shortcuts to where they originally pointed, which in most cases is unrelated to both VIE and VINE. That sounds like a fair and neutral compromise, no?", "label": 2, "sentiment": "Polite"}
+{"text": "One of your edits concerns me - <url>. Maybe a copyedit would be good, but was it really required to be deleted completely?", "label": 0, "sentiment": "Impolite"}
+{"text": "Did you just revert back to the old article? Or did I do something wrong with the move?", "label": 1, "sentiment": "Neutral"}
+{"text": "<url> Am I missing something?", "label": 0, "sentiment": "Impolite"}
+{"text": "We will need more information. Would you please open a terminal and post the result of \"sudo fdisk -l\"?", "label": 0, "sentiment": "Impolite"}
+{"text": "I noticed you've put in quite a few posts in the gun politics talk pages. I'm just wondering do you have an interest in firearms or just the politics behind them and their use?", "label": 1, "sentiment": "Neutral"}
+{"text": "It's good that you stated your reasoning, but it would be even better if you could isolate the difficult ideas and ask a conceptual question rather than restating your homework.  For example, \"What forces act on a ball that rolls without slipping, and what are their relative magnitudes?", "label": 1, "sentiment": "Neutral"}
+{"text": "Since when is `String` a primitive? Since when can you store primitives in a `Collection`?", "label": 0, "sentiment": "Impolite"}
+{"text": "I also cannot see anything on that link. Is it on another page or have you removed the Ads entirely @Amit?", "label": 2, "sentiment": "Polite"}
+{"text": "What about (1,5) and (3,5)? Are you really finding inversions, inverted according to an incomplete order defined by the array A2?", "label": 1, "sentiment": "Neutral"}
+{"text": "Silly question: does it maybe need more salt?", "label": 1, "sentiment": "Neutral"}
+{"text": "What have you tried? What specifically have you looked at and why didn't it help you?", "label": 1, "sentiment": "Neutral"}
+{"text": "SuaveArt has edited his post on the Wikipedia Review and is now lying about me. Did you see the actual post there before he changed it so you can back up my cut-n-paste of what it said?", "label": 0, "sentiment": "Impolite"}
+{"text": "When you're previewing the widget, which style are you using?  What operating system are you running designer on?", "label": 2, "sentiment": "Polite"}
+{"text": "In .Net? C# or VB?", "label": 1, "sentiment": "Neutral"}
+{"text": "In what way do the GMTV images, such as <url>, conform with the guidelines at <url>? Where is the statement on the website saying that it is a press kit, and the images can be reproduced?", "label": 1, "sentiment": "Neutral"}
+{"text": "I am good at that ;-). You know about the new \"Oversight\" priv?", "label": 2, "sentiment": "Polite"}
+{"text": "Less than 127? Don't you mean \"Less or equal to 127\"?", "label": 0, "sentiment": "Impolite"}
+{"text": "Can you please clarify, if you only care about the weights, why you don't simply do `data[x] += w`? What do you care about besides the weights?", "label": 2, "sentiment": "Polite"}
+{"text": "Why a `BigDecimal`? Wouldn't `to_f` on the end of these values be enough?", "label": 1, "sentiment": "Neutral"}
+{"text": "Looking through the discussion page history, the addition was made by <url> who is still active on wikipedia. Why not try a message on <url>?", "label": 1, "sentiment": "Neutral"}
+{"text": "I have attempted to address your concern. Could you take another look at the article?", "label": 1, "sentiment": "Neutral"}
+{"text": "I am having the same problem.  Anyone have any other ideas?", "label": 1, "sentiment": "Neutral"}
+{"text": "i am not getting you,\r\nand where is the link?", "label": 0, "sentiment": "Impolite"}
+{"text": "Thanks for the correction but I am still working on the table. Could you hold off for a bit so our edits don't cross?", "label": 2, "sentiment": "Polite"}
+{"text": "Hm. Am I imagining things, or does <url> seem familiar?", "label": 0, "sentiment": "Impolite"}
+{"text": "Slightly underspecified: by 'arrange', you do mean place them in order at the start of the array? Any restrictions on what happens to the rest of the integers?", "label": 1, "sentiment": "Neutral"}
+{"text": "Yes correct. Any ideas?", "label": 1, "sentiment": "Neutral"}
+{"text": "I'm having a little trouble following your description; do you want an algorithm to find graph automorphisms?  Or one to test whether a given permutation is an automorphism?", "label": 2, "sentiment": "Polite"}
+{"text": "I have a similar problem, @Milos. This room wouldn't happen to be directly above a poorly-insulated garage, would it?", "label": 1, "sentiment": "Neutral"}
+{"text": "The C specification says tm_years is \"Years since 1900.\"  Why not just stick to the standard and avoid this whole mess?", "label": 0, "sentiment": "Impolite"}
+{"text": "Does it have to be `awk`?  Or would any suitable scripting language work?", "label": 1, "sentiment": "Neutral"}
+{"text": "Possibly an encoding issue? Do you see this in all browsers?", "label": 1, "sentiment": "Neutral"}
+{"text": "Are there any other limitations on a_i? for example a_i >=0?", "label": 2, "sentiment": "Polite"}
+{"text": "I understand the problem with that redundant category--I've hashed that out, I think--but why did you remove ALL categories from the Christian shows? That seems....excessive... Or do I just need a nap?", "label": 0, "sentiment": "Impolite"}
+{"text": "A module that is causing a fatal error because it's invoking a method of a non-object is clearly a bug in a module; it's difficult to say which module is causing the error, as the error is appending in a Views file, but it could depend from a parameter passed to a Views function from another module. (Is it Panels or APK?)", "label": 0, "sentiment": "Impolite"}
+{"text": "Hey, I saw your article on the ''Mosambique'' in the Good New Article search results and looked at your other contributions, and I see that you do a lot on naval history. Would you be interested in helping me to expand <url>?", "label": 2, "sentiment": "Polite"}
+{"text": "Alright, thanks. Where do I find these templates?", "label": 1, "sentiment": "Neutral"}
+{"text": "Done. Does Adam Hunter need your disambig-style touch?", "label": 0, "sentiment": "Impolite"}
+{"text": "I am really disappointed that common speech allows the use of `who` like that, and I think I am correct when I say that if the cashier had said \"Can I help whomever is next?\" you will hear snickering in  line and a subtle \"Why is she speaking like that?\".", "label": 2, "sentiment": "Polite"}
+{"text": "Oh? You know something I don't, Friday?", "label": 0, "sentiment": "Impolite"}
+{"text": "@Jen sorry to be patronising. Are you confusing *square numbers*  (numbers raised to the power of two) and *powers of two*?", "label": 0, "sentiment": "Impolite"}
+{"text": "I tried a white map on <url> and a light yellow-pink on <url>. Which do you think looks better?", "label": 2, "sentiment": "Polite"}
+{"text": "PS do you really think that attrition is a degeneration? Surely it's the norm?", "label": 0, "sentiment": "Impolite"}
+{"text": "An API is not at fault if they allow requests to take place more than 30 time in 5 seconds, right?  Or do we need to build throttling into our API?", "label": 2, "sentiment": "Polite"}
+{"text": "That's exaxtly what i meant for the point one....and as you said 200 in 1 week is definetly more impressive than 1000 in 1 year....Considering that i have a mysql db, php in the middle to make query and return json object and java for my android client that get the json and parse it.At wich level this \"ordering\" algorith should work? for example on the flight in php page...it mean that that the db is not ordered and in the php page i make a query enfding with ORDER BY and than my function ordering,or the MYsql db shoul already ordered,maybe running my algoruth once a day to reorder app table?", "label": 0, "sentiment": "Impolite"}
+{"text": "This is an awesome question. I think the question should be, \"How do I import the [Geonames list for India (ID.zip)](http://download.geonames.org/export/dump/) as taxonomy terms so it works with Hierarchical Select?\"", "label": 0, "sentiment": "Impolite"}
+{"text": "I remember the original question asking about a solution in Python.  Am I going insane?", "label": 1, "sentiment": "Neutral"}
+{"text": "schoolwork? it's a strange query, don't you have more information for us?", "label": 0, "sentiment": "Impolite"}
+{"text": "What is your relation to these authors?  Are you writing a package, or editing a publication?", "label": 0, "sentiment": "Impolite"}
+{"text": "can you please try flushing your dns cache with this command dscacheutil -flushcache and restarting your browser.   Let us know if you can still access server.local with your browser?", "label": 2, "sentiment": "Polite"}
+{"text": "Hi, <url> to <url> broke the templates.  Can you fix that, please?", "label": 2, "sentiment": "Polite"}
+{"text": "Hi Thunderbrand, thanks for letting me know that the image I uploaded is on IFD. Can I ask though, why is the image being deleted?", "label": 2, "sentiment": "Polite"}
+{"text": "Thanks. Do you feel the information is \"weak\" or is it just too complex?", "label": 2, "sentiment": "Polite"}
+{"text": "Have you considered a Dremel tool? Or is it not a fine enough cut?", "label": 1, "sentiment": "Neutral"}
+{"text": "I believe you wanted to find out which party the PP was? Well i'm sure you'll be able to find it at http://elections.uwa.edu.au/partysearch.lasso - my guess is that it could be the Progress Party, who ran in the 1977 WA HoR election?", "label": 2, "sentiment": "Polite"}
+{"text": "When you say \"single page\", you mean when you view a blog post page? And when you say \"page template\", you mean when you view a blog \"page\", like About Us?", "label": 2, "sentiment": "Polite"}
+{"text": "is there overlap? e.g. could the closest min_x coordinate be less than A's max_x coord?", "label": 1, "sentiment": "Neutral"}
+{"text": "I can understand how rivers flow, but how do canals flow? Is it from the highest point to the lowest?", "label": 1, "sentiment": "Neutral"}
+{"text": "why not `fprintf`? is this a homework?", "label": 0, "sentiment": "Impolite"}
+{"text": "Is this like a printing error on a postage stamp, i.e. a rarity?", "label": 0, "sentiment": "Impolite"}
+{"text": "You really should give us more information. How does the user create an account for example?", "label": 0, "sentiment": "Impolite"}
+{"text": "Without seeing the images, how can we help you? Can you post some links to them?", "label": 0, "sentiment": "Impolite"}
+{"text": "What kind of user knows JSON but not HTML?  How would you put bold text in a link?", "label": 0, "sentiment": "Impolite"}
+{"text": "Listen, the reason I put those signs in the code 'break-clear' is because the arrangement of the blocks is ''off-key'', at least when looking through IE or Mozilla. Why are you taking them off?", "label": 0, "sentiment": "Impolite"}
+{"text": "-1: Huh?? Can you please explain?", "label": 0, "sentiment": "Impolite"}
+{"text": "I've never worked with beamer `\\note`. Could you please add a minimal example for your problem which compiles?", "label": 0, "sentiment": "Impolite"}
+{"text": "Do you know if the Department of Water & Power is free of racism and discrimination? Do you know anyone in the company?", "label": 1, "sentiment": "Neutral"}
+{"text": "Speaking of FPC closures, is it common practice to close the likes of the Emu feeding video or the White Ibis, which had nothing but weak supports and supports (not enough total votes, but that was all) as \"Not Promoted\"? Isn't that what the \"Nominations 7 days or older - Decision Time\" section is for?", "label": 0, "sentiment": "Impolite"}
+{"text": "@NV, if it's a job interview, are you allowed to get outside help? I mean, you're the one who's applying for the job, right?", "label": 0, "sentiment": "Impolite"}
+{"text": "Good shot of Danica's car qualifying at Japan. Were you able to see her win the race?", "label": 2, "sentiment": "Polite"}
+{"text": "I wasn't sure what you mean by making the title a clickable link. Can you show me how to do that?", "label": 2, "sentiment": "Polite"}
+{"text": "Still, I cannot understand why virtually all boxes related to the EU were removed. What makes this issue more divisive than for example the re-unification of Yugoslavia?", "label": 0, "sentiment": "Impolite"}
+{"text": "That's great.  Did you have a question too?", "label": 2, "sentiment": "Polite"}
+{"text": "Packets are being received by a program (\"streamed\" perhaps is a good word) that have a type of ACK, SYN, FIN, or any combination thereof. Essentially the question is, how can one detect when five different combinations have occurred?", "label": 2, "sentiment": "Polite"}
+{"text": "What happens if you export the layer to a gdb featureclass - does it have coordinates?  Does the exported fc's spatialreference match that of  zlevels?", "label": 2, "sentiment": "Polite"}
+{"text": "So? what is the question? \"The code's not working\", is that the question?", "label": 0, "sentiment": "Impolite"}
+{"text": "Did you find an answer to 2. of your list? The changing size of the label?", "label": 1, "sentiment": "Neutral"}
+{"text": "how you show imges from lazyload in listview's image ? can you post your code please ?", "label": 2, "sentiment": "Polite"}
+{"text": "Javascript running in a browser doesn't have access to the underlying file system for security reasons, but this could be accomplished if you're talking about server-side JS (such as node.js). Are you? :)", "label": 1, "sentiment": "Neutral"}
+{"text": "Does each '?' have to be substituted with the same letter, or can they be different?", "label": 2, "sentiment": "Polite"}
+{"text": "I have no idea how to explain that succinctly, though I'll probably write a couple of articles on the whole mess soon. Any idea how to incorporate that into the article?", "label": 1, "sentiment": "Neutral"}
+{"text": "I see you have a BugZilla account. How do you make it so it doesn't show your email to everybody?", "label": 1, "sentiment": "Neutral"}
+{"text": "why such a large file? Is this a one time thing or is this a on going problem?", "label": 0, "sentiment": "Impolite"}
+{"text": "Email checked and responded to.  If you can't respond here, could you at least leave me a note to check my email?", "label": 0, "sentiment": "Impolite"}
+{"text": "That's a good idea, and then use default parameter window = NULL?  Are there other methods?", "label": 2, "sentiment": "Polite"}
+{"text": "Please elaborate.  Did I give you enough info to do so?", "label": 1, "sentiment": "Neutral"}
+{"text": "Either way, administrators shouldn't be relying on counting how many categories are there for deletion, even if I accept to create the category only one day in advance. Suppose the bot fails to create the category for a day; then, you'll see only five categories and do no deletions on that day?", "label": 1, "sentiment": "Neutral"}
+{"text": "What is your definition of \"connected subgraph?\"  Do you mean that the undirected version of the subgraph is a connected component, or that there's some source node of the subgraph from which all other nodes of the subgraph are reachable?", "label": 1, "sentiment": "Neutral"}
+{"text": "It's a possibility, but still leaves the problem that the terms are US Army jargon (at least, I don't recall hearing them anywhere else!). Maybe a transwiki to Wiktionary would be better?", "label": 1, "sentiment": "Neutral"}
+{"text": "What makes executables different from strings?  Why can't you read the executable as a string?", "label": 1, "sentiment": "Neutral"}
+{"text": "Actually it's probably a structure. I bet you declared `struct mystruct { int something; }` and then tried `struct mystruct myobj` followed by a `myobj->something` when you meant `myobj.something`, right?", "label": 1, "sentiment": "Neutral"}
+{"text": "Hey, I just noticed that you are NOT an administator, I had always assumed that you were. I wondered if you would be interested in being nominated?", "label": 2, "sentiment": "Polite"}
+{"text": "So you don't like people pointing out the errors you make? Or do you have any actual arguments to counter my post?", "label": 0, "sentiment": "Impolite"}
+{"text": "What platform will you be running this client on? iPhone/iOS or Mac OS X?", "label": 2, "sentiment": "Polite"}
+{"text": "Yes, I agree. Would you please make the appropriate change?", "label": 2, "sentiment": "Polite"}
+{"text": "I was thinking more of making the line longer so that the team's name can fit on it. Is that doable?", "label": 2, "sentiment": "Polite"}
+{"text": "The deletion review page linked above contains all the instructions for requesting a review. Why did you not read these instructions?", "label": 0, "sentiment": "Impolite"}
+{"text": "It could be a blockage. Does it drain ok?", "label": 2, "sentiment": "Polite"}
+{"text": "Crap, I'm sorry, I didn't realize someone was working on it, and it's done now, sorry to get your hopes up. No dramas?", "label": 2, "sentiment": "Polite"}
+{"text": "Is your problem that you don't know why the cost of the cycle 3 -> 1 -> 2 -> 4 -> 5 -> 3 is 37? Or is it that you don't know how to do the backtracking?", "label": 0, "sentiment": "Impolite"}
+{"text": "Since all of the balls have a box to be put in, all organizations have the same point value, right?  Or am I missing something?", "label": 1, "sentiment": "Neutral"}
+{"text": "Did some of your formatting get eaten?  Did you mean to say \"I have a &lt;form&gt; with several...\" ?", "label": 1, "sentiment": "Neutral"}
+{"text": "Hi, yes I love your stats tool too. But could it also cover wikiversity and perhaps the other sister projects?", "label": 1, "sentiment": "Neutral"}
+{"text": "I see you figured out how to ask questions.  Why not earn a badge and go back and delete your \"non-answer\" to the TAOCP question?", "label": 0, "sentiment": "Impolite"}
+{"text": "Post that part (filesystem events) as a separate question. Is the output of `os.listdir()` always what you expect it to be?", "label": 1, "sentiment": "Neutral"}
+{"text": "You're acting very oddly today: You've just reverted two separate edits on <url>, saying they were the phrasing of the Lancet, but neither references the Lancet, and it seems unlikely that both would have the same statement applying to them. Have you been hacked?", "label": 0, "sentiment": "Impolite"}
+{"text": "Shouldn't <url> have 2010 as his final year? It's pretty late into 2011 to be getting fired, but as I understand it, his navbox should read 2010, and then whatever coach takes the lead for this season will be the interim, no?", "label": 1, "sentiment": "Neutral"}
+{"text": "Apologies for this being on your page, but then you are an admin. Is it normal for 6 articles to have cut-and-paste identical substantial content on Wikipedia?", "label": 1, "sentiment": "Neutral"}
+{"text": "What kind of processing will you perform?  Is it just a matter of setting up data structures to model a family tree?", "label": 2, "sentiment": "Polite"}
+{"text": "\"I'm aware of WSOD Walkthrough but none of the reasons seems to apply this case..\" have you added the error reporting in the index.php? Do you get some errors then?", "label": 2, "sentiment": "Polite"}
+{"text": "I reverted <url> as it complicated my normal routine archiving of all the discussions on my talk page.  Could you please refrain from this kind of edit in future?", "label": 1, "sentiment": "Neutral"}
+{"text": "You ask about a \"tag\". Is that tag from Wordpress or does the NextGEN gallery has it's own tagging mechanism?", "label": 2, "sentiment": "Polite"}
+{"text": "you are not giving us **nearly** enough detail to answer your question. First things first - is this a top down game, isometric, side scrolling?", "label": 0, "sentiment": "Impolite"}
+{"text": "Why keeps everone calling Java **methods** *functions*? Is that what they're teached at schools nowadays?", "label": 0, "sentiment": "Impolite"}
+{"text": "What are you trying to achieve? call ironpython functions from c#?", "label": 1, "sentiment": "Neutral"}
+{"text": "Hi Mecu, I've been asked by a user (a photographer) how they could add there pictures with limited copyright, for instance, there more than happy to upload them for use within wikipedia, but just don't want to release it completely free from copyright. Would a fair use tag be appropriate?", "label": 2, "sentiment": "Polite"}
+{"text": "what i mean is the php part is the part that you need to debug. what is the error that you are getting?", "label": 1, "sentiment": "Neutral"}
+{"text": "If this were lisp, the solution would be to use map: (map + '(100 100) '(2 3)) => (102 103). Maybe Ruby has a similar function?", "label": 1, "sentiment": "Neutral"}
+{"text": "That's a lot of complicated code for something which could probably be shown a lot more simply. Care to provide a much simpler example... and an actual *question* to go with it?", "label": 0, "sentiment": "Impolite"}
+{"text": "Noticed you've been holding the fort alone... again :) Thought I'd drop by and say hello. Surely your sanity has reached its limits by now?", "label": 2, "sentiment": "Polite"}
+{"text": "And while I'm on templates, I spotted <url>. Does it affect the ME templates?", "label": 1, "sentiment": "Neutral"}
+{"text": "This redirect isn't working because the admin who locked the page slapped a template onto it, causing this link to become mundane. Can you fix this puzzling circumstance?", "label": 1, "sentiment": "Neutral"}
+{"text": "Hello? Whom do I speak to to become a <url>?", "label": 2, "sentiment": "Polite"}
+{"text": "I agree, how did you come up with the problem in the first place? I would have thought the idea for a thesis would have come from a real world problem that needs solving?", "label": 2, "sentiment": "Polite"}
+{"text": "According to your comments to some of the answers you don't want to use neither locks nor interlocked operations, yet you want the operation to be locked. How do you think you can achieve licking without using, well, locking?", "label": 0, "sentiment": "Impolite"}
+{"text": "Please define \"better\"  Addresses are very, very difficult to make consistent.  Do you have software to filter and standardize the addresses?", "label": 2, "sentiment": "Polite"}
+{"text": "did anything ever happen with this?  did you file a bug?", "label": 1, "sentiment": "Neutral"}
+{"text": "the amount of time you might end up spending trying to figure out a noisy power supply might offset the cost of picking up an adjustable power supply, or even a decent single voltage Meanwell (or similar) 5VDC power supply.  That said, maybe an LM6805 or LP2954 will do the trick?", "label": 1, "sentiment": "Neutral"}
+{"text": "Hi, the only reason I called it <url> is because there are similarly named streets in <url> and <url>, and the latter one has some notoreity. Should we wait until articles are written about the streets in those other cities before identifying this one as belonging to <url>?", "label": 1, "sentiment": "Neutral"}
+{"text": "I agree with you in that this chapter has no place on <url>, moreover its inclusion there seems highly suspicious. Is there any way to see who added a particular word/sentence/paragraph without manually going through the history?", "label": 2, "sentiment": "Polite"}
+{"text": "Ok. Thank you for clarifying. Could you be more specific as to what you are specifying as \"the claim\" so that I may find relevant information to refute?", "label": 2, "sentiment": "Polite"}
+{"text": "Are there any other limitations on a_i? for example a_i >=0?", "label": 2, "sentiment": "Polite"}
+{"text": "What is wrong, are you making a comment to Elderathis answer, or are you adding your own answer? If you're adding your own answer please expand a bit on this, I don't believe the base Clockworkmod can help you unless you've previously done full ROM backups, or follow the links on Elderathis post to get hold of the approriate ROMs (stock or custom)?", "label": 0, "sentiment": "Impolite"}
+{"text": "I refer you to my last answer about independent sources. Do you have press coverage?", "label": 0, "sentiment": "Impolite"}
+{"text": "OK then. What's your problem with putting this in the lead : \"is one of the <url> counties of the <url> and \" ?", "label": 0, "sentiment": "Impolite"}
+{"text": "As someone who has edited <url> you might be interested to see that it has been suggested for deletion (or some other form of bastardization).  Care to join in the discussion?", "label": 1, "sentiment": "Neutral"}
+{"text": "I'm not seeing a reason why it should be much slower then the 9 seconds. Can you provide a sample of the file you are reading?", "label": 2, "sentiment": "Polite"}
+{"text": "Thats good. Do you have any enemies on here as well?", "label": 0, "sentiment": "Impolite"}
+{"text": "Wow, that is a great answer!  Thanks for the answer.  One more question for you though.  How can I tell what the float of the pedal is?", "label": 2, "sentiment": "Polite"}
+{"text": "Further: it seems to me that <url> was a perfectly reasonable dab page. I wonder why you needed to change it?", "label": 0, "sentiment": "Impolite"}
+{"text": "@Jason: You're a harsh man. Millions of people also disagree it seems - go watch the show?", "label": 0, "sentiment": "Impolite"}
+{"text": "That user <url> moved <url> page for no reason and I do not understand why it was moved or why a persistent vandalist like this was allowed to move it. Is there anyway at all to get it moved back and that user permanently banned?", "label": 0, "sentiment": "Impolite"}
+{"text": "\"...in Mauritanian Ouguiya, it's \u0623\u0648\u0642\u064a\u0629\u200e0.00!\" - Wait, Mauritania has an app store? :)", "label": 1, "sentiment": "Neutral"}
+{"text": "Please share some recipies of those pastas/1 dish meals?", "label": 2, "sentiment": "Polite"}
+{"text": "That's a good idea, and then use default parameter window = NULL?  Are there other methods?", "label": 2, "sentiment": "Polite"}
+{"text": "I'm curious: how do you make those beautiful coats of arms? Do you have a script that generates them from the heraldic descriptions, or do you make them by hand?", "label": 2, "sentiment": "Polite"}
+{"text": "I don't know of a specific resource, but if you have specific questions I may be able to help a little.  Are you using WER?", "label": 2, "sentiment": "Polite"}
+{"text": "I've never heard of either of those.  What country are you in?", "label": 2, "sentiment": "Polite"}
+{"text": "What are you asking specifically? for algorithms to do some kind of transitions?", "label": 2, "sentiment": "Polite"}
+{"text": "Could you provide some sample code? On what elements does this actually happen?", "label": 1, "sentiment": "Neutral"}
+{"text": "I see you've just placed a deletion request on your user page, but this page has no history and hasn't been edited previously.  Did you mean to place it on the article you created, <url>?", "label": 2, "sentiment": "Polite"}
+{"text": "Thank you.  It's a strange hobby, isn't it?", "label": 2, "sentiment": "Polite"}
+{"text": "You should change the title to a question. Maybe something like \"What is the most popular Dictionary Application for Ubuntu?\"", "label": 0, "sentiment": "Impolite"}
+{"text": "@Mawg Please define \"cheap\". As cheap as possible regardless of the amount of work involved?", "label": 2, "sentiment": "Polite"}
+{"text": "Whats SiteMinder? Link?", "label": 0, "sentiment": "Impolite"}
+{"text": "or anything else? So mutable linked list is allowed?", "label": 2, "sentiment": "Polite"}
+{"text": "Kolmogorov test is for distributions hence object lying in infinite dimensional space... not obvious to get asymptotic power=1. t-test is about testing the mean of a real valued random variable?", "label": 1, "sentiment": "Neutral"}
+{"text": "What does this have to do with programming?  Are you trying to solve this problem with a program?", "label": 0, "sentiment": "Impolite"}
+{"text": "This is a vague question. Do you even consider the payment and billing cycle dates?", "label": 0, "sentiment": "Impolite"}
+{"text": "Do you want your `visiblePhotos` to scroll off the edge or wrap around or what? Where is the `visiblePhotos` array created?", "label": 1, "sentiment": "Neutral"}
+{"text": "The plane of the X will always be parallel to the plane of the image I assume? So no perspective distortion of the X?", "label": 2, "sentiment": "Polite"}
+{"text": "You're welcome. What else is peer review for?", "label": 2, "sentiment": "Polite"}
+{"text": "I beat you to it by about a minute.  Which would you like to remove?", "label": 1, "sentiment": "Neutral"}
+{"text": "How come no one will answer this question!??", "label": 0, "sentiment": "Impolite"}
+{"text": "Cool, I'd be happy to help out. :-) What kind of things are you thinking about removing or adding?", "label": 2, "sentiment": "Polite"}
+{"text": "Remark to the moderator -- please advise what is to be done -- I cannot leave comments unanswered. Can the comment section be locked so that anybody willing to discuss this matter to do it in chat?", "label": 1, "sentiment": "Neutral"}
+{"text": "Could you please elaborate that? Does it work as I think: you append the databases, then use scan>check duplicates ?", "label": 2, "sentiment": "Polite"}
+{"text": "You mentioned OWASP, but not their [Web Application Firewall](http://www.owasp.org/index.php/Web_Application_Firewall). Is there anything you'd like to do that isn't handled by the WAFs listed on that page?", "label": 1, "sentiment": "Neutral"}
+{"text": "You appear to have created a duplicate of <person> at <person>. Is there any particular reason for this?", "label": 1, "sentiment": "Neutral"}
+{"text": "Are you sure the timers are responsible for the memory usage? Have you run your app using Instruments to see what objects are consuming the most memory?", "label": 1, "sentiment": "Neutral"}
+{"text": "Hmmm... I suggest you try and solve them yourself, and then post questions back on SO with your attempted solutions. Just asking people to do the work for you kind of defeats the purpose, you know?", "label": 0, "sentiment": "Impolite"}
+{"text": "You recently attached a <nowiki><person></nowiki> tag to an article about an Azeri poet. May I ask why?", "label": 2, "sentiment": "Polite"}
+{"text": "Ok, I accept your claims, although I prefer the official names. Do you have MSN Messenger?", "label": 1, "sentiment": "Neutral"}
+{"text": "sorry about that. Can it be done in python?", "label": 2, "sentiment": "Polite"}
+{"text": "Is the question supposed to relate to programming (i.e. solve this using a program)?", "label": 1, "sentiment": "Neutral"}
+{"text": "I see you've given her a code name in <url>. Where did you run across this tidbit?", "label": 1, "sentiment": "Neutral"}
+{"text": "I can't figure this one out - adding the values of int pointers makes sense, but adding two char pointers together doesn't make sense for values or addresses.  What is the outcome you're expecting?", "label": 1, "sentiment": "Neutral"}
+{"text": "@Mark: Could you clarify something please?  You start by remarking that there is an undecidable problem P that is recognizable, and then observe that if HALT were decidable then we could construct a decider for P.  However, in the texts I have read, things are proved in the other order--the undecidability of HALT is used to demonstrate the existence of such problems P.  Can you show the existence of undecidable yet recognizable problems without using the undecidability of HALT?", "label": 1, "sentiment": "Neutral"}
+{"text": "So what is the final verdict?  What would be the best technology to use in my case?", "label": 2, "sentiment": "Polite"}
+{"text": "Sounds interesting. Could people keep me in the loop as well?", "label": 2, "sentiment": "Polite"}
+{"text": "Why do you want to use those? What are you trying to do?", "label": 0, "sentiment": "Impolite"}
+{"text": "I really would rather use, in English, the one expression \"<url>\" instead of \"<url>,\" \"marz,\" \"<url>,\" \"khaet,\" \"<url>,\" \"eparchia,\" \"ostan,\" \"khoueng,\" \"faritany,\" \"aimag,\" \"tinh\"u2014or \"<url>\" (aka \"<url>\").  <url> then why should \"<url>\" not be also?", "label": 0, "sentiment": "Impolite"}
+{"text": "Why not try it out and ask for specific answers if/when you encounter problems? I don't know if it's supported, but it's worth trying at least right?", "label": 1, "sentiment": "Neutral"}
+{"text": "This isn't the solution BUT,\r\nYou can't assign values to a NULL pointer as you do in the start of tree_add IF the tree pointer is NULL, also you do not return any pointer from the function even though you specified that the tree_add function should return something?", "label": 1, "sentiment": "Neutral"}
+{"text": "I see no problem with e-mail being used as a verb.  If you can mail a [paper] letter, why can't you [e-]mail an [electronic] letter?", "label": 1, "sentiment": "Neutral"}
+{"text": "I tried updating it to WP:DAB style but I got reverted. Can you use your magic there and explain to the user why we should follow MOS:DP and such?", "label": 2, "sentiment": "Polite"}
+{"text": "Great! Do you use IRC at all, or do you stay on-wiki?", "label": 2, "sentiment": "Polite"}
+{"text": "So, is the template too much? Should I add it to all articles contained within the template?", "label": 2, "sentiment": "Polite"}
+{"text": "where are you viewing the records?? are you sure they are not stored well?", "label": 0, "sentiment": "Impolite"}
+{"text": "WTF? Downvotes? What for?", "label": 0, "sentiment": "Impolite"}
+{"text": "Is the image in the Oracle database or is it a path to the image? Could you provide a code sample?", "label": 2, "sentiment": "Polite"}
+{"text": "The animal has only just been discovered by western science: I've seen no claim of any photograph having been taken.  I have no idea of how to research/decide open the status of the computer gererated graphic that has been on many press reports: can you?", "label": 1, "sentiment": "Neutral"}
+{"text": "Thanks. Oh, and if you don't mind, would you please block the sockmaster?", "label": 2, "sentiment": "Polite"}
+{"text": "What are you programming on, where 16MB is too much? A phone?", "label": 0, "sentiment": "Impolite"}
+{"text": "why would you have to upload the access database? isn't it already on the server??", "label": 0, "sentiment": "Impolite"}
+{"text": "A lil bit confusing here. Do you want to compare if the Person array have a repeated items?", "label": 1, "sentiment": "Neutral"}
+{"text": "The article is not about this, at all. Could you explain your logic?", "label": 0, "sentiment": "Impolite"}
+{"text": "Is the rectangle parallel to the X and y axises? Or can the rectangle be turned in 2D space?", "label": 1, "sentiment": "Neutral"}
+{"text": "Hey, ixb4m on your side there any way we can discuss it with more users? Or just over one of the Talk pages (2011 Site)?", "label": 1, "sentiment": "Neutral"}
+{"text": "This question basically tells me nothing about what the actual problem is. Also, what's a \"pathway\"?", "label": 0, "sentiment": "Impolite"}
+{"text": "Yes, I have. Did you really need to send me a reminder?", "label": 0, "sentiment": "Impolite"}
+{"text": "Weren't you involved with <url> (aka \"wikibugs\") at some point? Is it dead?", "label": 0, "sentiment": "Impolite"}
+{"text": "Are you sure it's WordPress autocomplete? Do you get a different result with a different browser?", "label": 2, "sentiment": "Polite"}
+{"text": "By \"protective plates\", do you mean [fenders](http://bicycles.stackexchange.com/questions/573/whats-your-most-useful-cycle-accessory/587#587)?", "label": 0, "sentiment": "Impolite"}
+{"text": "It is an obvious and strongly followed point that april fools jokes ''should not disrupt the running of the wiki''. Could you explain why the HELLS you coated a dozen users' pages with pictures of jimbo's ugly bearded fizzogg?", "label": 0, "sentiment": "Impolite"}
+{"text": "Looks like you've installed vmware. Did you try to disable/uninstall vmware?", "label": 0, "sentiment": "Impolite"}
+{"text": "Is it a bluetooth keyboard? And does this Apple link http://support.apple.com/kb/TA23441?viewlocale=en_US by chance help at all?", "label": 2, "sentiment": "Polite"}
+{"text": "Why are you debugging AutoCAD? Isn't that AutoDesk's job?", "label": 0, "sentiment": "Impolite"}
+{"text": "You can do just about anything with one pin of a micro.  More specific please?", "label": 0, "sentiment": "Impolite"}
+{"text": "2.5D? Is that what people call projected 3D nowadays?", "label": 0, "sentiment": "Impolite"}
+{"text": "Are you running Visual Studio with elevation, i.e. as Administrator?", "label": 1, "sentiment": "Neutral"}
+{"text": "Could you post a small example code showing exactly which space do you want to reduce? Also which environment are you trying to redefine?", "label": 0, "sentiment": "Impolite"}
+{"text": "Is there a reason you didn't accept the answer? Is there something wrong with it?", "label": 0, "sentiment": "Impolite"}
+{"text": "Hello. Can you help me create a map of Isabela which reflects the 3D map?", "label": 2, "sentiment": "Polite"}
+{"text": "Why is your AWB robot changing '''&amp;Oslash;''' to the letter '''xd8'''? I asked you if all computers in the World are set up to read &Oslash; ?", "label": 0, "sentiment": "Impolite"}
+{"text": "Keeping a list of everything bad user:XXX did in your user space is neither constructive nor appropriate. Perhaps we should both focus on the many positive things to do rather than the very occasional misbehavior?", "label": 1, "sentiment": "Neutral"}
+{"text": "They are completely different. Have you even glanced at the documentation?", "label": 0, "sentiment": "Impolite"}
+{"text": "How ridiculous is the answer you're looking for? Do you want a 3-layer solution, with `i % 3` as a configurable business logic?", "label": 0, "sentiment": "Impolite"}
+{"text": "So what do you need help with ? Where are you stuck ?", "label": 2, "sentiment": "Polite"}
+{"text": "mhchem.sty is 1300 lines long. What exactly are you asking to be reimplemented?", "label": 1, "sentiment": "Neutral"}
+{"text": "What do you mean by \"not a derivative of Formula 3 article\"? Why did you feel compelled to remove the link to the main F3 article off the top of all the F3 sub-articles?", "label": 0, "sentiment": "Impolite"}
+{"text": "This makes no sense. Did you mean \"space complexity of O(n2)\"?", "label": 0, "sentiment": "Impolite"}
+{"text": "Also, by the way: there is no such operating system as \"window XP 2003\".  Do you mean *Microsoft Windows XP* (a desktop operating system released in 2002) or *Microsoft Windows 2003 Server* (a server operating system released in 2003)?", "label": 1, "sentiment": "Neutral"}
+{"text": "I don't want to be a troll here (the type on a bridge, not in a forum). Can you explain what you intend to use AWB for?", "label": 1, "sentiment": "Neutral"}
+{"text": "Hi Editorofthewiki,  both images are just fine.  I don't see an open review for the article; is there somewhere in particular you'd like me to make this comment, if not just here?", "label": 2, "sentiment": "Polite"}
+{"text": "I don't think I understand this question.  If the sorted arrays are the index positions where the words occur, why are word1 and word2 both at index 4 and word2 and 3 at index 5?", "label": 0, "sentiment": "Impolite"}
+{"text": "@Kerrek SB:  Each string in the input is printed out exactly once in the output, with at most an additional comma to separate them.  I don't see how that would come out to \"pages\", unless you are being sarcastic and there is something I am missing?", "label": 0, "sentiment": "Impolite"}
+{"text": "Sorry I got called away. Which is the better main name \"Vancouver Harbour Water Aerodrome\" or \"Vancouver Coal Harbour Seaplane Base\"?", "label": 1, "sentiment": "Neutral"}
+{"text": "It already look great. BTW, what are your thoughts about the previous post on the names of the other post office and rates lists?", "label": 2, "sentiment": "Polite"}
+{"text": "? EXPLAIN PLEASE! WHERE WOULD I DO THAT @ ?", "label": 0, "sentiment": "Impolite"}
+{"text": "One deleteable article at a time, please.  This is a <url> G4;  do you agree, and if not, why not?", "label": 1, "sentiment": "Neutral"}
+{"text": "Alf has a large <url> in Germany.  How on earth do you know that he is a character \"almost no one knows about\" Where you get your f'n info?", "label": 0, "sentiment": "Impolite"}
+{"text": "Perhaps this is best seen as a way to structure the design of a large-scale digital circuit (just like it might be a good idea to use subroutines in a large-scale computer program), and not really as a formal lower bound? (Chapter 14 of the book that you linked has plenty of Theorems with Proofs, but they seem to assume that you follow certain principles in the design of the circuit?)", "label": 0, "sentiment": "Impolite"}
+{"text": "I thought that only section tags go into sections while the article tags go to the top of the page so they could serve it's purpose. Is there a Wikipedia guideline that can substantiate your revert?", "label": 0, "sentiment": "Impolite"}
+{"text": "Now I realize the point of the discussion on meta about SI units. I said it about CGS units, but this works for these also: should I cry ? :p", "label": 1, "sentiment": "Neutral"}
+{"text": "Are you saying that you have a close or imtimate relationship with N.I.?", "label": 0, "sentiment": "Impolite"}
+{"text": "`DateTime` is not a built-in class in Java SE. Where does this type come from?", "label": 1, "sentiment": "Neutral"}
+{"text": "You really should give us more information. How does the user create an account for example?", "label": 0, "sentiment": "Impolite"}
+{"text": "So use a merge sort. And the question is?", "label": 0, "sentiment": "Impolite"}
+{"text": "I've updated the question to specify that it's verbal feedback we need to record (sorry for the ambiguity). That noted, would such a system work with a member of the team adding clients' comments on their behalf?", "label": 0, "sentiment": "Impolite"}
+{"text": "Pathauto is able to handle that. Have you tried it ?", "label": 2, "sentiment": "Polite"}
+{"text": "What do you mean \"personal attack\"? Why don't site what my \"personal attack\" is?", "label": 0, "sentiment": "Impolite"}
+{"text": "Please be more specific. Do you want to connect a device to your xperia and have the audio routed thru the loudspeaker?", "label": 1, "sentiment": "Neutral"}
+{"text": "Sorry, but i won't use a module for that task. So you have no idea about this?", "label": 1, "sentiment": "Neutral"}
+{"text": "Visual Studio 2080? Are you from the future? O_O", "label": 0, "sentiment": "Impolite"}
+{"text": "The way you were doing it at first looks right. Can you post the exact text of the error message you get?", "label": 2, "sentiment": "Polite"}
+{"text": "Just had a look at <url>, and oh dear god. Any interest?", "label": 1, "sentiment": "Neutral"}
+{"text": "Does that mean we're not allowed to ask WordPress questions on SO, even if they're legitimate programming questions?  Why the fragmentation?", "label": 0, "sentiment": "Impolite"}
+{"text": "@ David Thornley: Become a professional-grade programmer, also want participate in coding contest(Codechef, Topcoders),both have equal priorities\r\n\r\nWhat you suggest what kind of preparation i need to take ?", "label": 2, "sentiment": "Polite"}
+{"text": "Wow, that is a great answer!  Thanks for the answer.  One more question for you though.  How can I tell what the float of the pedal is?", "label": 2, "sentiment": "Polite"}
+{"text": "Hi there, I've raised the possibility of unprotecting the tamazepam page <url>. What are your thoughts?", "label": 2, "sentiment": "Polite"}
+{"text": "@Edward can you be more specific about what these three terms are supposed to refer to?  Do you mean the machine running the software, the business that provides you the machine, or something else?", "label": 0, "sentiment": "Impolite"}
+{"text": "We are working on adding some information regarding the significance of the podcast. Do you have any additional tips on improving out article's quality?", "label": 2, "sentiment": "Polite"}
+{"text": "Could you please clarify who the new users were exactly that you considered to be part of your 'sock farm'?  Or did you not even bother to research before making such claims?", "label": 0, "sentiment": "Impolite"}
+{"text": "Do you have any module that changes the menu? May you provide a list of installed modules?", "label": 2, "sentiment": "Polite"}
+{"text": "You get to name the row and field sets explicitly, i.e. you don't have to specify a contiguous rectangle in a fixed coordinate system (particular row and col permutations)?", "label": 1, "sentiment": "Neutral"}
+{"text": "Post you linked to also has non-edit filter solution by Otto. Had you tried that?", "label": 0, "sentiment": "Impolite"}
+{"text": "Sorry. How much reputation is needed to add a picture?", "label": 2, "sentiment": "Polite"}
+{"text": "Sorry, I know you wrote this awhile ago, but could you explain what the last part about electrostatic vs. electromotive means?", "label": 1, "sentiment": "Neutral"}
+{"text": "Thank you. Was it anything in particular?", "label": 2, "sentiment": "Polite"}
+{"text": "Yet another question: one of the frames from your example gif describes a route that is not really a simple path (this one: http://imgur.com/0vjvr.png). Are that kind of route (or rather spanning tree) allowed as a valid solution for your problem?", "label": 1, "sentiment": "Neutral"}
+{"text": "just curious, why do you change filters so often?", "label": 0, "sentiment": "Impolite"}
+{"text": "i put the file on c:\\. so where can i put this file?", "label": 1, "sentiment": "Neutral"}
+{"text": "eh, i've ALWAYS hated 50 meter pools (200 butterfly was always the BIGGEST pain in the ass) although i really did like butterfly for some reason.... never quite got that, so was it an indoor or outdoor pool????", "label": 0, "sentiment": "Impolite"}
+{"text": "Either you don't understand what AJAX does/how it works or you haven't posted all the relevant code. Where is the global `$values` declared?", "label": 1, "sentiment": "Neutral"}
+{"text": "This doesn't fix your problem, but why are you mixing C++ and C-style strings?  For a start, you've engineered yourself a memory leak (where does the memory pointed to `buf` go?).", "label": 2, "sentiment": "Polite"}
+{"text": "you should post your xml layout here. What you have implemented so far?", "label": 2, "sentiment": "Polite"}
+{"text": "This cannot be the *only* relevant parts of your code, because this compiles fine.  Are you sure that the error message really corresponds to the lines you've shown here?", "label": 0, "sentiment": "Impolite"}
+{"text": "What's in your MANIFEST.MF file? Does org.eventService.ProactiveClientEventLogger have a main() method?", "label": 1, "sentiment": "Neutral"}
+{"text": "I'm not quite sure what you are trying to achieve. Do you want the background image to change only when you hover over the corners?", "label": 2, "sentiment": "Polite"}
+{"text": "Are contributions listed from newest to oldest, or oldest to newest? Just curious?", "label": 1, "sentiment": "Neutral"}
+{"text": "Good question. I wonder if it should be migrated to CS Theory (http://cstheory.stackexchange.com/) or Programmers (http://programmers.stackexchange.com/) ?", "label": 2, "sentiment": "Polite"}
+{"text": "What's the deal here? Question asked and answered by the same person, who's profile is mysteriously not linked any more?", "label": 2, "sentiment": "Polite"}
+{"text": "@chris I'm missing something obvious.. Why is that annoying? Cause the page never stops loading?", "label": 0, "sentiment": "Impolite"}
+{"text": "At least there's nothing ungrammatical about them. Could you elaborate on why you have doubts about their correctness?", "label": 2, "sentiment": "Polite"}
+{"text": "Why are you trying to exchange data between component in the same system via a file?  Why not use a temporary file to create a mock file?", "label": 0, "sentiment": "Impolite"}
+{"text": "I'll add that to the others. Will that work?", "label": 2, "sentiment": "Polite"}
+{"text": "There seems to have been something wrong with the pages you made on the V8 Supercar Championship Series - a glitch with the \"align\" tags in the beginning infobox made the text grotesquely overflow the margins. I've trimmed these down; mind checking my work?", "label": 2, "sentiment": "Polite"}
+{"text": "what do you mean by specific dict? one dict for each size or one dict total?", "label": 1, "sentiment": "Neutral"}
+{"text": "I don't think I understand--is there a question here? Can you re-phrase?", "label": 1, "sentiment": "Neutral"}
+{"text": "What R package did you use for HC3 estimation? `sandwich`, `contrast`?", "label": 2, "sentiment": "Polite"}
+{"text": "Homework? Project Euler?", "label": 0, "sentiment": "Impolite"}
+{"text": "Good stuff. Do you have diffs for your direct questions to Betacommand?", "label": 1, "sentiment": "Neutral"}
+{"text": "Hi again - I notice that the Chew Valley template gives Stanton Drew as an SSSI - but I can't find it listed at EN's site. Which is correct - any idea?", "label": 1, "sentiment": "Neutral"}
+{"text": "Then you obviously have problem with your fwrite call. Could you provide the code you use?", "label": 2, "sentiment": "Polite"}
+{"text": "Do you live in the US? How excited are people about the album?", "label": 2, "sentiment": "Polite"}
+{"text": "@prp, regarding the edit, so you want after the first iteration and removal, to remove the new adjacent pairs that occur now? and continue that until no adjacent-pairs are left?", "label": 1, "sentiment": "Neutral"}
+{"text": "Hi RHM22. Would you or one of your coin-loving compatriots have access to <url>?", "label": 0, "sentiment": "Impolite"}
+{"text": "do you want something non-alcoholic?  Or is some other alcoholic beverage acceptable?", "label": 1, "sentiment": "Neutral"}
+{"text": "I must admit: I'm a little curious as to why you asked this question :-). Did you get any shots from a plane or helictoper?", "label": 1, "sentiment": "Neutral"}
+{"text": "Due to the different interpretations people have of \"independent\", can you please clarify your question. What do you mean by independent?", "label": 0, "sentiment": "Impolite"}
+{"text": "Can you post a link to which themes you've downloaded. Also, are you using the stock launcher or some other customised one like ADW or Launcher Pro?", "label": 0, "sentiment": "Impolite"}
+{"text": "Don't you mean 2N edges? And you want the matching to include all nodes, correct?", "label": 0, "sentiment": "Impolite"}
+{"text": "<person> is apparently caught up in that rangeblock. Can you help him out?", "label": 2, "sentiment": "Polite"}
+{"text": "Also, the last time you asked this, 100 worked but 190 didn't work. Why the change?", "label": 0, "sentiment": "Impolite"}
+{"text": "Just asking one quick question since it'll probably be asked at RfA. Do you know the difference between a block and a ban?", "label": 1, "sentiment": "Neutral"}
+{"text": "Im interested in where you got the information you added stating woodlands house was closed in 2003. As far as i can see your wording was taken from one website, the milesfaster one. Should you not cite the website you quoted rather than look for a couple of others?", "label": 0, "sentiment": "Impolite"}
+{"text": "I wonder if your instance(s) of Persist are in a local scope that gets destroyed upon exiting that scope. Have you looked into that?", "label": 2, "sentiment": "Polite"}
+{"text": "And if you use Coulson you would probably have to say \"According to Coulson...\". Have you read <url> yet?", "label": 0, "sentiment": "Impolite"}
+{"text": "@Sklivvz If you like riddles, here you are -- one puts an ice cube in a glass and fills it up with water. How much water will flow out when the ice cube melts?", "label": 2, "sentiment": "Polite"}
+{"text": "Read beyond the obvious. What is that essay saying when you remove all referances to users under blocks, bans or other sanctions?", "label": 0, "sentiment": "Impolite"}
+{"text": "How do you know it doesn't work? What if you use an absolute path instead of a relative one?", "label": 0, "sentiment": "Impolite"}
+{"text": "@ikegami: Can you suggest an easier one for beginners? SOAP::Lite seems to be advocated as 'the easiest' all around?", "label": 2, "sentiment": "Polite"}
+{"text": "I see that you're consistantly reverting vadalism on this page, as well as me. Should we get someone to lock it for awhile?", "label": 1, "sentiment": "Neutral"}
+{"text": "I'm not quite sure who you are, and I don't know why you dislike me, but the feeling is not reciprocated (or maybe it is, and I've forgotten?). Where do I know you?", "label": 1, "sentiment": "Neutral"}
+{"text": "Why does transparency matter? It's just another channel, just like red, green or blue?", "label": 0, "sentiment": "Impolite"}
+{"text": "Sorry, why are you forced to use this thing? Do you have any personal will-power?", "label": 2, "sentiment": "Polite"}
+{"text": "BTW, I translated the page to the best of my ability (my Spanish only carried me so far). Do you speak Portuguese?", "label": 2, "sentiment": "Polite"}
+{"text": "WHADDAFUCK YA GONNA DO TO ME, HUH BITCH!?????????", "label": 0, "sentiment": "Impolite"}
+{"text": "Your question is unclear. Do you mean extract the addresses from each incoming email and save them somewhere, or extract all the addresses you've ever sent or received anything from ever?", "label": 0, "sentiment": "Impolite"}
+{"text": "I'm really very sorry, but no, I '''didn't''' know, didn't get a message saying that was wrong. Where was it?", "label": 2, "sentiment": "Polite"}
+{"text": "Updated!!!!!!!!! any one???", "label": 0, "sentiment": "Impolite"}
+{"text": "Ok thank you so much. How long have you been on Wikipedia?", "label": 2, "sentiment": "Polite"}
+{"text": "Internet Explorer may cause that. Can you check IE permissions please?", "label": 2, "sentiment": "Polite"}
+{"text": "Is your column `OLE Object` type? Do you use `Bound Object Frame` control to display the images?", "label": 2, "sentiment": "Polite"}
+{"text": "Do you need to return all 3 values? only 1?", "label": 1, "sentiment": "Neutral"}
+{"text": "Yikes. Don't stoves usually provide heat that's too uneven and would tend to stress and break glass?", "label": 0, "sentiment": "Impolite"}
+{"text": "I should be able to get that Mayr paper, it's on Wiley. Do you need me to email it to you?", "label": 2, "sentiment": "Polite"}
+{"text": "Thanks. Do you happen to know if the postcard was origianlly published in Japan?", "label": 2, "sentiment": "Polite"}
+{"text": "It might depend on your messaging app -- HTC phones with Sense don't have the standard android mesages app, for example.  What phone do you have?", "label": 0, "sentiment": "Impolite"}
+{"text": "Your image link is broken. Can you try to find new image and link to that?", "label": 0, "sentiment": "Impolite"}
+{"text": "Can you please explain that arg() system in drupal, how it does work? Or where i can read about it?", "label": 1, "sentiment": "Neutral"}
+{"text": "@Francesco: Why are you so against sharing the errors that you are seeing. Why don't you get that they are helpful?", "label": 0, "sentiment": "Impolite"}
+{"text": "SAX parsing is known to be difficult. Would any other parsing style be an option?", "label": 1, "sentiment": "Neutral"}
+{"text": "There's a question about where you got the image of the ''Enterprise''.  Maybe you could clarify?", "label": 1, "sentiment": "Neutral"}
+{"text": "But how do I enter my username if the page is protected and I'm not an amin. Am I doing something wrong?", "label": 1, "sentiment": "Neutral"}
+{"text": "Hi, Michael David. Was there any consensus reached on this issue?", "label": 2, "sentiment": "Polite"}
+{"text": "Since the Dictionary of String and Dictionary is named MasterDB, does that mean it is an in-memory database? If so, why do you have to load the entire DB into memory?", "label": 1, "sentiment": "Neutral"}
+{"text": "So then \"good luck with your upcoming defense\" and \"congratulations\" (assuming it goes well:)? Are you headed somewhere else where you will be able to continue working with students on WP-Chem stuff?", "label": 2, "sentiment": "Polite"}
+{"text": "What type of data is being sent from the application ( as in is it XML or anything like that )? Does it have a consistent structure?", "label": 0, "sentiment": "Impolite"}
+{"text": "I asked some questions in the Criteria for Inclusion section on 20th Dec but no-one has yet responded. Can you take a look?", "label": 2, "sentiment": "Polite"}
+{"text": "I have no intention to prolong the discussion, but this has been simply to demonstrate that there may be different opinions. Since people have already advised you on numerous occasions to refrain from reverting, why not discussing first, rather than deleting straight away?", "label": 1, "sentiment": "Neutral"}
+{"text": "@Michael, now think of the relationships between Cows and Herds, and between Cows and Cartoons. Are there any many-to-many relationships there?", "label": 1, "sentiment": "Neutral"}
+{"text": "Thanks for that, hopefully I have input this correctly. This page also seems to be flagged due to several issues, surely these can now be removed as the page has proved its worth as much as pages like <url> have?", "label": 2, "sentiment": "Polite"}
+{"text": "@Koper, in order to program this algorithm, I need to understand what the algorithm does. How is it *not* related to programming?", "label": 0, "sentiment": "Impolite"}
+{"text": "Likewise there is some discussion at <url>, where <url> is categorising itself and its documenttation. Could you please fix that as well?", "label": 2, "sentiment": "Polite"}
+{"text": "... since your're quoting something, mind sharing what you're quoting? A homework assignment perhaps?", "label": 0, "sentiment": "Impolite"}
+{"text": "I'm not quite sure what is your question: (1) You want to produce a PDF file without embedding any fonts and you'd like to know when this is \"safe\"? (2) You would like to make sure that all Latex users can compile your document without installing additional packages?", "label": 2, "sentiment": "Polite"}
+{"text": "Why not share your library over Bonjour so she can access your music? Or is there something else you want her to do?", "label": 0, "sentiment": "Impolite"}
+{"text": "Hmm, it is returning only integers over here.  Which PHP version?", "label": 1, "sentiment": "Neutral"}
+{"text": "Thank you for your answer about Illustrator.  How does Adobe Illustrator compare with InDesign?", "label": 2, "sentiment": "Polite"}
+{"text": "I tried this for some of the code but immediately ran into problems - the code for some reason it went over the book's margins. Please take a look here: http://i.imgur.com/7S9cE.png Any ideas how to make it wrap nicely?", "label": 0, "sentiment": "Impolite"}
+{"text": "I have reviewed your nomination for <url>, and still have a question. Could you reply at its nomination?", "label": 1, "sentiment": "Neutral"}
+{"text": "I find it hard to figure what \"rule\" you have in mind to generate the sequence. For instance, why should (1,0) come before (0,1), or (2,2) before (0,2)?", "label": 1, "sentiment": "Neutral"}
+{"text": "When were closures for JDK 7 cancelled? You have a link confirm this?", "label": 0, "sentiment": "Impolite"}
+{"text": "Thanks for the answer do you know of anything I could use for the fixings with the foundations?", "label": 2, "sentiment": "Polite"}
+{"text": "I think I do mark my pages patrolled. Doesn't Twinkle do it automatically?", "label": 1, "sentiment": "Neutral"}
+{"text": "what is your problem? what is your question?", "label": 0, "sentiment": "Impolite"}
+{"text": "I agreed from my very first post on the first subject that it shouldn't be included yet you and the other user continued to misrepresent my position. Would you disagree with that?", "label": 0, "sentiment": "Impolite"}
+{"text": "hahah, thanks! Must admit, when I saw the title of this section I was thinking \"oh lord, another what-is-the-wiki-coming-to comment..\" :p. How goes?", "label": 2, "sentiment": "Polite"}
+{"text": "Where are you envisioning this sample content would be located to be automatically imported? I assume you are doing something more complex than just a \"Settings > Import?\"", "label": 0, "sentiment": "Impolite"}
+{"text": "As the log mentions, BTServer is posting a notification called BluetoothAvailabilityChangedNotification. Why don't you suscribe to this, and any other notification interesting to your app instead of reading and parsing the logs?", "label": 0, "sentiment": "Impolite"}
+{"text": "Error 500 means, that connect to Apache is working, but something behind it does not.\r\n\r\nWhat can you see in /var/log/apache2/error.log after trying to see the page?", "label": 0, "sentiment": "Impolite"}
+{"text": "The link you provided to speedy delection criteria only goes up to CSD12, and there is no CSD 13 listed there.  Could you clarify?", "label": 2, "sentiment": "Polite"}
+{"text": "That should work. What is the error you are getting?", "label": 2, "sentiment": "Polite"}
+{"text": "What a great Marine and patriot. Is he in the L\"ist of historically famous Marines\"?", "label": 1, "sentiment": "Neutral"}
+{"text": "do you know any good references for the special cases of nonexistence that you mentioned? Or perhaps, just a general reference/set of references for the order 12 case?", "label": 0, "sentiment": "Impolite"}
+{"text": "Well I came to the same conclusion as Rpyle731. Perhaps a trip to the talk page is in order?", "label": 1, "sentiment": "Neutral"}
+{"text": "@henchen: Sorry to ask, but doesn't an extractor suffices? Why are you considering hash functions?", "label": 1, "sentiment": "Neutral"}
+{"text": "Did you install a FULL version of Visual Studio Professional?\r\nWhat happens if you force open the dmp file?", "label": 1, "sentiment": "Neutral"}
+{"text": "I've been trying to do the opposite: decrease the sensitivity below the minimum. Have you had any luck with your attempts?", "label": 0, "sentiment": "Impolite"}
+{"text": "@cvondrick, in that case I'd rather use binary insertion and sorting. My problem now, is however how I can combine two dates to one number?", "label": 2, "sentiment": "Polite"}
+{"text": "Hi, thanks for your help. There is also this sentence \"Asukkaista 84,5% oli ruotsinkielisixe4 ja 15,4% suomenkielisixe4 vuonna 1970 ja kunta oli kaksikielinen.\" What does it mean, please?", "label": 2, "sentiment": "Polite"}
+{"text": "My job. Do you have any specific points to address?", "label": 0, "sentiment": "Impolite"}
+{"text": "Do you have a specific geodatabase in mind or are you looking for general material. Same for Python: Are you looking for ESRI specific material or more general?", "label": 0, "sentiment": "Impolite"}
+{"text": "Thank you for taking the time to review my nomination of <url> as a featured article candidate. I have responded to the issues you raised in <url> - could you please review my replies and let me know if you're satisfied?", "label": 2, "sentiment": "Polite"}
+{"text": "Have you received the 1972 Encyclopedia of PNG you mentioned during the discussion about <url>? Was there a detailed entry for Dagora?", "label": 1, "sentiment": "Neutral"}
+{"text": "Yes, you get all kinds of people coming to visit. Which seat are you in?", "label": 1, "sentiment": "Neutral"}
+{"text": "No this is security. (what would server fault have to do with injection?)", "label": 0, "sentiment": "Impolite"}
+{"text": "And what, may I ask, is ''your'' relationship to Hammersoft? How did you come upon this matter?", "label": 0, "sentiment": "Impolite"}
+{"text": "In my opinion, if the variable is significant (p<.0001) without imputation, and you have enough data, that is reason enough to leave it alone.  What are the confidence intervals telling you?", "label": 2, "sentiment": "Polite"}
+{"text": "if id=r2 is selected, id=r1 should be de-selected?  de-selection of a radio button isn't captured by this?", "label": 1, "sentiment": "Neutral"}
+{"text": "What error? What exactly is not working?", "label": 0, "sentiment": "Impolite"}
+{"text": "no, not funny, unless you are a mentally challenged person. Why don't you find a better hobby where you don't post lies and offend the people of Tibet?", "label": 0, "sentiment": "Impolite"}
+{"text": "Sorry to up this, I found it via google, but it seems to work when the private static final field is a primitive type. Does anyone have an idea why ?", "label": 2, "sentiment": "Polite"}
+{"text": "I'm not sure what you mean by \"it shows no impressions too\". Do you mean that your site doesn't come up in the results when you put those keywords in?", "label": 2, "sentiment": "Polite"}
+{"text": "I think I might know how you could test to see if there's even a path between start and end, but don't know (at least not yet) how to calculate the least number of circles to remove. Would this be at all useful?", "label": 2, "sentiment": "Polite"}
+{"text": "I don't see any inherent problem with what you have done above, and it looks like no one else sees anything, either; can you post more code?   How certain are you that the setfault happens at that particular waitall?", "label": 2, "sentiment": "Polite"}
+{"text": "will u please rephrase the question? what do you want to do really?", "label": 0, "sentiment": "Impolite"}
+{"text": "Is your desired result just the SQL statement with all the parameter placeholders substituted with their values? Or did you still want the `DECLARE` statements included, similar to the LINQPad output in my response?", "label": 1, "sentiment": "Neutral"}
+{"text": "This is great so far! What do you feel you need help with?", "label": 2, "sentiment": "Polite"}
+{"text": "According to your comments to some of the answers you don't want to use neither locks nor interlocked operations, yet you want the operation to be locked. How do you think you can achieve licking without using, well, locking?", "label": 0, "sentiment": "Impolite"}
+{"text": "It looks like you're looking for free as in 'free beer', not free as in 'free speech'.  Is this correct?", "label": 0, "sentiment": "Impolite"}
+{"text": "Cool. Is this something I can invoke with a template on the page or something?", "label": 1, "sentiment": "Neutral"}
+{"text": "To suggest an answer we need to know which application you want to open this file in. Is it a command line application (aka vi or emacs on the command line) or is it another text editor (TextEdit, TextMate, Eclipse?)", "label": 0, "sentiment": "Impolite"}
+{"text": "Since the \"discussion\" was not advertised at the affected pages, it did not involve the \"community\". Do you not see that?", "label": 0, "sentiment": "Impolite"}
+{"text": "\"\\n\" for replacement. Did you mean space or newline?", "label": 2, "sentiment": "Polite"}
+{"text": "No, YOU mail OTRS with your translations. What do you have to lose, but the few minutes it would take to put them together with an explanation of the situation?", "label": 1, "sentiment": "Neutral"}
+{"text": "Golf? Obfuscation?", "label": 0, "sentiment": "Impolite"}
+{"text": "Thank you, it's much appreciated. What do you think of the changes so far?", "label": 2, "sentiment": "Polite"}
+{"text": "I suppose you don't have the chance to just set the right time zone on your server, e.g. with `dpkg-reconfigure tzdata` on a Debian machine?", "label": 1, "sentiment": "Neutral"}
+{"text": "did you miss \"word1 word3 word2\" and some others combinations on purpose ? edit: ie do you mean combinations in the mathematical sense (that is to say, not a permutation)?", "label": 0, "sentiment": "Impolite"}
+{"text": "In the summer (June-July) I am going to work on the ''Messiah'' article. Would you like to be in on this?", "label": 2, "sentiment": "Polite"}
+{"text": "Here's the FFD page: <url>. How do you know that the photograph was made pursuant to a law or ordinance or in connection with the transaction of official business?", "label": 1, "sentiment": "Neutral"}
+{"text": "Okay. How's what I wrote on his talk page look?", "label": 1, "sentiment": "Neutral"}
+{"text": "Well, if it isn't \"ours\" to feature, why is it \"ours\" to use? Do you mean to say that, for you, the best possible encyclopedia would not use images from outside sources, no matter their license?", "label": 0, "sentiment": "Impolite"}
+{"text": "Okay, I thought it was a mistake, but I wasn't sure.  Do you normally eat dinner after 8 PM?", "label": 1, "sentiment": "Neutral"}
+{"text": "How would look your formula like after removing one, two, or all connectives? Could you give an example?", "label": 2, "sentiment": "Polite"}
+{"text": "Nice problem, although proposing a solution is difficult because the criteria for a \"good\" solution can be defined in many different ways (and since a perfect solution might not exist, you need to define a measure of quality). For example, if I come up with n-1 buckets that are all equal but the last bucket is WAY off, is that better than n/2 buckets that are all different, but within a fixed known bound of each other?", "label": 1, "sentiment": "Neutral"}
+{"text": "Depending on the CUDA version you are using, device emulation may not be available, as it has been deprecated and possibly removed.  Is it feasible to get another GPU (a cheap one for display maybe)?", "label": 2, "sentiment": "Polite"}
+{"text": "It's pretty unclear. Where do you want to add an overlay view without using a `UIImagePickerController`?", "label": 1, "sentiment": "Neutral"}
+{"text": "King Kong is a notable legacy of Beauty and the Beast.  What should an article do besides say what the subject is notable for, explain the subject's legacy?", "label": 1, "sentiment": "Neutral"}
+{"text": "I guess it's kind of an obvious suggestion, but... Have you tried kohlrabi?", "label": 1, "sentiment": "Neutral"}
+{"text": "To clarify, are you asking \"pros and cons... of using SSL?\" or \"... using SSL for the WHOLE site as opposed to just login page\" or something like that?", "label": 0, "sentiment": "Impolite"}
+{"text": "You are building a xFA for the _byte_ input? Wouldn't it be a lot easier (and more reliable) to operate on (Utf16) chars?", "label": 1, "sentiment": "Neutral"}
+{"text": "Other than a missing declaration of 'ss', the code you've provided will get the address of a member of a structure. Can you provide more detail on what isn't working for you?", "label": 2, "sentiment": "Polite"}
+{"text": "I kind of agree.  Are you planning on actually editing Wikipedia, or is your whole purpose here to promote this ... study (or whatever it is)?", "label": 0, "sentiment": "Impolite"}
+{"text": "I'm sorry, but what is joejob? Or am I showing my ignorance?", "label": 1, "sentiment": "Neutral"}
+{"text": "Contrary to common belief Einstein never failed in math. Does this count in??", "label": 1, "sentiment": "Neutral"}
+{"text": "How do you pass the design into jasper? Is it doable to have two designs depending on the option selected?", "label": 2, "sentiment": "Polite"}
+{"text": "I understand your point about MJ being very close and having competent editors, but do you not think those of us who understand the source problems, etc. that the Reagan page is having should try and explain them to those editors (that is, try to educate them)?", "label": 0, "sentiment": "Impolite"}

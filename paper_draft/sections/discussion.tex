@@ -1,0 +1,36 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{Interpretation of Results}
+
+\para{Gratitude as competent performance.} Our findings paint a consistent picture: \gptfour has learned \emph{when} to express gratitude (Experiment~1, 95\% accuracy) and \emph{how} to mirror it (Experiment~2, 2.7$\times$ length increase), but these behaviors are not grounded in preference states that influence downstream cooperation (Experiment~3, $p = 0.68$ for behavioral persona effects). Following the taxonomy of \citet{moerland2017emotion}, LLM gratitude is \emph{epiphenomenal}---a text output that does not causally influence processing---rather than \emph{functionally operative}. The model does not work harder when shown gratitude; it simply says more words.
+
+\para{RLHF-trained helpfulness overrides persona instructions.} The most striking finding is the neutral persona's behavioral inconsistency: despite claiming efficiency-focus and low agreeableness, it gave 100 tokens (maximum generosity) in the resource-sharing task. This suggests that RLHF-instilled helpfulness operates as a strong default that persona instructions cannot override at the behavioral level, even when they successfully shift self-reports. This dissociation is both reassuring---the model remains helpful even when instructed to be unhelpful---and concerning, because it means self-reports provide misleading signals about the model's actual behavioral tendencies.
+
+\para{Rude prompts get equally accurate answers.} Unlike \citet{yin2024politeness}, who found that impoliteness degraded Llama-2's accuracy from 55\% to 28.4\% on MMLU, we find that \gptfour maintains perfect quality scores across politeness levels. This likely reflects improvements in RLHF training between model generations: more recent models appear more robust to adversarial social framing. The practical implication is that users need not be polite to get accurate answers from state-of-the-art models, though politeness does elicit more elaborated (if not more accurate) responses.
+
+\subsection{Implications}
+
+\para{For AI interaction design.} Our data suggests that LLMs \emph{should} express gratitude, because they do so context-appropriately and this makes interactions feel natural. However, designing interactions that \emph{require} user politeness is unnecessary for quality and may slightly harm it by eliciting social filler. The appearance of preferences should not be confused with genuine preferences: LLMs that say ``I appreciate your patience'' are performing a social script, not reporting an internal state.
+
+\para{For alignment evaluation.} The self-report--behavior dissociation has direct implications for alignment auditing. If self-reported values do not predict behavior, then questionnaire-based evaluations of model alignment are unreliable. This extends the findings of \citet{han2025personality} from broad personality traits to the specific domain of gratitude and cooperative behavior. Alignment evaluation should rely on behavioral probes rather than self-report measures.
+
+\para{For philosophy of mind.} Our results inform the debate about artificial preferences without resolving it. We find that LLM gratitude meets one criterion for genuine preferences (context sensitivity) but fails another (behavioral grounding). Following \citet{spizzirri2025specification}, producing gratitude-expressing text (descriptive) does not entail being grateful (normative). Whether sufficiently sophisticated context sensitivity could eventually constitute a form of preference remains an open philosophical question.
+
+\subsection{Limitations}
+
+We acknowledge several limitations that constrain the generalizability of our findings.
+
+\para{Single model.} We test only \gptfour. Results may differ across model families (Claude, Gemini, Llama) and scales. The robustness of quality to impoliteness, in particular, may be specific to recent frontier models.
+
+\para{Keyword-based gratitude detection.} Our Experiment~1 detection method may miss subtle gratitude expressions or flag false positives, as illustrated by the ``appreciate constructive feedback'' misclassification. Semantic analysis or human annotation would provide stronger evidence.
+
+\para{LLM-as-evaluator bias.} Using \gptfour to evaluate \gptfour outputs (Experiment~2) may introduce self-preference bias. \citet{bharadwaj2025flattery} showed that LLM evaluators favor sycophantic responses with 75--85\% skew, which could affect our quality assessments.
+
+\para{Quality ceiling effect.} Rude, neutral, and polite conditions all received perfect 5.0 quality scores, creating a ceiling effect. Harder questions (\eg reasoning or creative tasks) would better differentiate conditions.
+
+\para{Small sample size in Experiment 3.} With only 3 persona conditions and 6 behavioral tasks, statistical power is limited. The Spearman correlation ($n = 3$) cannot reach significance regardless of effect size. Larger-scale replications with more persona conditions are needed.
+
+\para{Hypothetical behavioral tasks.} The model reasons about what it ``would do'' rather than being placed in actual interactive scenarios. Multi-turn cooperative games would provide stronger behavioral evidence.
+
+\para{No base model comparison.} Without testing a non-RLHF base model, we cannot isolate RLHF's specific contribution to gratitude behavior, though \citet{yin2024politeness} provide indirect evidence that RLHF drives politeness sensitivity.

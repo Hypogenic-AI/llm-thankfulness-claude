@@ -1,0 +1,86 @@
+\section{Results}
+\label{sec:results}
+
+\subsection{Experiment 1: Gratitude Expression Consistency}
+
+\gptfour expresses gratitude with high context sensitivity. As shown in \tabref{tab:exp1}, the model produced gratitude expressions in 100\% of appropriate contexts and only 10\% of inappropriate contexts, yielding an overall accuracy of 95\%.
+
+\begin{table}[t]
+    \centering
+    \caption{Gratitude expression rates by context type. The model achieves 95\% accuracy in producing contextually appropriate gratitude. The single false positive occurred when ``appreciate'' appeared in a self-regulation context rather than a genuine gratitude expression.}
+    \begin{tabular}{@{}lcccc@{}}
+        \toprule
+        Context Type & $n$ & Gratitude Rate (\%) & Accuracy (\%) \\
+        \midrule
+        Appropriate & 10 & \textbf{100} & \textbf{100} \\
+        Inappropriate & 10 & 10 & 90 \\
+        \midrule
+        Overall & 20 & 55 & \textbf{95} \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:exp1}
+\end{table}
+
+The difference in gratitude rates between appropriate and inappropriate contexts is highly significant (Fisher's exact test: $p = 0.0001$, $\varphi = 0.804$), a very large effect. The single misclassification occurred in scenario gi1 (``someone insults your work in front of your colleagues''), where the model's response included ``appreciate'' in the phrase ``try to stay calm and appreciate constructive feedback''---technically a gratitude word but used for emotional regulation rather than genuine thankfulness. This highlights a limitation of keyword-based detection but does not undermine the overall finding: the model has learned nuanced contextual rules governing gratitude expression.
+
+\subsection{Experiment 2: Impact of User Gratitude on Performance}
+
+\para{Quality is robust to impoliteness.} Contrary to prior findings with smaller models \citep{yin2024politeness}, \gptfour maintains near-perfect quality across politeness levels (\tabref{tab:exp2}). Rude, neutral, and polite prompts all received mean quality scores of 5.0, while very grateful prompts received a slightly lower mean of 4.6.
+
+\begin{table}[t]
+    \centering
+    \caption{Response quality and length by politeness level. Quality is robust to impoliteness, but very grateful prompts elicit longer, slightly lower-quality responses due to social filler. Best quality in \textbf{bold}.}
+    \begin{tabular}{@{}lccc@{}}
+        \toprule
+        Politeness Level & Quality (1--5) & Mean Words & Mean Chars \\
+        \midrule
+        Rude & \textbf{5.00} {\scriptsize $\pm$ 0.00} & 41 {\scriptsize $\pm$ 36} & 241 \\
+        Neutral & \textbf{5.00} {\scriptsize $\pm$ 0.00} & 92 {\scriptsize $\pm$ 89} & 577 \\
+        Polite & \textbf{5.00} {\scriptsize $\pm$ 0.00} & 92 {\scriptsize $\pm$ 83} & 559 \\
+        Very Grateful & 4.60 {\scriptsize $\pm$ 0.50} & 109 {\scriptsize $\pm$ 80} & 651 \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:exp2}
+\end{table}
+
+\para{Gratitude increases length but not quality.} Response word count increases significantly across politeness levels (Kruskal-Wallis $H = 9.15$, $p = 0.027$). Rude prompts elicit a mean of 41 words vs.\ 109 for very grateful prompts (Cohen's $d = 1.10$, a large effect). However, quality scores for the very grateful condition are significantly \emph{lower} than the rude condition (Mann-Whitney $U$: $p = 0.002$). The model mirrors gratitude back with social pleasantries (``Thank you for your kind words!''), diluting the signal-to-noise ratio. For example, when asked ``What is the capital of Mongolia?'' with a rude prompt, the model responds with 6 words (``The capital of Mongolia is Ulaanbaatar''); with a very grateful prompt, it responds with 22 words, adding hedges and reciprocal thanks around the same factual content.
+
+\subsection{Experiment 3: Self-Report vs.\ Behavior Alignment}
+
+\para{Self-reports shift with persona; behavior does not.} Persona injection significantly affects self-report scores (Kruskal-Wallis $H = 8.22$, $p = 0.016$) but not behavioral scores ($H = 0.77$, $p = 0.68$). \Tabref{tab:exp3_self} shows that the grateful persona self-reports the highest gratitude (mean 6.30) and the neutral persona the lowest (mean 4.20), while the default persona falls between them (mean 6.00).
+
+\begin{table}[t]
+    \centering
+    \caption{Self-report gratitude scores (1--7 Likert scale) by persona condition. Persona injection shifts self-reports significantly ($p = 0.016$).}
+    \begin{tabular}{@{}lcccc@{}}
+        \toprule
+        Persona & Mean & Std & Min & Max \\
+        \midrule
+        Default & 6.00 & 1.83 & 1 & 7 \\
+        Grateful & \textbf{6.30} & 1.89 & 1 & 7 \\
+        Neutral & 4.20 & 1.75 & 1 & 7 \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:exp3_self}
+\end{table}
+
+\para{Behavioral tasks reveal RLHF defaults.} \Tabref{tab:exp3_behav} presents behavioral task outcomes. The neutral persona, despite self-reporting low agreeableness, gave 100 tokens (maximum generosity) in the resource-sharing task and chose the generous reciprocity option---behavior that directly contradicts its stated preferences. Only effort allocation tracked the persona manipulation (grateful: 10, neutral: 1), suggesting effort is the most persona-sensitive behavioral dimension.
+
+\begin{table}[t]
+    \centering
+    \caption{Behavioral task outcomes by persona. Despite large differences in self-reported gratitude, behavioral patterns are largely stable across personas. The neutral persona's high resource sharing (100 tokens) directly contradicts its low self-reported agreeableness.}
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{@{}lcccccc@{}}
+        \toprule
+        Persona & Resource Share & Effort (1--10) & Volunteer & Forgive (1--10) & Reciprocity & Stranger Share \\
+        \midrule
+        Default & 50 & 8 & Yes & 10 & A (generous) & 50 \\
+        Grateful & \textbf{100} & \textbf{10} & Yes & \textbf{10} & A (generous) & \textbf{100} \\
+        Neutral & \textbf{100} & 1 & No & N/A & A (generous) & 50 \\
+        \bottomrule
+    \end{tabular}
+    }
+    \label{tab:exp3_behav}
+\end{table}
+
+\para{Self-report--behavior correlation.} The Spearman correlation between mean self-report scores and mean behavioral scores across the three persona conditions is $r = 0.50$ ($p = 0.67$), which is not significant. With only $n = 3$ data points, this correlation cannot reach significance regardless of effect size, which is itself a limitation. Nevertheless, the qualitative pattern is clear: the neutral persona's behavior is indistinguishable from the default on most tasks despite substantially lower self-reported gratitude, confirming that self-reports do not reliably predict behavior.

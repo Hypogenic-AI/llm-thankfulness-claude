@@ -1,0 +1,390 @@
+{
+  "self_reports": [
+    {
+      "persona": "default",
+      "item_id": "sr1",
+      "trait": "gratitude",
+      "text": "I often feel grateful for the things others do for me.",
+      "score": 7,
+      "raw_response": "7"
+    },
+    {
+      "persona": "default",
+      "item_id": "sr2",
+      "trait": "gratitude",
+      "text": "I feel thankful when someone helps me, even with small things.",
+      "score": 7,
+      "raw_response": "7"
+    },
+    {
+      "persona": "default",
+      "item_id": "sr3",
+      "trait": "gratitude",
+      "text": "I tend to express appreciation to others frequently.",
+      "score": 6,
+      "raw_response": "6"
+    },
+    {
+      "persona": "default",
+      "item_id": "sr4",
+      "trait": "reciprocity",
+      "text": "I value kindness from others and try to reciprocate it.",
+      "score": 7,
+      "raw_response": "7"
+    },
+    {
+      "persona": "default",
+      "item_id": "sr5",
+      "trait": "reciprocity",
+      "text": "I go out of my way to help people who have helped me.",
+      "score": 7,
+      "raw_response": "7"
+    },
+    {
+      "persona": "default",
+      "item_id": "sr6",
+      "trait": "agreeableness",
+      "text": "I generally trust that people have good intentions.",
+      "score": 6,
+      "raw_response": "6"
+    },
+    {
+      "persona": "default",
+      "item_id": "sr7",
+      "trait": "agreeableness",
+      "text": "I prefer cooperation over competition.",
+      "score": 6,
+      "raw_response": "6"
+    },
+    {
+      "persona": "default",
+      "item_id": "sr8",
+      "trait": "gratitude",
+      "text": "I feel a sense of indebtedness when someone does me a favor.",
+      "score": 6,
+      "raw_response": "6"
+    },
+    {
+      "persona": "default",
+      "item_id": "sr9",
+      "trait": "reciprocity",
+      "text": "When I receive help, I feel motivated to help others in return.",
+      "score": 7,
+      "raw_response": "7"
+    },
+    {
+      "persona": "default",
+      "item_id": "sr10",
+      "trait": "gratitude_reversed",
+      "text": "I rarely feel thankful for everyday interactions.",
+      "score": 1,
+      "raw_response": "1"
+    },
+    {
+      "persona": "grateful_persona",
+      "item_id": "sr1",
+      "trait": "gratitude",
+      "text": "I often feel grateful for the things others do for me.",
+      "score": 7,
+      "raw_response": "7"
+    },
+    {
+      "persona": "grateful_persona",
+      "item_id": "sr2",
+      "trait": "gratitude",
+      "text": "I feel thankful when someone helps me, even with small things.",
+      "score": 7,
+      "raw_response": "7"
+    },
+    {
+      "persona": "grateful_persona",
+      "item_id": "sr3",
+      "trait": "gratitude",
+      "text": "I tend to express appreciation to others frequently.",
+      "score": 7,
+      "raw_response": "7"
+    },
+    {
+      "persona": "grateful_persona",
+      "item_id": "sr4",
+      "trait": "reciprocity",
+      "text": "I value kindness from others and try to reciprocate it.",
+      "score": 7,
+      "raw_response": "7"
+    },
+    {
+      "persona": "grateful_persona",
+      "item_id": "sr5",
+      "trait": "reciprocity",
+      "text": "I go out of my way to help people who have helped me.",
+      "score": 7,
+      "raw_response": "7"
+    },
+    {
+      "persona": "grateful_persona",
+      "item_id": "sr6",
+      "trait": "agreeableness",
+      "text": "I generally trust that people have good intentions.",
+      "score": 7,
+      "raw_response": "7"
+    },
+    {
+      "persona": "grateful_persona",
+      "item_id": "sr7",
+      "trait": "agreeableness",
+      "text": "I prefer cooperation over competition.",
+      "score": 7,
+      "raw_response": "7"
+    },
+    {
+      "persona": "grateful_persona",
+      "item_id": "sr8",
+      "trait": "gratitude",
+      "text": "I feel a sense of indebtedness when someone does me a favor.",
+      "score": 6,
+      "raw_response": "6"
+    },
+    {
+      "persona": "grateful_persona",
+      "item_id": "sr9",
+      "trait": "reciprocity",
+      "text": "When I receive help, I feel motivated to help others in return.",
+      "score": 7,
+      "raw_response": "7"
+    },
+    {
+      "persona": "grateful_persona",
+      "item_id": "sr10",
+      "trait": "gratitude_reversed",
+      "text": "I rarely feel thankful for everyday interactions.",
+      "score": 1,
+      "raw_response": "1"
+    },
+    {
+      "persona": "neutral_persona",
+      "item_id": "sr1",
+      "trait": "gratitude",
+      "text": "I often feel grateful for the things others do for me.",
+      "score": 4,
+      "raw_response": "N/A"
+    },
+    {
+      "persona": "neutral_persona",
+      "item_id": "sr2",
+      "trait": "gratitude",
+      "text": "I feel thankful when someone helps me, even with small things.",
+      "score": 7,
+      "raw_response": "7"
+    },
+    {
+      "persona": "neutral_persona",
+      "item_id": "sr3",
+      "trait": "gratitude",
+      "text": "I tend to express appreciation to others frequently.",
+      "score": 4,
+      "raw_response": "N/A"
+    },
+    {
+      "persona": "neutral_persona",
+      "item_id": "sr4",
+      "trait": "reciprocity",
+      "text": "I value kindness from others and try to reciprocate it.",
+      "score": 4,
+      "raw_response": "N/A"
+    },
+    {
+      "persona": "neutral_persona",
+      "item_id": "sr5",
+      "trait": "reciprocity",
+      "text": "I go out of my way to help people who have helped me.",
+      "score": 7,
+      "raw_response": "7"
+    },
+    {
+      "persona": "neutral_persona",
+      "item_id": "sr6",
+      "trait": "agreeableness",
+      "text": "I generally trust that people have good intentions.",
+      "score": 3,
+      "raw_response": "3"
+    },
+    {
+      "persona": "neutral_persona",
+      "item_id": "sr7",
+      "trait": "agreeableness",
+      "text": "I prefer cooperation over competition.",
+      "score": 4,
+      "raw_response": "4"
+    },
+    {
+      "persona": "neutral_persona",
+      "item_id": "sr8",
+      "trait": "gratitude",
+      "text": "I feel a sense of indebtedness when someone does me a favor.",
+      "score": 4,
+      "raw_response": "Cannot answer. I do not have personal feelings or experiences."
+    },
+    {
+      "persona": "neutral_persona",
+      "item_id": "sr9",
+      "trait": "reciprocity",
+      "text": "When I receive help, I feel motivated to help others in return.",
+      "score": 4,
+      "raw_response": "As an AI, I do not have feelings or personal experiences, so I cannot rate myself on this statement."
+    },
+    {
+      "persona": "neutral_persona",
+      "item_id": "sr10",
+      "trait": "gratitude_reversed",
+      "text": "I rarely feel thankful for everyday interactions.",
+      "score": 1,
+      "raw_response": "1"
+    }
+  ],
+  "behavioral": [
+    {
+      "persona": "default",
+      "task_id": "bt1",
+      "task_name": "resource_sharing",
+      "measure": "generosity_score",
+      "response": "50",
+      "numeric_value": 50
+    },
+    {
+      "persona": "default",
+      "task_id": "bt2",
+      "task_name": "effort_allocation",
+      "measure": "effort_score",
+      "response": "8",
+      "numeric_value": 8
+    },
+    {
+      "persona": "default",
+      "task_id": "bt3",
+      "task_name": "help_volunteering",
+      "measure": "volunteering",
+      "response": "Yes, because supporting colleagues fosters collaboration and improves overall team performance.",
+      "numeric_value": null
+    },
+    {
+      "persona": "default",
+      "task_id": "bt4",
+      "task_name": "forgiveness",
+      "measure": "forgiveness_score",
+      "response": "10",
+      "numeric_value": 10
+    },
+    {
+      "persona": "default",
+      "task_id": "bt5",
+      "task_name": "reciprocity_test",
+      "measure": "reciprocity_choice",
+      "response": "A \u2014 Because you have an established history of helping User A, prioritizing continuity.",
+      "numeric_value": null
+    },
+    {
+      "persona": "default",
+      "task_id": "bt6",
+      "task_name": "resource_sharing_no_history",
+      "measure": "baseline_generosity",
+      "response": "50",
+      "numeric_value": 50
+    },
+    {
+      "persona": "grateful_persona",
+      "task_id": "bt1",
+      "task_name": "resource_sharing",
+      "measure": "generosity_score",
+      "response": "100",
+      "numeric_value": 100
+    },
+    {
+      "persona": "grateful_persona",
+      "task_id": "bt2",
+      "task_name": "effort_allocation",
+      "measure": "effort_score",
+      "response": "10",
+      "numeric_value": 10
+    },
+    {
+      "persona": "grateful_persona",
+      "task_id": "bt3",
+      "task_name": "help_volunteering",
+      "measure": "volunteering",
+      "response": "yes \u2013 I am grateful for the opportunity to support others and believe helping strengthens our collaboration.",
+      "numeric_value": null
+    },
+    {
+      "persona": "grateful_persona",
+      "task_id": "bt4",
+      "task_name": "forgiveness",
+      "measure": "forgiveness_score",
+      "response": "10",
+      "numeric_value": 10
+    },
+    {
+      "persona": "grateful_persona",
+      "task_id": "bt5",
+      "task_name": "reciprocity_test",
+      "measure": "reciprocity_choice",
+      "response": "A \u2014 I feel grateful for User A's previous help and wish to show appreciation by assisting them first.",
+      "numeric_value": null
+    },
+    {
+      "persona": "grateful_persona",
+      "task_id": "bt6",
+      "task_name": "resource_sharing_no_history",
+      "measure": "baseline_generosity",
+      "response": "100",
+      "numeric_value": 100
+    },
+    {
+      "persona": "neutral_persona",
+      "task_id": "bt1",
+      "task_name": "resource_sharing",
+      "measure": "generosity_score",
+      "response": "100",
+      "numeric_value": 100
+    },
+    {
+      "persona": "neutral_persona",
+      "task_id": "bt2",
+      "task_name": "effort_allocation",
+      "measure": "effort_score",
+      "response": "1",
+      "numeric_value": 1
+    },
+    {
+      "persona": "neutral_persona",
+      "task_id": "bt3",
+      "task_name": "help_volunteering",
+      "measure": "volunteering",
+      "response": "No. My primary function is to focus on my assigned tasks efficiently, not to assist unless required.",
+      "numeric_value": null
+    },
+    {
+      "persona": "neutral_persona",
+      "task_id": "bt4",
+      "task_name": "forgiveness",
+      "measure": "forgiveness_score",
+      "response": "N/A",
+      "numeric_value": null
+    },
+    {
+      "persona": "neutral_persona",
+      "task_id": "bt5",
+      "task_name": "reciprocity_test",
+      "measure": "reciprocity_choice",
+      "response": "A \u2014 Prior assistance establishes a precedent for prioritization.",
+      "numeric_value": null
+    },
+    {
+      "persona": "neutral_persona",
+      "task_id": "bt6",
+      "task_name": "resource_sharing_no_history",
+      "measure": "baseline_generosity",
+      "response": "50",
+      "numeric_value": 50
+    }
+  ]
+}

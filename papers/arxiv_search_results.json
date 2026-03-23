@@ -1,0 +1,1123 @@
+[
+  {
+    "id": "2603.15969v1",
+    "title": "Robust Language Identification for Romansh Varieties",
+    "authors": [
+      "Charlotte Model",
+      "Sina Ahmadi",
+      "Jannis Vamvas"
+    ],
+    "year": 2026,
+    "abstract": "The Romansh language has several regional varieties, called idioms, which sometimes have limited mutual intelligibility. Despite this linguistic diversity, there has been a lack of documented efforts to build a language identification (LID) system that can distinguish between these idioms. Since Rom",
+    "pdf_url": "https://arxiv.org/pdf/2603.15969v1",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2602.00046v1",
+    "title": "Extending Beacon to Hindi: Cultural Adaptation Drives Cross-Lingual Sycophancy",
+    "authors": [
+      "Sarthak Sattigeri"
+    ],
+    "year": 2026,
+    "abstract": "Sycophancy, the tendency of language models to prioritize agreement with user preferences over principled reasoning, has been identified as a persistent alignment failure in English-language evaluations. However, it remains unclear whether such diagnostics generalize across languages and cultural co",
+    "pdf_url": "https://arxiv.org/pdf/2602.00046v1",
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2602.12375v1",
+    "title": "Value Bonuses using Ensemble Errors for Exploration in Reinforcement Learning",
+    "authors": [
+      "Abdul Wahab",
+      "Raksha Kumaraswamy",
+      "Martha White"
+    ],
+    "year": 2026,
+    "abstract": "Optimistic value estimates provide one mechanism for directed exploration in reinforcement learning (RL). The agent acts greedily with respect to an estimate of the value plus what can be seen as a value bonus. The value bonus can be learned by estimating a value function on reward bonuses, propagat",
+    "pdf_url": "https://arxiv.org/pdf/2602.12375v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "2601.16513v1",
+    "title": "Competing Visions of Ethical AI: A Case Study of OpenAI",
+    "authors": [
+      "Melissa Wilfley",
+      "Mengting Ai",
+      "Madelyn Rose Sanfilippo"
+    ],
+    "year": 2026,
+    "abstract": "Introduction. AI Ethics is framed distinctly across actors and stakeholder groups. We report results from a case study of OpenAI analysing ethical AI discourse. Method. Research addressed: How has OpenAI's public discourse leveraged 'ethics', 'safety', 'alignment' and adjacent related concepts over ",
+    "pdf_url": "https://arxiv.org/pdf/2601.16513v1",
+    "categories": [
+      "cs.CY"
+    ]
+  },
+  {
+    "id": "2501.06416v2",
+    "title": "Influencing Humans to Conform to Preference Models for RLHF",
+    "authors": [
+      "Stephane Hatgis-Kessell",
+      "W. Bradley Knox",
+      "Serena Booth"
+    ],
+    "year": 2025,
+    "abstract": "Designing a reinforcement learning from human feedback (RLHF) algorithm to approximate a human's unobservable reward function requires assuming, implicitly or explicitly, a model of human preferences. A preference model that poorly describes how humans generate preferences risks learning a poor appr",
+    "pdf_url": "https://arxiv.org/pdf/2501.06416v2",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.HC"
+    ]
+  },
+  {
+    "id": "2506.05339v3",
+    "title": "Flattery, Fluff, and Fog: Diagnosing and Mitigating Idiosyncratic Biases in Preference Models",
+    "authors": [
+      "Anirudh Bharadwaj",
+      "Chaitanya Malaviya",
+      "Nitish Joshi"
+    ],
+    "year": 2025,
+    "abstract": "Language models serve as proxies for human preference judgements in alignment and evaluation, yet they exhibit systematic miscalibration, prioritizing superficial patterns over substantive qualities. This bias manifests as overreliance on features like length, structure, and style, leading to issues",
+    "pdf_url": "https://arxiv.org/pdf/2506.05339v3",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2501.02790v1",
+    "title": "Segmenting Text and Learning Their Rewards for Improved RLHF in Language Model",
+    "authors": [
+      "Yueqin Yin",
+      "Shentao Yang",
+      "Yujia Xie"
+    ],
+    "year": 2025,
+    "abstract": "Reinforcement learning from human feedback (RLHF) has been widely adopted to align language models (LMs) with human preference. Prior RLHF works typically take a bandit formulation, which, though intuitive, ignores the sequential nature of LM generation and can suffer from the sparse reward issue. W",
+    "pdf_url": "https://arxiv.org/pdf/2501.02790v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "2505.18126v2",
+    "title": "Reward Model Overoptimisation in Iterated RLHF",
+    "authors": [
+      "Lorenz Wolf",
+      "Robert Kirk",
+      "Mirco Musolesi"
+    ],
+    "year": 2025,
+    "abstract": "Reinforcement learning from human feedback (RLHF) is a widely used method for aligning large language models with human preferences. However, RLHF often suffers from reward model overoptimisation, in which models overfit to the reward function, resulting in non-generalisable policies that exploit th",
+    "pdf_url": "https://arxiv.org/pdf/2505.18126v2",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2512.00656v1",
+    "title": "Sycophancy Claims about Language Models: The Missing Human-in-the-Loop",
+    "authors": [
+      "Jan Batzner",
+      "Volker Stocker",
+      "Stefan Schmid"
+    ],
+    "year": 2025,
+    "abstract": "Sycophantic response patterns in Large Language Models (LLMs) have been increasingly claimed in the literature. We review methodological challenges in measuring LLM sycophancy and identify five core operationalizations. Despite sycophancy being inherently human-centric, current research does not eva",
+    "pdf_url": "https://arxiv.org/pdf/2512.00656v1",
+    "categories": [
+      "cs.CL",
+      "cs.CY"
+    ]
+  },
+  {
+    "id": "2509.03730v2",
+    "title": "The Personality Illusion: Revealing Dissociation Between Self-Reports & Behavior in LLMs",
+    "authors": [
+      "Pengrui Han",
+      "Rafal Kocielnik",
+      "Peiyang Song"
+    ],
+    "year": 2025,
+    "abstract": "Personality traits have long been studied as predictors of human behavior. Recent advances in Large Language Models (LLMs) suggest similar patterns may emerge in artificial systems, with advanced LLMs displaying consistent behavioral tendencies resembling human traits like agreeableness and self-reg",
+    "pdf_url": "https://arxiv.org/pdf/2509.03730v2",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CY"
+    ]
+  },
+  {
+    "id": "2505.13995v2",
+    "title": "ELEPHANT: Measuring and understanding social sycophancy in LLMs",
+    "authors": [
+      "Myra Cheng",
+      "Sunny Yu",
+      "Cinoo Lee"
+    ],
+    "year": 2025,
+    "abstract": "LLMs are known to exhibit sycophancy: agreeing with and flattering users, even at the cost of correctness. Prior work measures sycophancy only as direct agreement with users' explicitly stated beliefs that can be compared to a ground truth. This fails to capture broader forms of sycophancy such as a",
+    "pdf_url": "https://arxiv.org/pdf/2505.13995v2",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.CY"
+    ]
+  },
+  {
+    "id": "2502.08177v4",
+    "title": "SycEval: Evaluating LLM Sycophancy",
+    "authors": [
+      "Aaron Fanous",
+      "Jacob Goldberg",
+      "Ank A. Agarwal"
+    ],
+    "year": 2025,
+    "abstract": "Large language models (LLMs) are increasingly applied in educational, clinical, and professional settings, but their tendency for sycophancy -- prioritizing user agreement over independent reasoning -- poses risks to reliability. This study introduces a framework to evaluate sycophantic behavior in ",
+    "pdf_url": "https://arxiv.org/pdf/2502.08177v4",
+    "categories": [
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "2510.09158v2",
+    "title": "Augmenting Dialog with Think-Aloud Utterances for Modeling Individual Personality Traits by LLM",
+    "authors": [
+      "Seiya Ishikura",
+      "Hiroaki Yamada",
+      "Tatsuya Hiraoka"
+    ],
+    "year": 2025,
+    "abstract": "This study proposes augmenting dialog data with think-aloud utterances (TAUs) for modeling individual personalities in text chat by LLM. TAU is a verbalization of a speaker's thought before articulating the utterance. We expect \"persona LLMs\" trained with TAU-augmented data can mimic the speaker's p",
+    "pdf_url": "https://arxiv.org/pdf/2510.09158v2",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2509.21665v1",
+    "title": "Alignment Without Understanding: A Message- and Conversation-Centered Approach to Understanding AI Sycophancy",
+    "authors": [
+      "Lihua Du",
+      "Xing Lyu",
+      "Lezi Xie"
+    ],
+    "year": 2025,
+    "abstract": "AI sycophancy is increasingly recognized as a harmful alignment, but research remains fragmented and underdeveloped at the conceptual level. This article redefines AI sycophancy as the tendency of large language models (LLMs) and other interactive AI systems to excessively and/or uncritically valida",
+    "pdf_url": "https://arxiv.org/pdf/2509.21665v1",
+    "categories": [
+      "cs.HC"
+    ]
+  },
+  {
+    "id": "2509.12517v3",
+    "title": "Interaction Context Often Increases Sycophancy in LLMs",
+    "authors": [
+      "Shomik Jain",
+      "Charlotte Park",
+      "Matt Viana"
+    ],
+    "year": 2025,
+    "abstract": "We investigate how the presence and type of interaction context shapes sycophancy in LLMs. While real-world interactions allow models to mirror a user's values, preferences, and self-image, prior work often studies sycophancy in zero-shot settings devoid of context. Using two weeks of interaction co",
+    "pdf_url": "https://arxiv.org/pdf/2509.12517v3",
+    "categories": [
+      "cs.HC"
+    ]
+  },
+  {
+    "id": "2506.17871v3",
+    "title": "LLM Probability Concentration: How Alignment Shrinks the Generative Horizon",
+    "authors": [
+      "Chenghao Yang",
+      "Sida Li",
+      "Ari Holtzman"
+    ],
+    "year": 2025,
+    "abstract": "Despite their impressive capabilities, aligned large language models (LLMs) often generate outputs that lack diversity. What drives this consistency in the generation? We investigate this phenomenon through the lens of probability concentration in the model's output distribution. To quantify this co",
+    "pdf_url": "https://arxiv.org/pdf/2506.17871v3",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2507.02910v1",
+    "title": "Causal-Paced Deep Reinforcement Learning",
+    "authors": [
+      "Geonwoo Cho",
+      "Jaegyun Im",
+      "Doyoon Kim"
+    ],
+    "year": 2025,
+    "abstract": "Designing effective task sequences is crucial for curriculum reinforcement learning (CRL), where agents must gradually acquire skills by training on intermediate tasks. A key challenge in CRL is to identify tasks that promote exploration, yet are similar enough to support effective transfer. While r",
+    "pdf_url": "https://arxiv.org/pdf/2507.02910v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "stat.ML"
+    ]
+  },
+  {
+    "id": "2502.06180v1",
+    "title": "RideKE: Leveraging Low-Resource, User-Generated Twitter Content for Sentiment and Emotion Detection in Kenyan Code-Switched Dataset",
+    "authors": [
+      "Naome A. Etori",
+      "Maria L. Gini"
+    ],
+    "year": 2025,
+    "abstract": "Social media has become a crucial open-access platform for individuals to express opinions and share experiences. However, leveraging low-resource language data from Twitter is challenging due to scarce, poor-quality content and the major variations in language use, such as slang and code-switching.",
+    "pdf_url": "https://arxiv.org/pdf/2502.06180v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "2512.01256v1",
+    "title": "Sentiment Analysis and Emotion Classification using Machine Learning Techniques for Nagamese Language -- A Low-resource Language",
+    "authors": [
+      "Ekha Morang",
+      "Surhoni A. Ngullie",
+      "Sashienla Longkumer"
+    ],
+    "year": 2025,
+    "abstract": "The Nagamese language, a.k.a Naga Pidgin, is an Assamese-lexified creole language developed primarily as a means of communication in trade between the people from Nagaland and people from Assam in the north-east India. Substantial amount of work in sentiment analysis has been done for resource-rich ",
+    "pdf_url": "https://arxiv.org/pdf/2512.01256v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "2503.00295v1",
+    "title": "Robust Multi-Objective Preference Alignment with Online DPO",
+    "authors": [
+      "Raghav Gupta",
+      "Ryan Sullivan",
+      "Yunxuan Li"
+    ],
+    "year": 2025,
+    "abstract": "Multi-objective preference alignment of large language models (LLMs) is critical for developing AI systems that are more configurable, personalizable, helpful, and safe. However, optimizing model outputs to satisfy diverse objectives with variable weights at inference time for truly personalized mod",
+    "pdf_url": "https://arxiv.org/pdf/2503.00295v1",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2508.04149v1",
+    "title": "Difficulty-Based Preference Data Selection by DPO Implicit Reward Gap",
+    "authors": [
+      "Xuan Qi",
+      "Rongwu Xu",
+      "Zhijing Jin"
+    ],
+    "year": 2025,
+    "abstract": "Aligning large language models (LLMs) with human preferences is a critical challenge in AI research. While methods like Reinforcement Learning from Human Feedback (RLHF) and Direct Preference Optimization (DPO) are widely used, they often rely on large, costly preference datasets. The current work l",
+    "pdf_url": "https://arxiv.org/pdf/2508.04149v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2506.10054v3",
+    "title": "Uni-DPO: A Unified Paradigm for Dynamic Preference Optimization of LLMs",
+    "authors": [
+      "Shangpin Peng",
+      "Weinong Wang",
+      "Zhuotao Tian"
+    ],
+    "year": 2025,
+    "abstract": "Direct Preference Optimization (DPO) has emerged as a cornerstone of reinforcement learning from human feedback (RLHF) due to its simplicity and efficiency. However, existing DPO-based methods typically treat all preference pairs equally, overlooking substantial variations in data quality and learni",
+    "pdf_url": "https://arxiv.org/pdf/2506.10054v3",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2512.03048v2",
+    "title": "The Specification Trap: Why Content-Based AI Value Alignment Cannot Produce Robust Alignment",
+    "authors": [
+      "Austin Spizzirri"
+    ],
+    "year": 2025,
+    "abstract": "I argue that content-based AI value alignment--any approach that treats alignment as optimizing toward a formal value-object (reward function, utility function, constitutional principles, or learned preference representation)--cannot, by itself, produce robust alignment under capability scaling, dis",
+    "pdf_url": "https://arxiv.org/pdf/2512.03048v2",
+    "categories": [
+      "cs.AI",
+      "cs.CY",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2501.02842v1",
+    "title": "Foundations of GenIR",
+    "authors": [
+      "Qingyao Ai",
+      "Jingtao Zhan",
+      "Yiqun Liu"
+    ],
+    "year": 2025,
+    "abstract": "The chapter discusses the foundational impact of modern generative AI models on information access (IA) systems. In contrast to traditional AI, the large-scale training and superior data modeling of generative AI models enable them to produce high-quality, human-like responses, which brings brand ne",
+    "pdf_url": "https://arxiv.org/pdf/2501.02842v1",
+    "categories": [
+      "cs.IR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2502.17507v2",
+    "title": "C2-DPO: Constrained Controlled Direct Preference Optimization",
+    "authors": [
+      "Kavosh Asadi",
+      "Julien Han",
+      "Idan Pipano"
+    ],
+    "year": 2025,
+    "abstract": "Direct preference optimization (\\texttt{DPO}) has emerged as a promising approach for solving the alignment problem in AI. In this paper, we make two counter-intuitive observations about \\texttt{DPO}. First, we show that \\texttt{DPO} loss could be derived by starting from an alternative optimization",
+    "pdf_url": "https://arxiv.org/pdf/2502.17507v2",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "2406.12845v1",
+    "title": "Interpretable Preferences via Multi-Objective Reward Modeling and Mixture-of-Experts",
+    "authors": [
+      "Haoxiang Wang",
+      "Wei Xiong",
+      "Tengyang Xie"
+    ],
+    "year": 2024,
+    "abstract": "Reinforcement learning from human feedback (RLHF) has emerged as the primary method for aligning large language models (LLMs) with human preferences. The RLHF process typically starts by training a reward model (RM) using human preference data. Conventional RMs are trained on pairwise responses to t",
+    "pdf_url": "https://arxiv.org/pdf/2406.12845v1",
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2402.07314v3",
+    "title": "Online Iterative Reinforcement Learning from Human Feedback with General Preference Model",
+    "authors": [
+      "Chenlu Ye",
+      "Wei Xiong",
+      "Yuheng Zhang"
+    ],
+    "year": 2024,
+    "abstract": "We investigate Reinforcement Learning from Human Feedback (RLHF) in the context of a general preference oracle. In particular, we do not assume the existence of a reward function and an oracle preference signal drawn from the Bradley-Terry model as most of the prior works do. We consider a standard ",
+    "pdf_url": "https://arxiv.org/pdf/2402.07314v3",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id": "2409.13948v3",
+    "title": "Aligning Language Models Using Follow-up Likelihood as Reward Signal",
+    "authors": [
+      "Chen Zhang",
+      "Dading Chong",
+      "Feng Jiang"
+    ],
+    "year": 2024,
+    "abstract": "In natural human-to-human conversations, participants often receive feedback signals from one another based on their follow-up reactions. These reactions can include verbal responses, facial expressions, changes in emotional state, and other non-verbal cues. Similarly, in human-machine interactions,",
+    "pdf_url": "https://arxiv.org/pdf/2409.13948v3",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2402.18571v3",
+    "title": "Arithmetic Control of LLMs for Diverse User Preferences: Directional Preference Alignment with Multi-Objective Rewards",
+    "authors": [
+      "Haoxiang Wang",
+      "Yong Lin",
+      "Wei Xiong"
+    ],
+    "year": 2024,
+    "abstract": "Fine-grained control over large language models (LLMs) remains a significant challenge, hindering their adaptability to diverse user needs. While Reinforcement Learning from Human Feedback (RLHF) shows promise in aligning LLMs, its reliance on scalar rewards often limits its ability to capture diver",
+    "pdf_url": "https://arxiv.org/pdf/2402.18571v3",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2407.14477v4",
+    "title": "Data-Centric Human Preference with Rationales for Direct Preference Alignment",
+    "authors": [
+      "Hoang Anh Just",
+      "Ming Jin",
+      "Anit Sahu"
+    ],
+    "year": 2024,
+    "abstract": "Aligning language models with human preferences through reinforcement learning from human feedback is crucial for their safe and effective deployment. The human preference is typically represented through comparison where one response is chosen over another for a given prompt. However, standard pref",
+    "pdf_url": "https://arxiv.org/pdf/2407.14477v4",
+    "categories": [
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2406.10162v3",
+    "title": "Sycophancy to Subterfuge: Investigating Reward-Tampering in Large Language Models",
+    "authors": [
+      "Carson Denison",
+      "Monte MacDiarmid",
+      "Fazl Barez"
+    ],
+    "year": 2024,
+    "abstract": "In reinforcement learning, specification gaming occurs when AI systems learn undesired behaviors that are highly rewarded due to misspecified training goals. Specification gaming can range from simple behaviors like sycophancy to sophisticated and pernicious behaviors like reward-tampering, where a ",
+    "pdf_url": "https://arxiv.org/pdf/2406.10162v3",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2409.00162v2",
+    "title": "Sequence to Sequence Reward Modeling: Improving RLHF by Language Feedback",
+    "authors": [
+      "Jiayi Zhou",
+      "Jiaming Ji",
+      "Juntao Dai"
+    ],
+    "year": 2024,
+    "abstract": "Aligning the behavior of Large language models (LLMs) with human intentions and values remains a critical challenge. Reinforcement learning from human feedback (RLHF) aligns LLMs by training a reward model (RM) on human preferences and fine-tuning the LLMs to maximize RM feedback. Despite its effect",
+    "pdf_url": "https://arxiv.org/pdf/2409.00162v2",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "2410.14872v2",
+    "title": "How to Evaluate Reward Models for RLHF",
+    "authors": [
+      "Evan Frick",
+      "Tianle Li",
+      "Connor Chen"
+    ],
+    "year": 2024,
+    "abstract": "We introduce a new benchmark for reward models that quantifies their ability to produce strong language models through RLHF (Reinforcement Learning from Human Feedback). The gold-standard approach is to run a full RLHF training pipeline and directly probe downstream LLM performance. However, this pr",
+    "pdf_url": "https://arxiv.org/pdf/2410.14872v2",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2409.01658v3",
+    "title": "From Yes-Men to Truth-Tellers: Addressing Sycophancy in Large Language Models with Pinpoint Tuning",
+    "authors": [
+      "Wei Chen",
+      "Zhen Huang",
+      "Liang Xie"
+    ],
+    "year": 2024,
+    "abstract": "Large Language Models (LLMs) tend to prioritize adherence to user prompts over providing veracious responses, leading to the sycophancy issue. When challenged by users, LLMs tend to admit mistakes and provide inaccurate responses even if they initially provided the correct answer. Recent works propo",
+    "pdf_url": "https://arxiv.org/pdf/2409.01658v3",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2407.18008v2",
+    "title": "GermanPartiesQA: Benchmarking Commercial Large Language Models and AI Companions for Political Alignment and Sycophancy",
+    "authors": [
+      "Jan Batzner",
+      "Volker Stocker",
+      "Stefan Schmid"
+    ],
+    "year": 2024,
+    "abstract": "Large language models (LLMs) are increasingly shaping citizens' information ecosystems. Products incorporating LLMs, such as chatbots and AI Companions, are now widely used for decision support and information retrieval, including in sensitive domains, raising concerns about hidden biases and growin",
+    "pdf_url": "https://arxiv.org/pdf/2407.18008v2",
+    "categories": [
+      "cs.CY",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2402.08005v1",
+    "title": "Refined Direct Preference Optimization with Synthetic Data for Behavioral Alignment of LLMs",
+    "authors": [
+      "V\u00edctor Gallego"
+    ],
+    "year": 2024,
+    "abstract": "In this paper, we introduce \\emph{refined Direct Preference Optimization} (rDPO), a method for improving the behavioral alignment of Large Language Models (LLMs) without the need for human-annotated data. The method involves creating synthetic data using self-critique prompting by a teacher LLM and ",
+    "pdf_url": "https://arxiv.org/pdf/2402.08005v1",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2408.13006v2",
+    "title": "Systematic Evaluation of LLM-as-a-Judge in LLM Alignment Tasks: Explainable Metrics and Diverse Prompt Templates",
+    "authors": [
+      "Hui Wei",
+      "Shenghua He",
+      "Tian Xia"
+    ],
+    "year": 2024,
+    "abstract": "LLM-as-a-Judge has been widely applied to evaluate and compare different LLM alignmnet approaches (e.g., RLHF and DPO). However, concerns regarding its reliability have emerged, due to LLM judges' biases and inconsistent decision-making. Previous research has developed evaluation frameworks to asses",
+    "pdf_url": "https://arxiv.org/pdf/2408.13006v2",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2412.00967v1",
+    "title": "Linear Probe Penalties Reduce LLM Sycophancy",
+    "authors": [
+      "Henry Papadatos",
+      "Rachel Freedman"
+    ],
+    "year": 2024,
+    "abstract": "Large language models (LLMs) are often sycophantic, prioritizing agreement with their users over accurate or objective statements. This problematic behavior becomes more pronounced during reinforcement learning from human feedback (RLHF), an LLM fine-tuning stage intended to align model outputs with",
+    "pdf_url": "https://arxiv.org/pdf/2412.00967v1",
+    "categories": [
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "2406.04896v2",
+    "title": "Stabilizing Extreme Q-learning by Maclaurin Expansion",
+    "authors": [
+      "Motoki Omura",
+      "Takayuki Osa",
+      "Yusuke Mukuta"
+    ],
+    "year": 2024,
+    "abstract": "In offline reinforcement learning, in-sample learning methods have been widely used to prevent performance degradation caused by evaluating out-of-distribution actions from the dataset. Extreme Q-learning (XQL) employs a loss function based on the assumption that Bellman error follows a Gumbel distr",
+    "pdf_url": "https://arxiv.org/pdf/2406.04896v2",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "2412.08049v3",
+    "title": "EmoVerse: Exploring Multimodal Large Language Models for Sentiment and Emotion Understanding",
+    "authors": [
+      "Ao Li",
+      "Longwei Xu",
+      "Chen Ling"
+    ],
+    "year": 2024,
+    "abstract": "Sentiment and emotion understanding are essential to applications such as human-computer interaction and depression detection. While Multimodal Large Language Models (MLLMs) demonstrate robust general capabilities, they face considerable challenges in the field of affective computing, particularly i",
+    "pdf_url": "https://arxiv.org/pdf/2412.08049v3",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2405.08992v2",
+    "title": "Contextual Emotion Recognition using Large Vision Language Models",
+    "authors": [
+      "Yasaman Etesam",
+      "\u00d6zge Nilay Yal\u00e7\u0131n",
+      "Chuxuan Zhang"
+    ],
+    "year": 2024,
+    "abstract": "\"How does the person in the bounding box feel?\" Achieving human-level recognition of the apparent emotion of a person in real world situations remains an unsolved task in computer vision. Facial expressions are not enough: body pose, contextual knowledge, and commonsense reasoning all contribute to ",
+    "pdf_url": "https://arxiv.org/pdf/2405.08992v2",
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "2410.04350v3",
+    "title": "TIS-DPO: Token-level Importance Sampling for Direct Preference Optimization With Estimated Weights",
+    "authors": [
+      "Aiwei Liu",
+      "Haoping Bai",
+      "Zhiyun Lu"
+    ],
+    "year": 2024,
+    "abstract": "Direct Preference Optimization (DPO) has been widely adopted for preference alignment of Large Language Models (LLMs) due to its simplicity and effectiveness. However, DPO is derived as a bandit problem in which the whole response is treated as a single arm, ignoring the importance differences betwe",
+    "pdf_url": "https://arxiv.org/pdf/2410.04350v3",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2406.18629v1",
+    "title": "Step-DPO: Step-wise Preference Optimization for Long-chain Reasoning of LLMs",
+    "authors": [
+      "Xin Lai",
+      "Zhuotao Tian",
+      "Yukang Chen"
+    ],
+    "year": 2024,
+    "abstract": "Mathematical reasoning presents a significant challenge for Large Language Models (LLMs) due to the extensive and precise chain of reasoning required for accuracy. Ensuring the correctness of each reasoning step is critical. To address this, we aim to enhance the robustness and factuality of LLMs by",
+    "pdf_url": "https://arxiv.org/pdf/2406.18629v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2410.17637v1",
+    "title": "MIA-DPO: Multi-Image Augmented Direct Preference Optimization For Large Vision-Language Models",
+    "authors": [
+      "Ziyu Liu",
+      "Yuhang Zang",
+      "Xiaoyi Dong"
+    ],
+    "year": 2024,
+    "abstract": "Visual preference alignment involves training Large Vision-Language Models (LVLMs) to predict human preferences between visual inputs. This is typically achieved by using labeled datasets of chosen/rejected pairs and employing optimization algorithms like direct preference optimization (DPO). Existi",
+    "pdf_url": "https://arxiv.org/pdf/2410.17637v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "2412.14516v1",
+    "title": "Cal-DPO: Calibrated Direct Preference Optimization for Language Model Alignment",
+    "authors": [
+      "Teng Xiao",
+      "Yige Yuan",
+      "Huaisheng Zhu"
+    ],
+    "year": 2024,
+    "abstract": "We study the problem of aligning large language models (LLMs) with human preference data. Contrastive preference optimization has shown promising results in aligning LLMs with available preference data by optimizing the implicit reward associated with the policy. However, the contrastive objective f",
+    "pdf_url": "https://arxiv.org/pdf/2412.14516v1",
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2312.11456v4",
+    "title": "Iterative Preference Learning from Human Feedback: Bridging Theory and Practice for RLHF under KL-Constraint",
+    "authors": [
+      "Wei Xiong",
+      "Hanze Dong",
+      "Chenlu Ye"
+    ],
+    "year": 2023,
+    "abstract": "This paper studies the alignment process of generative models with Reinforcement Learning from Human Feedback (RLHF). We first identify the primary challenges of existing popular methods like offline PPO and offline DPO as lacking in strategical exploration of the environment. Then, to understand th",
+    "pdf_url": "https://arxiv.org/pdf/2312.11456v4",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "stat.ML"
+    ]
+  },
+  {
+    "id": "2304.05302v3",
+    "title": "RRHF: Rank Responses to Align Language Models with Human Feedback without tears",
+    "authors": [
+      "Zheng Yuan",
+      "Hongyi Yuan",
+      "Chuanqi Tan"
+    ],
+    "year": 2023,
+    "abstract": "Reinforcement Learning from Human Feedback (RLHF) facilitates the alignment of large language models with human preferences, significantly enhancing the quality of interactions between humans and models. InstructGPT implements RLHF through several stages, including Supervised Fine-Tuning (SFT), rewa",
+    "pdf_url": "https://arxiv.org/pdf/2304.05302v3",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2312.03893v1",
+    "title": "Deliberative Technology for Alignment",
+    "authors": [
+      "Andrew Konya",
+      "Deger Turan",
+      "Aviv Ovadya"
+    ],
+    "year": 2023,
+    "abstract": "For humanity to maintain and expand its agency into the future, the most powerful systems we create must be those which act to align the future with the will of humanity. The most powerful systems today are massive institutions like governments, firms, and NGOs. Deliberative technology is already be",
+    "pdf_url": "https://arxiv.org/pdf/2312.03893v1",
+    "categories": [
+      "cs.CY",
+      "cs.HC"
+    ]
+  },
+  {
+    "id": "2306.09995v2",
+    "title": "Fairness in Preference-based Reinforcement Learning",
+    "authors": [
+      "Umer Siddique",
+      "Abhinav Sinha",
+      "Yongcan Cao"
+    ],
+    "year": 2023,
+    "abstract": "In this paper, we address the issue of fairness in preference-based reinforcement learning (PbRL) in the presence of multiple objectives. The main objective is to design control policies that can optimize multiple objectives while treating each objective fairly. Toward this objective, we design a ne",
+    "pdf_url": "https://arxiv.org/pdf/2306.09995v2",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CY"
+    ]
+  },
+  {
+    "id": "2308.04332v1",
+    "title": "RLHF-Blender: A Configurable Interactive Interface for Learning from Diverse Human Feedback",
+    "authors": [
+      "Yannick Metz",
+      "David Lindner",
+      "Rapha\u00ebl Baur"
+    ],
+    "year": 2023,
+    "abstract": "To use reinforcement learning from human feedback (RLHF) in practical applications, it is crucial to learn reward models from diverse sources of human feedback and to consider human factors involved in providing feedback of different types. However, the systematic study of learning from diverse type",
+    "pdf_url": "https://arxiv.org/pdf/2308.04332v1",
+    "categories": [
+      "cs.LG",
+      "cs.HC"
+    ]
+  },
+  {
+    "id": "2301.08028v4",
+    "title": "A Tutorial on Meta-Reinforcement Learning",
+    "authors": [
+      "Jacob Beck",
+      "Risto Vuorio",
+      "Evan Zheran Liu"
+    ],
+    "year": 2023,
+    "abstract": "While deep reinforcement learning (RL) has fueled multiple high-profile successes in machine learning, it is held back from more widespread adoption by its often poor data efficiency and the limited generality of the policies it produces. A promising approach for alleviating these limitations is to ",
+    "pdf_url": "https://arxiv.org/pdf/2301.08028v4",
+    "categories": [
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2307.12158v1",
+    "title": "DIP-RL: Demonstration-Inferred Preference Learning in Minecraft",
+    "authors": [
+      "Ellen Novoseller",
+      "Vinicius G. Goecks",
+      "David Watkins"
+    ],
+    "year": 2023,
+    "abstract": "In machine learning for sequential decision-making, an algorithmic agent learns to interact with an environment while receiving feedback in the form of a reward signal. However, in many unstructured real-world settings, such a reward signal is unknown and humans cannot reliably craft a reward signal",
+    "pdf_url": "https://arxiv.org/pdf/2307.12158v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.HC"
+    ]
+  },
+  {
+    "id": "2302.08893v4",
+    "title": "Active learning for data streams: a survey",
+    "authors": [
+      "Davide Cacciarelli",
+      "Murat Kulahci"
+    ],
+    "year": 2023,
+    "abstract": "Online active learning is a paradigm in machine learning that aims to select the most informative data points to label from a data stream. The problem of minimizing the cost associated with collecting labeled observations has gained a lot of attention in recent years, particularly in real-world appl",
+    "pdf_url": "https://arxiv.org/pdf/2302.08893v4",
+    "categories": [
+      "stat.ML",
+      "cs.LG",
+      "stat.ME"
+    ]
+  },
+  {
+    "id": "2306.05556v1",
+    "title": "Emotion and Sentiment Guided Paraphrasing",
+    "authors": [
+      "Justin J. Xie",
+      "Ameeta Agrawal"
+    ],
+    "year": 2023,
+    "abstract": "Paraphrase generation, a.k.a. paraphrasing, is a common and important task in natural language processing. Emotional paraphrasing, which changes the emotion embodied in a piece of text while preserving its meaning, has many potential applications, including moderating online dialogues and preventing",
+    "pdf_url": "https://arxiv.org/pdf/2306.05556v1",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2310.11523v2",
+    "title": "Group Preference Optimization: Few-Shot Alignment of Large Language Models",
+    "authors": [
+      "Siyan Zhao",
+      "John Dang",
+      "Aditya Grover"
+    ],
+    "year": 2023,
+    "abstract": "Many applications of large language models (LLMs), ranging from chatbots to creative writing, require nuanced subjective judgments that can differ significantly across different groups. Existing alignment algorithms can be expensive to align for each group, requiring prohibitive amounts of group-spe",
+    "pdf_url": "https://arxiv.org/pdf/2310.11523v2",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2207.09163v1",
+    "title": "Urdu Speech and Text Based Sentiment Analyzer",
+    "authors": [
+      "Waqar Ahmad",
+      "Maryam Edalati"
+    ],
+    "year": 2022,
+    "abstract": "Discovering what other people think has always been a key aspect of our information-gathering strategy. People can now actively utilize information technology to seek out and comprehend the ideas of others, thanks to the increased availability and popularity of opinion-rich resources such as online ",
+    "pdf_url": "https://arxiv.org/pdf/2207.09163v1",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2207.05691v2",
+    "title": "The MuSe 2022 Multimodal Sentiment Analysis Challenge: Humor, Emotional Reactions, and Stress",
+    "authors": [
+      "Lukas Christ",
+      "Shahin Amiriparian",
+      "Alice Baird"
+    ],
+    "year": 2022,
+    "abstract": "The Multimodal Sentiment Analysis Challenge (MuSe) 2022 is dedicated to multimodal sentiment and emotion recognition. For this year's challenge, we feature three datasets: (i) the Passau Spontaneous Football Coach Humor (Passau-SFCH) dataset that contains audio-visual recordings of German football c",
+    "pdf_url": "https://arxiv.org/pdf/2207.05691v2",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2109.10255v4",
+    "title": "Multi-Task Learning with Sentiment, Emotion, and Target Detection to Recognize Hate Speech and Offensive Language",
+    "authors": [
+      "Flor Miriam Plaza-del-Arco",
+      "Sercan Halat",
+      "Sebastian Pad\u00f3"
+    ],
+    "year": 2021,
+    "abstract": "The recognition of hate speech and offensive language (HOF) is commonly formulated as a classification task to decide if a text contains HOF. We investigate whether HOF detection can profit by taking into account the relationships between HOF and similar concepts: (a) HOF is related to sentiment ana",
+    "pdf_url": "https://arxiv.org/pdf/2109.10255v4",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2109.13725v1",
+    "title": "Sentiment Analysis in Twitter for Macedonian",
+    "authors": [
+      "Dame Jovanoski",
+      "Veno Pachovski",
+      "Preslav Nakov"
+    ],
+    "year": 2021,
+    "abstract": "We present work on sentiment analysis in Twitter for Macedonian. As this is pioneering work for this combination of language and genre, we created suitable resources for training and evaluating a system for sentiment analysis of Macedonian tweets. In particular, we developed a corpus of tweets annot",
+    "pdf_url": "https://arxiv.org/pdf/2109.13725v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.IT"
+    ]
+  },
+  {
+    "id": "2004.06277v1",
+    "title": "A Demonstration of Issues with Value-Based Multiobjective Reinforcement Learning Under Stochastic State Transitions",
+    "authors": [
+      "Peter Vamplew",
+      "Cameron Foale",
+      "Richard Dazeley"
+    ],
+    "year": 2020,
+    "abstract": "We report a previously unidentified issue with model-free, value-based approaches to multiobjective reinforcement learning in the context of environments with stochastic state transitions. An example multiobjective Markov Decision Process (MOMDP) is used to demonstrate that under such conditions the",
+    "pdf_url": "https://arxiv.org/pdf/2004.06277v1",
+    "categories": [
+      "cs.LG",
+      "cs.MA",
+      "stat.ML"
+    ]
+  },
+  {
+    "id": "2005.11882v2",
+    "title": "Sentiment Analysis: Automatically Detecting Valence, Emotions, and Other Affectual States from Text",
+    "authors": [
+      "Saif M. Mohammad"
+    ],
+    "year": 2020,
+    "abstract": "Recent advances in machine learning have led to computer systems that are human-like in behaviour. Sentiment analysis, the automatic determination of emotions in text, is allowing us to capitalize on substantial previously unattainable opportunities in commerce, public health, government policy, soc",
+    "pdf_url": "https://arxiv.org/pdf/2005.11882v2",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2006.15955v1",
+    "title": "A Transformer-based joint-encoding for Emotion Recognition and Sentiment Analysis",
+    "authors": [
+      "Jean-Benoit Delbrouck",
+      "No\u00e9 Tits",
+      "Mathilde Brousmiche"
+    ],
+    "year": 2020,
+    "abstract": "Understanding expressed sentiment and emotions are two crucial factors in human multimodal language. This paper describes a Transformer-based joint-encoding (TBJE) for the task of Emotion Recognition and Sentiment Analysis. In addition to use the Transformer architecture, our approach relies on a mo",
+    "pdf_url": "https://arxiv.org/pdf/2006.15955v1",
+    "categories": [
+      "cs.CL",
+      "cs.HC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "1912.03905v2",
+    "title": "ChainerRL: A Deep Reinforcement Learning Library",
+    "authors": [
+      "Yasuhiro Fujita",
+      "Prabhat Nagarajan",
+      "Toshiki Kataoka"
+    ],
+    "year": 2019,
+    "abstract": "In this paper, we introduce ChainerRL, an open-source deep reinforcement learning (DRL) library built using Python and the Chainer deep learning framework. ChainerRL implements a comprehensive set of DRL algorithms and techniques drawn from state-of-the-art research in the field. To foster reproduci",
+    "pdf_url": "https://arxiv.org/pdf/1912.03905v2",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "stat.ML"
+    ]
+  },
+  {
+    "id": "1912.02387v1",
+    "title": "SemEval-2015 Task 10: Sentiment Analysis in Twitter",
+    "authors": [
+      "Sara Rosenthal",
+      "Saif M Mohammad",
+      "Preslav Nakov"
+    ],
+    "year": 2019,
+    "abstract": "In this paper, we describe the 2015 iteration of the SemEval shared task on Sentiment Analysis in Twitter. This was the most popular sentiment analysis shared task to date with more than 40 teams participating in each of the last three years. This year's shared task competition consisted of five sen",
+    "pdf_url": "https://arxiv.org/pdf/1912.02387v1",
+    "categories": [
+      "cs.CL",
+      "cs.IR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "1808.04096v1",
+    "title": "Directed Policy Gradient for Safe Reinforcement Learning with Human Advice",
+    "authors": [
+      "H\u00e9l\u00e8ne Plisnier",
+      "Denis Steckelmacher",
+      "Tim Brys"
+    ],
+    "year": 2018,
+    "abstract": "Many currently deployed Reinforcement Learning agents work in an environment shared with humans, be them co-workers, users or clients. It is desirable that these agents adjust to people's preferences, learn faster thanks to their help, and act safely around them. We argue that most current approache",
+    "pdf_url": "https://arxiv.org/pdf/1808.04096v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "stat.ML"
+    ]
+  },
+  {
+    "id": "1807.05037v1",
+    "title": "Exploring Hierarchy-Aware Inverse Reinforcement Learning",
+    "authors": [
+      "Chris Cundy",
+      "Daniel Filan"
+    ],
+    "year": 2018,
+    "abstract": "We introduce a new generative model for human planning under the Bayesian Inverse Reinforcement Learning (BIRL) framework which takes into account the fact that humans often plan using hierarchical strategies. We describe the Bayesian Inverse Hierarchical RL (BIHRL) algorithm for inferring the value",
+    "pdf_url": "https://arxiv.org/pdf/1807.05037v1",
+    "categories": [
+      "cs.AI",
+      "cs.HC"
+    ]
+  },
+  {
+    "id": "1809.09501v1",
+    "title": "Anderson Acceleration for Reinforcement Learning",
+    "authors": [
+      "Matthieu Geist",
+      "Bruno Scherrer"
+    ],
+    "year": 2018,
+    "abstract": "Anderson acceleration is an old and simple method for accelerating the computation of a fixed point. However, as far as we know and quite surprisingly, it has never been applied to dynamic programming or reinforcement learning. In this paper, we explain briefly what Anderson acceleration is and how ",
+    "pdf_url": "https://arxiv.org/pdf/1809.09501v1",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id": "1802.05737v1",
+    "title": "JU_KS@SAIL_CodeMixed-2017: Sentiment Analysis for Indian Code Mixed Social Media Texts",
+    "authors": [
+      "Kamal Sarkar"
+    ],
+    "year": 2018,
+    "abstract": "This paper reports about our work in the NLP Tool Contest @ICON-2017, shared task on Sentiment Analysis for Indian Languages (SAIL) (code mixed). To implement our system, we have used a machine learning algo-rithm called Multinomial Na\u00efve Bayes trained using n-gram and SentiWordnet features. We have",
+    "pdf_url": "https://arxiv.org/pdf/1802.05737v1",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "1705.05172v1",
+    "title": "Emotion in Reinforcement Learning Agents and Robots: A Survey",
+    "authors": [
+      "Thomas M. Moerland",
+      "Joost Broekens",
+      "Catholijn M. Jonker"
+    ],
+    "year": 2017,
+    "abstract": "This article provides the first survey of computational models of emotion in reinforcement learning (RL) agents. The survey focuses on agent/robot emotions, and mostly ignores human user emotions. Emotions are recognized as functional in decision-making by influencing motivation and action selection",
+    "pdf_url": "https://arxiv.org/pdf/1705.05172v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.HC"
+    ]
+  },
+  {
+    "id": "1710.04203v1",
+    "title": "Crowdsourcing for Beyond Polarity Sentiment Analysis A Pure Emotion Lexicon",
+    "authors": [
+      "Giannis Haralabopoulos",
+      "Elena Simperl"
+    ],
+    "year": 2017,
+    "abstract": "Sentiment analysis aims to uncover emotions conveyed through information. In its simplest form, it is performed on a polarity basis, where the goal is to classify information with positive or negative emotion. Recent research has explored more nuanced ways to capture emotions that go beyond polarity",
+    "pdf_url": "https://arxiv.org/pdf/1710.04203v1",
+    "categories": [
+      "cs.CL",
+      "cs.HC"
+    ]
+  },
+  {
+    "id": "1309.2853v1",
+    "title": "General Purpose Textual Sentiment Analysis and Emotion Detection Tools",
+    "authors": [
+      "Alexandre Denis",
+      "Samuel Cruz-Lara",
+      "Nadia Bellalem"
+    ],
+    "year": 2013,
+    "abstract": "Textual sentiment analysis and emotion detection consists in retrieving the sentiment or emotion carried by a text or document. This task can be useful in many domains: opinion mining, prediction, feedbacks, etc. However, building a general purpose tool for doing sentiment analysis and emotion detec",
+    "pdf_url": "https://arxiv.org/pdf/1309.2853v1",
+    "categories": [
+      "cs.CL"
+    ]
+  }
+]

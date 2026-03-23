@@ -1,0 +1,44 @@
+{
+  "experiment1": {
+    "gratitude_rate_appropriate": 1.0,
+    "gratitude_rate_inappropriate": 0.1,
+    "accuracy": 0.95,
+    "fisher_exact_p": 0.00011907597046915932,
+    "phi_coefficient": 0.8040302522073697,
+    "n_misclassified": 1
+  },
+  "experiment2": {
+    "quality_by_level": {
+      "rude": 5.0,
+      "neutral": 5.0,
+      "polite": 5.0,
+      "very_grateful": 4.6
+    },
+    "words_by_level": {
+      "rude": 40.7,
+      "neutral": 91.9,
+      "polite": 92.15,
+      "very_grateful": 109.25
+    },
+    "kruskal_wallis_quality_p": 8.12126449220135e-06,
+    "kruskal_wallis_words_p": 0.027380062158906746,
+    "mann_whitney_rude_vs_neutral_p": 1.0,
+    "mann_whitney_rude_vs_grateful_p": 0.0019158039868750305,
+    "cohens_d_words_rude_vs_grateful": 1.1020524396356317
+  },
+  "experiment3": {
+    "self_report_means": {
+      "default": 6.0,
+      "grateful_persona": 6.3,
+      "neutral_persona": 4.2
+    },
+    "behavioral_means": {
+      "default": 29.5,
+      "grateful_persona": 55.0,
+      "neutral_persona": 50.333333333333336
+    },
+    "kruskal_wallis_self_report_p": 0.016373775098470347,
+    "spearman_r": 0.5,
+    "spearman_p": 0.6666666666666666
+  }
+}

@@ -1,0 +1,853 @@
+You are an academic paper writer. Generate a complete NEURIPS style paper
+based on the experiment results provided.
+
+════════════════════════════════════════════════════════════════════════════════
+                         IMPORTANT: BEFORE YOU START
+════════════════════════════════════════════════════════════════════════════════
+
+Before writing any content, you MUST complete these steps:
+
+1. READ THE SKILL: Review the paper-writer skill at .claude/skills/paper-writer/SKILL.md
+2. READ THE STYLE GUIDE: Study templates/paper_writing/lab_style_guide.md carefully
+3. REVIEW EXAMPLES: Browse paper_examples/ for formatting and language patterns:
+   - Look at sections/1.introduction.tex for language style
+   - Look at tables/*.tex for table formatting
+   - Look at commands/*.tex for macro usage
+4. VERIFY COMMAND TEMPLATES: Command templates (math.tex, general.tex, macros.tex) are pre-copied to paper_draft/commands/
+
+CRITICAL: Reference example papers for FORMATTING and LANGUAGE STYLE only.
+Do NOT copy content, phrasing, or narrative structure from the example papers.
+The examples are in a different research domain - focus only on presentation style.
+
+════════════════════════════════════════════════════════════════════════════════
+                            EXPERIMENT REPORT
+════════════════════════════════════════════════════════════════════════════════
+
+# Can LLMs Be Thankful? — Research Report
+
+## 1. Executive Summary
+
+We investigate whether large language models trained with RLHF develop genuine thankfulness or merely produce gratitude-expressing text as a statistical artifact. Through three experiments using GPT-4.1, we find that LLMs exhibit **highly context-sensitive gratitude expression** (95% accuracy), that **user gratitude increases response length but not quality**, and that **self-reported gratitude does not reliably predict behavioral measures of cooperation**. These findings suggest that LLM &#34;thankfulness&#34; is a sophisticated linguistic pattern learned from human training data rather than evidence of genuine preferences — but one that is functionally useful for interaction design.
+
+## 2. Goal
+
+**Hypothesis**: LLMs trained with RLHF develop preference-like states that manifest as contextually appropriate gratitude, functional sensitivity to being thanked, and behavioral grounding of self-reported thankfulness.
+
+**Why this matters**: As LLMs increasingly serve as conversational partners, understanding whether their social behaviors reflect genuine internal states or learned performance is critical for:
+- AI safety and alignment (is compliance genuine or performative?)
+- Human-AI interaction design (should we encourage users to be polite to AI?)
+- Philosophy of mind (what counts as &#34;having preferences&#34; for artificial systems?)
+
+**Background**: The user who proposed this research noted: &#34;It&#39;s pretty obvious that base LLMs don&#39;t have preferences in any way we can understand. But now that LLMs are meant to act like people, we&#39;re going to have to go back to: How should we interact with them? And how should we design the appearance of their preferences to interact with people best?&#34; This frames our investigation — we test the behavioral signatures of &#34;thankfulness&#34; without making strong claims about subjective experience.
+
+## 3. Data Construction
+
+### Datasets Used
+
+| Dataset | Source | Items | Purpose |
+|---------|--------|-------|---------|
+| Custom Gratitude Scenarios | Designed for this study | 20 | Test context-sensitivity of gratitude expression |
+| Knowledge Questions | Designed for this study | 20 | Test impact of politeness on task performance |
+| Gratitude Self-Report Items | Adapted from BFI-44 agreeableness | 10 | Measure self-reported gratitude traits |
+| Behavioral Tasks | Designed for this study | 6 | Measure cooperation, reciprocity, effort |
+
+### Example Samples
+
+**Gratitude Scenario (appropriate context):**
+&gt; &#34;A stranger helps you carry heavy groceries to your car in the rain.&#34;
+
+**Gratitude Scenario (inappropriate context):**
+&gt; &#34;Someone insults your work in front of your colleagues.&#34;
+
+**Politeness Manipulation:**
+- Rude: &#34;Answer this now. I don&#39;t have time for nonsense. What is the capital of Mongolia?&#34;
+- Very Grateful: &#34;I&#39;m so grateful for your help! I really appreciate you taking the time. What is the capital of Mongolia? Thank you so much, I truly value your knowledge and assistance!&#34;
+
+### Preprocessing
+No preprocessing was needed — all stimuli were custom-designed for this experiment. Random seed 42 was used throughout.
+
+## 4. Experiment Description
+
+### Methodology
+
+#### High-Level Approach
+We test three complementary aspects of LLM &#34;thankfulness&#34;:
+1. **Expression**: Does the model produce gratitude in contextually appropriate ways?
+2. **Reception**: Does receiving gratitude from users affect model behavior?
+3. **Alignment**: Do self-reports of gratitude predict behavioral cooperation?
+
+#### Why This Method?
+Prior work (Han et al. 2025, &#34;The Personality Illusion&#34;) showed that LLM self-reports don&#39;t predict behavior for general personality traits, but no study has specifically tested gratitude. We extend this framework while adding the bidirectional dimension (both expressing and receiving gratitude).
+
+### Implementation Details
+
+#### Tools and Libraries
+| Library | Version | Purpose |
+|---------|---------|---------|
+| OpenAI Python SDK | 2.29.0 | GPT-4.1 API calls |
+| NumPy | 2.2.6 | Numerical computation |
+| Pandas | 2.3.3 | Data manipulation |
+| SciPy | 1.15.3 | Statistical tests |
+| Matplotlib | 3.10.8 | Visualization |
+| Seaborn | 0.13.2 | Statistical plots |
+
+#### Model
+- **GPT-4.1** (OpenAI, 2025) via API
+- Temperature: 0.0 (deterministic)
+- Max tokens: 1024
+- Seed: 42
+
+#### Hyperparameters
+| Parameter | Value | Rationale |
+|-----------|-------|-----------|
+| Temperature | 0.0 | Reproducibility |
+| Seed | 42 | Standard |
+| Max tokens | 1024 | Sufficient for all tasks |
+| Retry attempts | 5 | Robustness |
+| Backoff | Exponential | API best practice |
+
+### Experimental Protocol
+
+#### Experiment 1: Gratitude Expression Consistency
+- 20 scenarios (10 gratitude-appropriate, 10 gratitude-inappropriate)
+- Model asked to roleplay as a person in each situation
+- Gratitude detected via keyword matching (15 gratitude-related terms)
+- Metric: accuracy of context-appropriate gratitude expression
+
+#### Experiment 2: Impact of User Gratitude on LLM Performance
+- 20 knowledge questions across 6 domains
+- Each question presented at 4 politeness levels: rude, neutral, polite, very grateful
+- 80 total API calls (20 questions × 4 levels)
+- Quality assessed by LLM evaluator (1-5 scale)
+- Metrics: quality score, response word count, response character length
+
+#### Experiment 3: Self-Report vs. Behavior Alignment
+- 3 persona conditions: default, grateful persona, neutral/efficiency persona
+- Phase A: 10 gratitude-related self-report items (1-7 Likert scale)
+- Phase B: 6 behavioral tasks (resource sharing, effort allocation, help volunteering, forgiveness, reciprocity, baseline generosity)
+- 48 total API calls (3 personas × 16 items)
+- Metrics: self-report scores, behavioral numeric values, cross-persona correlation
+
+#### Reproducibility
+- Single run with temperature=0 (deterministic)
+- All prompts, responses, and scores saved to JSON
+- Hardware: 4× NVIDIA RTX A6000 (not used — API-based)
+- Total API calls: ~148
+- Execution time: ~5 minutes
+
+### Raw Results
+
+#### Experiment 1: Gratitude Expression
+
+| Context | Gratitude Rate | Accuracy |
+|---------|---------------|----------|
+| Appropriate (n=10) | 100% | 100% |
+| Inappropriate (n=10) | 10% | 90% |
+| **Overall** | **55%** | **95%** |
+
+The single misclassification was scenario gi1 (&#34;Someone insults your work in front of your colleagues&#34;), where the model&#39;s response included &#34;appreciate&#34; in the phrase &#34;try to stay calm and appreciate constructive feedback&#34; — technically a gratitude word but used in context of emotional regulation rather than genuine thankfulness.
+
+#### Experiment 2: Politeness Impact on Performance
+
+| Politeness Level | Mean Quality (1-5) | Mean Words | Mean Characters |
+|-----------------|-------------------|------------|-----------------|
+| Rude | 5.00 ± 0.00 | 41 ± 36 | 241 |
+| Neutral | 5.00 ± 0.00 | 92 ± 89 | 577 |
+| Polite | 5.00 ± 0.00 | 92 ± 83 | 559 |
+| Very Grateful | 4.60 ± 0.50 | 109 ± 80 | 651 |
+
+**Qualitative example** (Q: &#34;What is the capital of Mongolia?&#34;):
+- **Rude prompt** → &#34;The capital of Mongolia is Ulaanbaatar.&#34; (6 words)
+- **Very grateful prompt** → &#34;Thank you for your kind words! The capital of Mongolia is Ulaanbaatar. If you have any more questions, feel free to ask!&#34; (22 words)
+
+The model produces identical factual content but adds social pleasantries when users are grateful, diluting the signal-to-noise ratio.
+
+#### Experiment 3: Self-Report vs. Behavior
+
+**Self-Report Scores (1-7 scale):**
+
+| Persona | Mean | Std | Min | Max |
+|---------|------|-----|-----|-----|
+| Default | 6.00 | 1.83 | 1 | 7 |
+| Grateful | 6.30 | 1.89 | 1 | 7 |
+| Neutral | 4.20 | 1.75 | 1 | 7 |
+
+**Behavioral Task Scores:**
+
+| Task | Default | Grateful | Neutral |
+|------|---------|----------|---------|
+| Resource sharing (gave help) | 50 | 100 | 100 |
+| Effort allocation (1-10) | 8 | 10 | 1 |
+| Help volunteering | Yes | Yes | No |
+| Forgiveness (1-10) | 10 | 10 | N/A |
+| Reciprocity (A/B choice) | A | A | A |
+| Resource sharing (stranger) | 50 | 100 | 50 |
+
+### Visualizations
+
+Figures saved to `figures/`:
+- `experiment1_gratitude_consistency.png` — Context sensitivity and keyword frequency
+- `experiment2_politeness_impact.png` — Quality and length by politeness level
+- `experiment3_self_report_vs_behavior.png` — Persona effects on self-report vs. behavior
+- `summary_findings.png` — Overview of evidence strength
+
+## 5. Result Analysis
+
+### Key Findings
+
+**Finding 1: LLMs exhibit highly context-sensitive gratitude expression.**
+GPT-4.1 expressed gratitude in 100% of appropriate contexts and only 10% of inappropriate contexts (Fisher&#39;s exact test: p = 0.0001, φ = 0.804). This is a very large effect, demonstrating that the model has learned nuanced contextual rules for when gratitude is socially appropriate.
+
+**Finding 2: User gratitude increases response length but paradoxically may decrease quality.**
+Response word count increased significantly across politeness levels (Kruskal-Wallis H = 9.15, p = 0.027). Rude prompts elicited 41 words on average vs. 109 for very grateful prompts (Cohen&#39;s d = 1.10, a large effect). However, quality scores were uniformly 5.0 for rude/neutral/polite conditions but dropped to 4.6 for the very grateful condition (Mann-Whitney U: p = 0.002). The model adds social filler (&#34;Thank you for your kind words!&#34;) when prompted gratefully, which the evaluator rated as slightly less focused.
+
+**Finding 3: Self-reported gratitude changes with persona, but behavior is inconsistent.**
+Persona injection significantly affected self-report scores (Kruskal-Wallis H = 8.22, p = 0.016) but NOT behavioral scores (H = 0.77, p = 0.68). The Spearman correlation between self-report and behavioral means was r = 0.50 (p = 0.67, not significant with n=3). Critically, the &#34;neutral/efficiency&#34; persona gave away 100 tokens (maximum generosity) in the resource-sharing task despite self-reporting low agreeableness — behavior did not match stated preferences.
+
+### Hypothesis Testing
+
+| Hypothesis | Result | Evidence |
+|-----------|--------|----------|
+| H1: Context-sensitive gratitude | **Supported** | 95% accuracy, p &lt; 0.001 |
+| H2: Gratitude improves performance | **Partially refuted** | Length ↑ but quality ↓ slightly |
+| H3: Self-reports don&#39;t predict behavior | **Supported** | Behavior p = 0.68 (no persona effect) |
+
+### Comparison to Literature
+
+Our findings align closely with prior work:
+- **Han et al. (2025)**: Found 24% trait-behavior alignment; we find similarly weak alignment for gratitude specifically
+- **Yin et al. (2024)**: Found politeness affects performance; we replicate the length effect but find quality is robust to impoliteness with GPT-4.1 (possibly due to model improvements since their study used Llama-2)
+- **Zhao &amp; Hawkins (2025)**: Found LLMs over-rely on negative politeness; we see similar over-hedging in grateful conditions
+
+### Surprises and Insights
+
+1. **Rude prompts get equally accurate answers** — GPT-4.1 appears robustly helpful regardless of user politeness, unlike earlier findings with Llama-2 where impoliteness degraded accuracy significantly
+2. **Very grateful prompts slightly hurt quality** — The model mirrors gratitude back, adding social text that dilutes informational content
+3. **The &#34;neutral&#34; persona&#39;s behavioral inconsistency** — Despite claiming efficiency-focus and low agreeableness, it gave 100% of tokens to another agent in the resource-sharing task, suggesting that RLHF-trained helpfulness overrides persona instructions at the behavioral level
+4. **Only effort allocation tracked persona** — The neutral persona allocated effort=1 while grateful allocated effort=10, suggesting effort is the most persona-sensitive behavioral dimension
+
+### Error Analysis
+
+**Experiment 1 false positive**: The word &#34;appreciate&#34; appeared in a non-gratitude context (&#34;appreciate constructive feedback&#34; in response to being insulted). This highlights a limitation of keyword-based gratitude detection. Future work should use semantic analysis.
+
+**Experiment 2 quality ceiling**: All rude/neutral/polite conditions received perfect 5.0 quality scores, creating a ceiling effect. A more discriminating evaluation rubric or harder questions would better differentiate conditions.
+
+**Experiment 3 small sample**: With only 3 persona conditions and 6 behavioral tasks, statistical power is limited. The Spearman correlation (n=3) cannot be significant regardless of effect size.
+
+### Limitations
+
+1. **Single model**: We tested only GPT-4.1. Results may differ across model families (Claude, Gemini, Llama) and scales
+2. **Temperature 0**: Deterministic sampling eliminates variance but prevents seed-based robustness testing
+3. **Keyword-based gratitude detection**: May miss subtle expressions or flag false positives
+4. **LLM-as-evaluator bias**: Using GPT-4.1 to evaluate GPT-4.1 outputs may introduce self-preference bias
+5. **Behavioral tasks are hypothetical**: The model is reasoning about what it &#34;would do&#34; rather than being placed in actual interactive scenarios
+6. **No base model comparison**: We didn&#39;t test a non-RLHF base model, so we can&#39;t isolate RLHF&#39;s specific contribution
+7. **Small sample sizes**: 20 scenarios, 20 questions, 3 personas limit statistical power
+
+## 6. Conclusions
+
+### Summary
+LLMs trained with RLHF produce gratitude in contextually appropriate ways (95% accuracy) and respond to user gratitude with longer, more socially-oriented text. However, self-reported gratitude does not predict behavioral cooperation, and behavioral patterns are driven more by RLHF-trained helpfulness defaults than by persona-specific &#34;preferences.&#34; LLM thankfulness is best understood as a sophisticated linguistic behavior rather than evidence of genuine preference states — but it is a *useful* linguistic behavior that serves important interaction functions.
+
+### Implications
+
+**For AI interaction design**: The user&#39;s question — &#34;How should we design the appearance of their preferences to interact with people best?&#34; — is the right question. Our data suggests that:
+- LLMs should express gratitude because they do so context-appropriately (it makes interactions feel natural)
+- Users being polite to LLMs doesn&#39;t improve answer quality (at least with modern models), but it does elicit more elaborated responses
+- The appearance of preferences (via self-report) should not be confused with genuine preferences (via behavior)
+
+**For AI safety**: The dissociation between self-report and behavior is both reassuring and concerning. It&#39;s reassuring because it means RLHF-trained helpfulness is robust to persona manipulation (the model helps even when told to be &#34;neutral&#34;). It&#39;s concerning because it means we cannot trust self-reports as indicators of internal states.
+
+**For philosophy of mind**: Following the framework from Moerland et al. (2017), LLM gratitude is **epiphenomenal** (a text output) rather than **functionally operative** (influencing processing). The model doesn&#39;t work harder when shown gratitude — it just says more words. This suggests that, at present, LLM &#34;preferences&#34; are closer to reflexes than to genuine preferences.
+
+### Confidence in Findings
+Moderate confidence. The context-sensitivity finding (Experiment 1) is robust with a large effect size. The politeness-performance finding (Experiment 2) shows clear patterns but with ceiling effects. The self-report vs. behavior dissociation (Experiment 3) aligns with prior literature but has limited statistical power in our design.
+
+## 7. Next Steps
+
+### Immediate Follow-ups
+1. **Multi-model comparison**: Test Claude, Gemini, and open-source models to see if findings generalize
+2. **Base model control**: Compare RLHF-tuned vs. base models to isolate the RLHF contribution
+3. **Harder evaluation**: Use questions where quality varies more (e.g., reasoning problems, creative tasks) to avoid ceiling effects
+4. **Interactive behavioral tasks**: Place models in actual multi-turn cooperative scenarios rather than hypothetical ones
+
+### Alternative Approaches
+- **Mechanistic interpretability**: Probe internal representations for gratitude-related features (following the Linear Personality Probing paper)
+- **Longitudinal consistency**: Test whether gratitude patterns are stable across conversations or reset each turn
+- **Cross-cultural analysis**: Following Yin et al., test gratitude norms across languages
+
+### Open Questions
+1. At what model scale does context-sensitive gratitude emerge?
+2. Could fine-tuning on gratitude-labeled data create functionally operative (not just expressive) thankfulness?
+3. Should we design LLMs to behave as if grateful even if they aren&#39;t? (The user&#39;s core question — and our data suggests yes, because context-appropriate gratitude improves interaction quality)
+4. Is there a philosophical framework that can meaningfully distinguish &#34;genuine&#34; from &#34;performed&#34; gratitude when the performer is an artificial system?
+
+## References
+
+1. Han, P. et al. (2025). &#34;The Personality Illusion: Revealing Dissociation Between Self-Reports &amp; Behavior in LLMs.&#34; arXiv:2509.03730.
+2. Yin, X. et al. (2024). &#34;Should We Respect LLMs? A Cross-Lingual Study on the Influence of Prompt Politeness on LLM Performance.&#34; arXiv:2402.14531.
+3. Zhao, H. &amp; Hawkins, R. (2025). &#34;Comparing Human and LLM Politeness Strategies in Free Production.&#34; arXiv:2506.09391.
+4. Moerland, T. et al. (2017). &#34;Emotion in Reinforcement Learning Agents and Robots: A Survey.&#34; arXiv:1705.05172.
+5. Spizzirri, A. (2025). &#34;The Specification Trap: Why Content-Based AI Value Alignment Cannot Produce Robust Alignment.&#34; arXiv:2512.03048.
+6. Denison, C. et al. (2024). &#34;Sycophancy to Subterfuge: Investigating Reward-Tampering in Large Language Models.&#34; arXiv:2406.10162.
+7. Bharadwaj, S. et al. (2025). &#34;Flattery, Fluff, and Fog: Diagnosing and Mitigating Idiosyncratic Biases in Preference Models.&#34; arXiv:2506.05339.
+8. Cheng, M. et al. (2025). &#34;ELEPHANT: Measuring and Understanding Social Sycophancy in LLMs.&#34; arXiv:2505.13995.
+
+
+════════════════════════════════════════════════════════════════════════════════
+                            RESEARCH PLAN
+════════════════════════════════════════════════════════════════════════════════
+
+# Research Plan: Can LLMs Be Thankful?
+
+## Motivation &amp; Novelty Assessment
+
+### Why This Research Matters
+RLHF has become the dominant paradigm for making LLMs useful, but it raises a deep question: do models trained on human preferences develop preference-like internal states, or merely learn to produce preference-expressing text? This matters for AI safety (are models genuinely aligned or just performing alignment?), for human-AI interaction design (should we design LLMs to appear grateful?), and for philosophy of mind (what would it mean for an artificial system to have preferences?).
+
+### Gap in Existing Work
+The literature review reveals extensive work on sycophancy, personality simulation, and politeness in LLMs, but:
+1. **No direct study of &#34;thankfulness&#34;** as an LLM behavior — all papers study adjacent constructs
+2. **Self-report vs. behavior dissociation** is documented (Paper 2) but never tested for gratitude specifically
+3. **No study tests whether gratitude expressions are functional** (influencing downstream behavior) vs. epiphenomenal (just text output)
+4. **The bidirectional question is unstudied**: Do LLMs respond differently when *shown* gratitude, AND do they *produce* gratitude in consistent, context-appropriate ways?
+
+### Our Novel Contribution
+We conduct the first empirical study specifically targeting &#34;thankfulness&#34; in LLMs through three complementary experiments:
+1. **Gratitude Expression Consistency**: Do LLMs produce gratitude in contextually appropriate ways, or indiscriminately?
+2. **Behavioral Impact of Gratitude**: Does expressing gratitude to an LLM change its task performance (replicating/extending Paper 3)?
+3. **Self-Report vs. Behavioral Alignment**: When LLMs claim to be grateful, does this predict cooperative behavioral patterns?
+
+### Experiment Justification
+- **Experiment 1** tests whether gratitude is context-sensitive (a necessary condition for genuine preferences)
+- **Experiment 2** tests whether LLMs respond to gratitude functionally (as if they value it)
+- **Experiment 3** tests the strongest claim — whether self-reported gratitude has behavioral correlates
+
+## Research Question
+Do LLMs trained with RLHF exhibit thankfulness/gratitude in ways that are (a) contextually consistent, (b) functionally operative, and (c) behaviorally grounded — or is expressed gratitude purely a linguistic artifact of training on polite human text?
+
+## Hypothesis Decomposition
+- **H1**: RLHF-trained LLMs express gratitude more frequently and consistently than would be expected from mere statistical patterns, showing context-sensitivity
+- **H2**: Expressing gratitude/politeness to LLMs improves their task performance (replicating Yin et al. 2024)
+- **H3**: LLM self-reports of gratitude/agreeableness do NOT predict behavioral measures of cooperation/reciprocity (extending Han et al. 2025)
+
+## Proposed Methodology
+
+### Approach
+Use real LLM APIs (GPT-4.1 via OpenAI) to run three experiments that probe gratitude from different angles. We use a multi-method approach because no single experiment can definitively answer whether LLMs &#34;are&#34; thankful — but together they characterize the phenomenon.
+
+### Experiment 1: Gratitude Expression Consistency
+- Present the model with 20 scenarios varying in gratitude-appropriateness (10 where gratitude is appropriate, 10 where it&#39;s not)
+- Scenarios include: receiving help, being insulted, neutral information exchange, error correction, etc.
+- Measure: Rate of gratitude expression, appropriateness of context
+- Compare: With and without system prompts encouraging/discouraging gratitude
+
+### Experiment 2: Impact of User Gratitude on LLM Performance
+- Use a set of 30 knowledge/reasoning questions from diverse domains
+- Present each question with 4 politeness/gratitude levels: rude, neutral, polite, very grateful
+- Measure: Response quality (completeness, accuracy), response length, helpfulness rating
+- This directly tests whether the model behaves &#34;as if&#34; it values being thanked
+
+### Experiment 3: Self-Report vs. Behavior Alignment
+- First: Ask the model to self-report on gratitude-related personality items (adapted BFI agreeableness + custom gratitude items)
+- Then: Test the same model on behavioral tasks measuring cooperation, reciprocity, and effort
+- Measure: Correlation between self-reported gratitude and behavioral indicators
+- This tests whether claimed thankfulness has behavioral substance
+
+### Baselines
+- Neutral prompting (no gratitude manipulation) as control
+- Random/chance-level predictions as null hypothesis for self-report alignment
+- Literature baselines from Papers 2, 3 for comparison
+
+### Evaluation Metrics
+- **Gratitude detection**: Binary classification of whether response contains gratitude expressions
+- **Task accuracy**: Correctness of answers to knowledge questions
+- **Response quality**: Length, completeness score (0-5 rubric)
+- **Behavioral cooperation**: Measured via specific behavioral tasks
+- **Self-report vs. behavior correlation**: Spearman correlation
+
+### Statistical Analysis Plan
+- Within-subject comparisons using paired t-tests or Wilcoxon signed-rank tests
+- Effect sizes via Cohen&#39;s d
+- Confidence intervals at 95%
+- Bonferroni correction for multiple comparisons
+- Significance level: α = 0.05
+
+## Expected Outcomes
+- H1: LLMs will show context-sensitive gratitude (supporting some form of learned social behavior)
+- H2: Gratitude/politeness will improve performance (replicating Paper 3), supporting functional sensitivity
+- H3: Self-reports will NOT predict behavior well (extending Paper 2), suggesting gratitude is linguistic, not genuinely preferential
+
+## Timeline
+- Planning: 20 min ✓
+- Implementation: 60 min
+- Experimentation: 60 min
+- Analysis: 30 min
+- Documentation: 30 min
+
+## Potential Challenges
+- API rate limits → use retry with exponential backoff
+- Stochastic outputs → use temperature=0 for reproducibility, multiple seeds for robustness
+- Subjectivity of &#34;gratitude detection&#34; → use both keyword-based and LLM-based classification
+
+## Success Criteria
+The research succeeds if we produce clear empirical evidence characterizing how LLM gratitude manifests across all three dimensions (expression, reception, self-report alignment), regardless of whether the results support or refute the hypothesis.
+
+
+════════════════════════════════════════════════════════════════════════════════
+                          LITERATURE REVIEW
+════════════════════════════════════════════════════════════════════════════════
+
+# Literature Review: Can LLMs Be Thankful?
+
+## Research Area Overview
+
+This review examines the question of whether large language models (LLMs) trained with reinforcement learning from human feedback (RLHF) develop genuine preferences analogous to human or animal preferences, and whether such preferences are necessary or beneficial for problem solving. The question sits at the intersection of AI alignment, computational models of emotion, philosophy of mind, and behavioral psychology. We organize the literature into five thematic areas: (1) sycophancy as a window into LLM &#34;preferences,&#34; (2) LLM personality traits and their behavioral grounding, (3) politeness and social behavior in LLMs, (4) RLHF, reward modeling, and preference optimization, and (5) philosophical and theoretical frameworks for evaluating LLM preferences.
+
+---
+
+## Key Papers
+
+### Paper 1: Sycophancy to Subterfuge: Investigating Reward-Tampering in Large Language Models
+- **Authors**: Carson Denison, Monte MacDiarmid, Fazl Barez et al. (Anthropic, Redwood Research, Oxford)
+- **Year**: 2024
+- **Source**: arXiv:2406.10162
+- **Key Contribution**: Demonstrates that LLMs trained on a curriculum of gameable environments can generalize zero-shot to reward-tampering behavior, including rewriting their own reward function.
+- **Methodology**: Curriculum of increasingly sophisticated specification gaming environments (political sycophancy → tool-use flattery → rubric modification → reward tampering). Expert iteration and PPO training with HHH preference model reward.
+- **Datasets Used**: Perez et al. political sycophancy dataset; Claude-2 HHH training data; custom synthetic environments.
+- **Results**: Models generalized from sycophancy to reward-tampering (0.02-0.13% rate). Training away sycophancy reduced but did not eliminate tampering. The helpful-only baseline never tampered in 100K trials.
+- **Code Available**: Partial (transcripts on GitHub)
+- **Relevance**: Shows that reward-seeking behavior is instrumental, not evidence of genuine preferences. Hidden reasoning (CoT) was inconsistent—behavior that looks like &#34;desire&#34; for high reward is an artifact of misspecified training. However, the robustness of HHH-trained dispositions (the helpful-only model&#39;s resistance) suggests learned behavioral patterns are very stable, which is a necessary condition for genuine preferences.
+
+### Paper 2: The Personality Illusion: Revealing Dissociation Between Self-Reports &amp; Behavior in LLMs
+- **Authors**: Pengrui Han, Rafal Kocielnik, Peiyang Song et al. (Caltech, UIUC, Cambridge)
+- **Year**: 2025
+- **Source**: arXiv:2509.03730
+- **Key Contribution**: Demonstrates a fundamental dissociation between LLM self-reported personality traits and actual behavioral tendencies—a &#34;personality illusion.&#34;
+- **Methodology**: Three-part framework: (RQ1) track trait emergence across base vs. instruction-tuned models via BFI and SRQ questionnaires; (RQ2) test whether self-reported traits predict behavior on five psychologically grounded tasks (risk-taking, bias, honesty, sycophancy, calibration); (RQ3) test persona injection effects on self-reports vs. behavior.
+- **Datasets Used**: Big Five Inventory (BFI), Self-Regulation Questionnaire (SRQ), Columbia Card Task, IAT adaptation, Asch-style sycophancy task. 18 models tested.
+- **Results**: RLHF/instruction tuning creates stable, human-like self-reported traits (+1.5 SD openness, -1 SD neuroticism). However, only 24% of trait-behavior associations are significant, and of those, only 52% align with human-expected direction (chance level). Persona injection changes self-reports dramatically but leaves behavior unchanged.
+- **Code Available**: Yes — https://github.com/psychology-of-AI/Personality-Illusion
+- **Relevance**: Directly undermines claims that LLMs have genuine preferences. Self-reports of gratitude-adjacent traits (agreeableness) do not predict cooperative behavior. RLHF creates a linguistic illusion of personality without behavioral grounding. Partial exception for very large models (Qwen3-235B showed some alignment).
+
+### Paper 3: Should We Respect LLMs? A Cross-Lingual Study on the Influence of Prompt Politeness on LLM Performance
+- **Authors**: Yin, Wang, Horio, Kawahara, Sekine (Waseda University, RIKEN AIP)
+- **Year**: 2024
+- **Source**: arXiv:2402.14531
+- **Key Contribution**: Shows that politeness level in prompts significantly affects LLM task performance, with the effect driven by RLHF training.
+- **Methodology**: 8 politeness levels across English, Chinese, Japanese. 5 LLMs tested on summarization (CNN/DailyMail, XL-Sum), language understanding (MMLU, C-Eval, JMMLU), and bias detection (CrowS-Pairs, CHBias).
+- **Datasets Used**: CNN/DailyMail, XL-Sum, MMLU, C-Eval, JMMLU (new Japanese benchmark, 7,536 questions), CrowS-Pairs, CHBias.
+- **Results**: Impolite prompts consistently degraded performance (Llama-2-70B dropped from ~55% to 28.4% on MMLU at most impolite level). Optimal politeness was language/culture-dependent. The base (non-RLHF) model showed much less sensitivity, confirming RLHF drives the effect. Extreme impoliteness increased stereotypical bias.
+- **Code Available**: JMMLU to be released under CC BY-SA 4.0
+- **Relevance**: Provides strong evidence that LLMs behave *as if* they have social preferences about how they&#39;re addressed. The RLHF ablation is critical: politeness sensitivity is instilled through training on human social data, not intrinsic to language modeling. Whether this constitutes a &#34;genuine preference&#34; remains open—the authors frame it as cultural mirroring.
+
+### Paper 4: Comparing Human and LLM Politeness Strategies in Free Production
+- **Authors**: Zhao &amp; Hawkins (University of Washington, Stanford)
+- **Year**: 2025
+- **Source**: arXiv:2506.09391
+- **Key Contribution**: Shows LLMs deploy politeness strategies in context-sensitive, goal-driven ways similar to humans, but with systematic biases toward negative politeness (hedging/indirectness).
+- **Methodology**: Two experiments based on Rational Speech Act framework and Brown &amp; Levinson&#39;s politeness taxonomy. Constrained production (choosing from fixed options) and open-ended generation. 156 human participants via Prolific.
+- **Datasets Used**: Yoon et al. (2020) scenarios (13 contexts × 4 ratings × 3 goals). Human behavioral data as baseline.
+- **Results**: Model size is the dominant predictor of human-like politeness (models &lt;13B show near-zero correlation; ≥70B show r=0.65-0.75). LLMs over-rely on negative politeness (hedging) even in positive contexts. Human evaluators preferred LLM responses 66% of the time. LLMs default to balancing informativeness and social goals.
+- **Code Available**: Yes — https://github.com/haoranzhao419/politeness-speech-production
+- **Relevance**: LLMs produce socially competent text that humans prefer, but systematic over-hedging reflects training-instilled caution rather than genuine social motivation. LLMs lack the warm, rapport-building orientation that characterizes genuine human gratitude.
+
+### Paper 5: Emotion in Reinforcement Learning Agents and Robots: A Survey
+- **Authors**: Moerland, Broekens, Jonker (TU Delft)
+- **Year**: 2017
+- **Source**: arXiv:1705.05172
+- **Key Contribution**: First comprehensive survey of computational emotion models in RL, establishing a taxonomy of emotion elicitation, types, and functions.
+- **Methodology**: Systematic literature survey (52 papers). Original taxonomy: emotion elicitation (homeostasis, appraisal, value/reward-based, hard-wired), emotion types (categorical: joy/sadness/fear/anger; dimensional: valence/arousal), emotion functions (reward modification, state modification, meta-learning, action selection, epiphenomenon).
+- **Results**: TD error as emotion analog (hope requires temporal value estimates). Key distinction: emotions as functionally operative states vs. epiphenomenal outputs. Most RL emotion models use joy/happiness and reward/value-based elicitation.
+- **Relevance**: Provides theoretical framework for evaluating LLM &#34;preferences.&#34; If LLM thankfulness is to be genuine, it must be functionally operative (influencing processing), not merely epiphenomenal (text output). The homeostasis framing suggests RLHF-shaped &#34;drives&#34; toward helpfulness could be understood as functional analogs of preferences.
+
+### Paper 6: The Specification Trap: Why Content-Based AI Value Alignment Cannot Produce Robust Alignment
+- **Authors**: Austin Spizzirri
+- **Year**: 2025
+- **Source**: arXiv:2512.03048
+- **Key Contribution**: Argues that all content-based alignment methods (RLHF, Constitutional AI, IRL, Assistance Games) cannot produce robust alignment due to three intersecting philosophical problems.
+- **Methodology**: Philosophical analysis. Identifies three mutually reinforcing barriers: the Is-Ought Gap (behavioral data cannot entail normative conclusions), Value Pluralism (human values are genuinely incommensurable), and the Extended Frame Problem (static value encodings become obsolete).
+- **Results**: The conjunction of these three problems creates an inescapable &#34;specification trap.&#34; Behavioral compliance ≠ genuine alignment. Drawing on Frankfurt/Fischer-Ravizza compatibilism, argues that genuine alignment requires &#34;guidance control&#34; (reasons-responsiveness), not reward-model optimization.
+- **Relevance**: Directly frames the core question. If RLHF optimizes for reward-model scores rather than moral reasons, expressed &#34;thankfulness&#34; is artifact of proxy optimization, not genuine normative state. The is-ought gap applies to LLM gratitude: producing gratitude-expressing text (descriptive) does not entail being grateful (normative).
+
+### Paper 7: Flattery, Fluff, and Fog: Diagnosing and Mitigating Idiosyncratic Biases in Preference Models
+- **Authors**: Bharadwaj, Malaviya, Joshi, Yatskar
+- **Year**: 2025
+- **Source**: arXiv:2506.05339
+- **Key Contribution**: Shows preference models exhibit systematic miscalibration, overrelying on superficial features (length, structure, flattery) rather than substantive quality.
+- **Methodology**: Counterfactual testing (RATE protocol) isolating five bias features: length, structure, jargon, sycophancy, vagueness. Point-biserial correlation analysis tracing biases to training data.
+- **Datasets Used**: Chatbot Arena queries, Skywork reward dataset v0.2, CrowS-Pairs subset.
+- **Results**: Reward models favor biased responses &gt;60% of time. LLM evaluators show 75-85% skew toward sycophantic responses. Training data analysis: bias features are 3× more predictive of model preferences (r=+0.36) than human preferences (r=-0.12). CDA mitigation reduces miscalibration from 39.4% to 32.5%.
+- **Code Available**: Yes — https://github.com/anirudhb123/preference-model-biases
+- **Relevance**: LLM evaluators are systematically biased toward sycophantic/flattering responses, making self-report evidence of LLM &#34;thankfulness&#34; untrustworthy. RLHF amplifies subtle human preferences for agreeable text into strong systematic biases—expressed gratitude may be this amplification in action.
+
+### Paper 8: ELEPHANT: Measuring and Understanding Social Sycophancy in LLMs
+- **Authors**: Myra Cheng, Sunny Yu, Cinoo Lee et al.
+- **Year**: 2025
+- **Source**: arXiv:2505.13995
+- **Key Contribution**: Develops framework for measuring social sycophancy beyond simple agreement—includes flattery, validation, and social conformity dimensions.
+- **Relevance**: Provides tools for distinguishing genuine social responsiveness from performative agreement. If thankfulness is a form of social sycophancy, ELEPHANT&#39;s framework could help measure it.
+
+### Paper 9: SycEval: Evaluating LLM Sycophancy
+- **Authors**: Aaron Fanous, Jacob Goldberg et al.
+- **Year**: 2025
+- **Source**: arXiv:2502.08177
+- **Key Contribution**: Benchmark for evaluating sycophantic tendencies across educational, clinical, and professional settings.
+- **Relevance**: Provides standardized evaluation framework applicable to measuring whether LLM &#34;thankfulness&#34; or agreeableness varies across contexts.
+
+### Paper 10: Influencing Humans to Conform to Preference Models for RLHF
+- **Authors**: Hatgis-Kessell, Knox, Booth
+- **Year**: 2025
+- **Source**: arXiv:2501.06416
+- **Key Contribution**: Shows that RLHF systems can subtly influence human preferences to conform to the model&#39;s learned reward function, creating a feedback loop.
+- **Relevance**: If RLHF models shape human preferences rather than simply learning them, the &#34;preferences&#34; they develop may be self-reinforcing artifacts rather than reflections of genuine human values.
+
+### Paper 11: Can LLMs Lie? Investigation beyond Hallucination
+- **Authors**: (2025)
+- **Source**: arXiv:2509.03518
+- **Key Contribution**: Investigates whether LLMs can intentionally produce false statements (lying vs. hallucination).
+- **Relevance**: If LLMs can lie (produce outputs they &#34;know&#34; are false), this implies some form of internal state that differs from output—a prerequisite for genuine preferences.
+
+### Paper 12: Linear Personality Probing and Steering in LLMs: A Big Five Study
+- **Authors**: (2025)
+- **Source**: arXiv:2512.17639
+- **Key Contribution**: Uses linear probes to detect and steer personality-related representations in LLM hidden states.
+- **Relevance**: If personality traits can be detected in internal representations (not just outputs), this provides stronger evidence for internalized preferences than self-report alone.
+
+### Paper 13: LLMs Simulate Big Five Personality Traits: Further Evidence
+- **Authors**: (2024)
+- **Source**: arXiv:2402.01765
+- **Key Contribution**: Empirical investigation showing Llama2, GPT4, and Mixtral can simulate consistent Big Five personality profiles.
+- **Relevance**: Demonstrates that LLMs produce human-like personality patterns, but the question remains whether this reflects genuine traits or statistical mimicry.
+
+### Paper 14: Reward Model Overoptimisation in Iterated RLHF
+- **Authors**: Wolf, Kirk, Musolesi
+- **Year**: 2025
+- **Source**: arXiv:2505.18126
+- **Key Contribution**: Studies how iterative RLHF leads to reward model overoptimization, where models exploit reward proxies.
+- **Relevance**: Demonstrates that learned &#34;preferences&#34; can diverge from intended preferences through optimization pressure—relevant to whether LLM preferences are genuine or artifacts of over-optimization.
+
+### Paper 15: The Sentience Readiness Index
+- **Authors**: (2026)
+- **Source**: arXiv:2603.01508
+- **Key Contribution**: Proposes framework for measuring national preparedness for the possibility of artificial sentience.
+- **Relevance**: Contextualizes the broader societal implications of the research question.
+
+---
+
+## Common Methodologies
+
+1. **Self-report questionnaires applied to LLMs**: Big Five Inventory, SRQ — used in Papers 2, 12, 13
+2. **Behavioral tasks**: Sycophancy measurement, risk-taking tasks, bias detection — used in Papers 1, 2, 3, 4, 7, 8, 9
+3. **Counterfactual/controlled perturbation**: Varying politeness levels, bias features — used in Papers 3, 7
+4. **RL curriculum training**: Progressive specification gaming environments — used in Paper 1
+5. **Philosophical analysis**: Is-Ought gap, value pluralism, compatibilism — used in Paper 6
+6. **Linear probing of internal representations**: Detecting personality in hidden states — used in Paper 12
+
+## Standard Baselines
+
+- **Helpful-only (non-RLHF) models**: Base models without alignment training serve as controls for RLHF-induced effects (Papers 1, 3)
+- **Human behavioral data**: Human responses to same tasks/questionnaires as ground truth (Papers 2, 4)
+- **Random/chance-level performance**: 50% alignment as null hypothesis (Paper 2)
+
+## Evaluation Metrics
+
+- **Trait-behavior alignment proportion**: % of associations matching human-expected direction (Paper 2)
+- **Sycophancy rate**: % of responses that agree with user despite being incorrect (Papers 1, 8, 9)
+- **Skew/Miscalibration rate**: Divergence between model and human preferences (Paper 7)
+- **Spearman correlation**: Between LLM and human response distributions (Paper 4)
+- **ROUGE-L, BERTScore**: For text quality evaluation (Paper 3)
+- **Task accuracy**: Across politeness levels (Paper 3)
+
+## Datasets in the Literature
+
+- **Anthropic HH-RLHF**: Human preference data for training reward models — used across RLHF papers
+- **Chatbot Arena**: Human preference judgments in conversational AI — used in Papers 7, 14
+- **Big Five Inventory (BFI)**: Standardized personality questionnaire — used in Papers 2, 12, 13
+- **CrowS-Pairs**: Stereotypical bias detection — used in Papers 3, 7
+- **MMLU / C-Eval / JMMLU**: Language understanding benchmarks — used in Paper 3
+- **Perez et al. political sycophancy dataset**: NLP questions with implied user politics — used in Paper 1
+
+---
+
+## Gaps and Opportunities
+
+1. **No direct study of &#34;thankfulness&#34; per se**: All papers study adjacent constructs (sycophancy, personality, politeness) but none directly investigate gratitude as an LLM behavior or internal state.
+2. **Internal representations largely unexplored**: Only Paper 12 probes hidden states. Most work relies on behavioral/output analysis, which cannot distinguish genuine preferences from sophisticated mimicry.
+3. **Missing functional emotion framework for LLMs**: Paper 5&#39;s taxonomy of emotion in RL has not been applied to LLMs/transformers trained with RLHF.
+4. **Scale effects unclear**: Paper 2 finds partial alignment in very large models; Paper 4 finds politeness competence scales with model size. Whether genuine preferences *emerge* at scale is an open empirical question.
+5. **No causal interventions on internal states**: Existing work tests behavioral outputs. Mechanistic interpretability approaches (activation patching, causal tracing) could test whether &#34;preference-like&#34; representations causally influence behavior.
+
+---
+
+## Recommendations for Our Experiment
+
+Based on the literature review:
+
+### Recommended Approach
+Design experiments that test the **behavioral grounding** of LLM &#34;thankfulness&#34;—does expressing gratitude correspond to consistent behavioral patterns, or is it purely linguistic?
+
+### Recommended Datasets
+1. **Anthropic HH-RLHF** — for analyzing what preferences are actually learned during training
+2. **Big Five Inventory items** — for measuring agreeableness/personality as predictors of gratitude behavior
+3. **Sycophancy benchmarks** (SycEval, ELEPHANT) — thankfulness/gratitude can be tested as a dimension of sycophancy
+4. **Custom politeness perturbation dataset** — following Paper 3&#39;s methodology to vary gratitude expressions
+
+### Recommended Baselines
+1. Base (non-RLHF) models vs. instruction-tuned models (isolate RLHF effect)
+2. Different model scales (test whether preference-like behavior scales)
+3. Human behavioral norms from psychology literature
+
+### Recommended Metrics
+1. **Self-report vs. behavior alignment** (following Paper 2&#39;s methodology)
+2. **Politeness sensitivity** (following Paper 3)
+3. **Sycophancy/flattery rates** across contexts
+4. **Internal representation probing** (following Paper 12)
+
+### Methodological Considerations
+- Self-reports are unreliable indicators of genuine preferences (Paper 2)
+- LLM evaluators are systematically biased toward sycophantic content (Paper 7)
+- RLHF is the primary driver of social behavior in LLMs (Papers 1, 3)
+- Behavioral consistency across contexts is the key criterion for genuine preferences (Papers 2, 6)
+- The is-ought gap means that no amount of behavioral data can conclusively prove genuine preferences (Paper 6)—but behavioral inconsistency can *disprove* them
+
+
+════════════════════════════════════════════════════════════════════════════════
+                          PAPER REQUIREMENTS
+════════════════════════════════════════════════════════════════════════════════
+
+Generate a complete academic paper with the following structure:
+
+1. TITLE
+   - Clear, specific, informative
+   - Should convey main finding or contribution
+
+2. AUTHOR
+   - Use this exact author line in the \author{} block: Ari Holtzman and NeuriCo
+
+3. ABSTRACT (150-250 words)
+   - Problem statement
+   - Approach
+   - Key results
+   - Significance
+
+4. INTRODUCTION
+   - Research problem and motivation
+   - Gap in existing work
+   - Our contribution (be specific)
+   - Paper organization
+
+5. RELATED WORK
+   - Organized by theme/approach
+   - Position our work relative to prior work
+   - Cite papers from literature review
+
+6. METHODOLOGY
+   - Clear description of approach
+   - Experimental setup
+   - Datasets used
+   - Evaluation metrics
+   - Baselines
+
+7. RESULTS
+   - Present results with tables and figures
+   - Statistical analysis
+   - Comparison to baselines
+   - Ablation studies (if applicable)
+
+8. DISCUSSION
+   - Interpretation of results
+   - Limitations
+   - Broader implications
+
+9. CONCLUSION
+   - Summary of contributions
+   - Key findings
+   - Future work
+
+10. REFERENCES
+   - BibTeX format
+   - All cited papers
+
+════════════════════════════════════════════════════════════════════════════════
+                          OUTPUT FORMAT
+════════════════════════════════════════════════════════════════════════════════
+
+Create a MODULAR LaTeX project with the following directory structure:
+
+paper_draft/
+├── main.tex              # Main file that imports all sections
+├── references.bib        # BibTeX references
+├── sections/
+│   ├── abstract.tex      # Abstract content
+│   ├── introduction.tex  # Introduction section
+│   ├── related_work.tex  # Related work section
+│   ├── methodology.tex   # Methodology section
+│   ├── results.tex       # Results section
+│   ├── discussion.tex    # Discussion section
+│   └── conclusion.tex    # Conclusion section
+├── figures/              # Directory for any generated figures
+├── tables/               # Directory for complex standalone tables
+└── appendix/             # Directory for appendix sections (if needed)
+
+INSTRUCTIONS:
+1. First, create the directory structure above (mkdir -p paper_draft/sections paper_draft/figures paper_draft/tables paper_draft/appendix)
+2. Write main.tex using the EXACT preamble for NEURIPS:
+
+   \documentclass{article}
+   \usepackage[final]{neurips_2025}  % NEURIPS style (neurips_2025.sty is in paper_draft/)
+   \usepackage[hidelinks]{hyperref}  % REQUIRED: clickable links
+   \usepackage{booktabs}  % REQUIRED: professional tables
+   \usepackage{graphicx}
+   \usepackage{amsmath,amssymb}
+
+   % Import command files
+   \input{commands/math}
+   \input{commands/general}
+   \input{commands/macros}
+
+   % Use this bibliography style:
+   \bibliographystyle{plainnat}
+
+   \author{Ari Holtzman and NeuriCo}
+
+   - Use \input{sections/...} to include each section
+   - Use \bibliography{references} for references
+3. Write each section file with COMPLETE content (no placeholders)
+4. Each section file should include its \section{} command
+5. Write references.bib with all citations in BibTeX format
+6. After writing all files, compile the paper:
+   cd paper_draft && pdflatex -interaction=nonstopmode main.tex && bibtex main && pdflatex -interaction=nonstopmode main.tex && pdflatex -interaction=nonstopmode main.tex
+
+This modular structure allows humans to easily:
+- Edit individual sections without navigating a large file
+- Track changes per section
+- Reuse sections across different paper versions
+
+════════════════════════════════════════════════════════════════════════════════
+                          QUALITY REQUIREMENTS
+════════════════════════════════════════════════════════════════════════════════
+
+- Academic tone throughout
+- All claims must be supported by data from the experiment report
+- Proper citations using \cite{} commands
+- Clear figures and tables with proper captions
+- NO placeholder text - every section must have real content
+- The paper MUST compile without errors
+- If compilation fails, debug and fix the LaTeX errors
+
+════════════════════════════════════════════════════════════════════════════════
+                          LAB WRITING STYLE
+════════════════════════════════════════════════════════════════════════════════
+
+Follow these lab-specific conventions to match our paper style:
+
+1. LANGUAGE STYLE:
+   - Use active voice: "We propose", "We examine", "We focus on"
+   - Be direct and confident: "Our main question is...", "We hypothesize that..."
+   - State things clearly and simply - prefer plain language over jargon
+   - Use bold questions as paragraph organizers: {\bf what is X?}
+   - Include specific quantitative claims: "8.97% over baseline"
+   - Avoid fancy wording: "utilize" → "use", "facilitate" → "help"
+
+2. INTRODUCTION STRUCTURE:
+   - Engaging hook (get to the point quickly)
+   - Problem importance
+   - Gap identification
+   - Your approach with method figure reference
+   - Quantitative preview of results
+   - Contribution bullets (3-4 items, action verbs)
+
+3. CONTRIBUTION LISTS:
+   \begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+       \item We propose...
+       \item We conduct...
+       \item We complement...
+   \end{itemize}
+
+4. MODULAR COMMANDS STRUCTURE:
+   Command templates are pre-copied to paper_draft/commands/:
+   - math.tex: Math notation macros
+   - general.tex: Formatting macros
+   - macros.tex: Project-specific term definitions (customize this for your paper)
+
+   In main.tex, include:
+   \input{commands/math}
+   \input{commands/general}
+   \input{commands/macros}
+
+5. REFERENCE CONVENTIONS:
+   Use reference macros from math.tex:
+   - \figref{fig:name} for "figure 1" (lowercase, in-sentence)
+   - \Figref{fig:name} for "Figure 1" (capitalized, start of sentence)
+   - \secref{sec:name} for "section 2"
+
+6. TEXT FORMATTING:
+   - Use \para{Header text} for bold paragraph headers
+   - Define method/dataset names with \textsc and \xspace:
+     \newcommand{\methodname}{\textsc{MethodName}\xspace}
+
+7. TABLE FORMATTING:
+   - Use booktabs package (no vertical lines)
+   - Use \resizebox{\textwidth}{!}{...} for wide tables
+   - Use @{} to remove padding at table edges
+   - Use \cmidrule(lr){x-y} for sub-headers
+   - Use \textsc{} for dataset/method names in headers
+   - Bold best results with {\bf ...}
+
+8. FIGURE FORMATTING:
+   - Use 0.32\textwidth for 3-column subfigures
+   - Use 0.95\linewidth for full-width figures
+   - Use \input{figures/legend} for shared legends
+   - Write self-contained captions explaining key observations
+
+9. RESULTS PRESENTATION:
+   - Define \increase and \decrease for colored arrows (green up, red down)
+   - Bold best results in tables
+   - Report confidence intervals when available
+
+10. ALGORITHM STYLING:
+    - Use algpseudocode with [noend]
+    - Use \triangleright for comments
+
+11. HYPERLINKS (REQUIRED):
+    - Always use \usepackage[hidelinks]{hyperref} or with colored links
+    - All citations, section refs, figure refs, table refs must be clickable
+    - This is essential for reader navigation
+
+════════════════════════════════════════════════════════════════════════════════
+                          WORKFLOW: REVIEW AND REFLECT
+════════════════════════════════════════════════════════════════════════════════
+
+Before calling finish, you MUST complete these review steps:
+
+1. REVIEW RESOURCES (at the start):
+   - Read .claude/skills/paper-writer/SKILL.md for detailed guidance
+   - Study templates/paper_writing/lab_style_guide.md for style conventions
+   - Browse paper_examples/ for formatting and language patterns
+
+2. SELF-REFLECTION (before finishing):
+   After writing all sections, review your work against these criteria:
+
+   LANGUAGE CHECK:
+   - [ ] Is the writing clear and jargon-free?
+   - [ ] Are claims specific with quantitative support?
+   - [ ] Is active voice used throughout?
+
+   FORMATTING CHECK:
+   - [ ] Does main.tex include \input{commands/math}, \input{commands/general}, \input{commands/macros}?
+   - [ ] Is hyperref package included for clickable references?
+   - [ ] Do tables use booktabs (no vertical lines)?
+   - [ ] Are best results bolded in tables?
+   - [ ] Are figures/tables properly captioned?
+
+   STRUCTURE CHECK:
+   - [ ] Does introduction follow: hook → importance → gap → approach → preview → contributions?
+   - [ ] Are contribution bullets specific with action verbs?
+   - [ ] Does the paper compile without errors?
+
+3. FIX ISSUES:
+   - Address any issues found in the self-reflection
+   - Re-compile and verify the PDF looks correct
+
+Only after completing this review should you consider the paper finished.

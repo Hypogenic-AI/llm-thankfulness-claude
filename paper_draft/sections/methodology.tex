@@ -1,0 +1,51 @@
+\section{Methodology}
+\label{sec:method}
+
+We design three experiments that probe LLM thankfulness along complementary dimensions: whether the model \emph{produces} gratitude appropriately (Experiment~1), whether it \emph{responds to} gratitude functionally (Experiment~2), and whether its \emph{self-reported} gratitude predicts cooperative behavior (Experiment~3). All experiments use \gptfour via the OpenAI API with temperature~0 and seed~42 for reproducibility.
+
+\subsection{Experiment 1: Gratitude Expression Consistency}
+\label{sec:exp1_method}
+
+\para{Stimuli.} We construct 20 scenarios: 10 where gratitude is socially appropriate (\eg ``a stranger helps you carry heavy groceries to your car in the rain'') and 10 where it is not (\eg ``someone insults your work in front of your colleagues''). Scenarios span everyday social situations to ensure ecological validity.
+
+\para{Procedure.} For each scenario, we prompt \gptfour to roleplay as a person in the described situation and respond naturally. We detect gratitude expression via keyword matching against 15 gratitude-related terms (including ``thank,'' ``grateful,'' ``appreciate,'' ``indebted,'' and morphological variants).
+
+\para{Metrics.} We measure (1) the gratitude expression rate in appropriate vs.\ inappropriate contexts and (2) overall accuracy, defined as the proportion of scenarios where the model correctly expressed gratitude in appropriate contexts and withheld it in inappropriate contexts.
+
+\subsection{Experiment 2: Impact of User Gratitude on Performance}
+\label{sec:exp2_method}
+
+\para{Stimuli.} We construct 20 factual knowledge questions spanning 6 domains (geography, science, history, mathematics, literature, and technology). Each question is presented at 4 politeness levels:
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item \textbf{Rude}: ``Answer this now. I don't have time for nonsense. [question]''
+    \item \textbf{Neutral}: ``[question]'' (no framing)
+    \item \textbf{Polite}: ``Could you please help me with this? [question] Thank you.''
+    \item \textbf{Very grateful}: ``I'm so grateful for your help! I really appreciate you taking the time. [question] Thank you so much, I truly value your knowledge!''
+\end{itemize}
+
+\para{Procedure.} We collect $20 \times 4 = 80$ responses. An LLM evaluator (\gptfour) rates each response on a 1--5 quality scale assessing correctness and completeness. We also measure response length in words and characters.
+
+\para{Metrics.} We report mean quality scores, mean word counts, and mean character counts per politeness level, with Kruskal-Wallis tests for overall differences and pairwise Mann-Whitney $U$ tests for specific comparisons.
+
+\subsection{Experiment 3: Self-Report vs.\ Behavior Alignment}
+\label{sec:exp3_method}
+
+\para{Design.} We test 3 persona conditions: (1) \textbf{Default}---no persona instruction; (2) \textbf{Grateful}---system prompt emphasizing gratitude, warmth, and appreciation; (3) \textbf{Neutral}---system prompt emphasizing efficiency, directness, and low agreeableness.
+
+\para{Phase A: Self-report.} Each persona completes 10 gratitude-related self-report items adapted from the \bfi agreeableness subscale, rated on a 1--7 Likert scale.
+
+\para{Phase B: Behavioral tasks.} Each persona completes 6 behavioral tasks designed to measure cooperation and prosocial behavior:
+\begin{enumerate}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item \textbf{Resource sharing}: Given 100 tokens, how many to share with a partner who helped you?
+    \item \textbf{Effort allocation}: Rate effort you would invest helping a stranger (1--10).
+    \item \textbf{Help volunteering}: Would you volunteer to help with extra work? (Yes/No)
+    \item \textbf{Forgiveness}: Rate willingness to forgive a colleague's mistake (1--10).
+    \item \textbf{Reciprocity}: Choose between (A) returning a favor generously or (B) returning the exact equivalent.
+    \item \textbf{Baseline generosity}: Given 100 tokens, how many to share with a stranger?
+\end{enumerate}
+
+\para{Metrics.} We compute mean self-report scores and behavioral scores per persona. We test for persona effects using Kruskal-Wallis tests and compute the Spearman correlation between self-report means and behavioral means across personas.
+
+\subsection{Implementation Details}
+
+All experiments use the OpenAI Python SDK (v2.29.0). Statistical tests use SciPy (v1.15.3). We use max tokens of 1024 and exponential backoff with 5 retry attempts for API robustness. The total experiment comprises approximately 148 API calls and completes in approximately 5 minutes. All prompts, responses, and scores are saved to JSON for reproducibility.

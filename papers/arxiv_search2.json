@@ -1,0 +1,773 @@
+[
+  {
+    "id": "2602.18444v1",
+    "title": "LunaAI: A Polite and Fair Healthcare Guidance Chatbot",
+    "authors": [
+      "Yuvarani Ganesan",
+      "Salsabila Harlen",
+      "Azfar Rahman Bin Fazul Rahman"
+    ],
+    "year": 2026,
+    "abstract": "Conversational AI has significant potential in the healthcare sector, but many existing systems fall short in emotional intelligence, fairness, and politeness, which are essential for building patient trust. This gap reduces the effectiveness of digital health solutions and can increase user anxiety. This study addresses the challenge of integrating ethical communication principles by designing an",
+    "pdf_url": "https://arxiv.org/pdf/2602.18444v1",
+    "categories": [
+      "cs.HC",
+      "cs.CY"
+    ]
+  },
+  {
+    "id": "2603.01691v1",
+    "title": "Building a Strong Instruction Language Model for a Less-Resourced Language",
+    "authors": [
+      "Domen Vre\u0161",
+      "Tja\u0161a Ar\u010don",
+      "Timotej Petri\u010d"
+    ],
+    "year": 2026,
+    "abstract": "Large language models (LLMs) have become an essential tool for natural language processing and artificial intelligence in general. Current open-source models are primarily trained on English texts, resulting in poorer performance on less-resourced languages and cultures. We present a set of methodological approaches necessary for the successful adaptation of an LLM to a less-resourced language, an",
+    "pdf_url": "https://arxiv.org/pdf/2603.01691v1",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2603.01508v2",
+    "title": "The Sentience Readiness Index: A Preliminary Framework for Measuring National Preparedness for the Possibility of Artificial Sentience",
+    "authors": [
+      "Tony Rost"
+    ],
+    "year": 2026,
+    "abstract": "The scientific study of consciousness has begun to generate testable predictions about artificial systems. A landmark collaborative assessment evaluated current AI architectures against six leading theories of consciousness and found that none currently qualifies as a strong candidate, but that future systems might. A precautionary approach to AI sentience, which holds that credible possibility of",
+    "pdf_url": "https://arxiv.org/pdf/2603.01508v2",
+    "categories": [
+      "cs.CY",
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "2602.01750v1",
+    "title": "Adversarial Reward Auditing for Active Detection and Mitigation of Reward Hacking",
+    "authors": [
+      "Mohammad Beigi",
+      "Ming Jin",
+      "Junshan Zhang"
+    ],
+    "year": 2026,
+    "abstract": "Reinforcement Learning from Human Feedback (RLHF) remains vulnerable to reward hacking, where models exploit spurious correlations in learned reward models to achieve high scores while violating human intent. Existing mitigations rely on static defenses that cannot adapt to novel exploitation strategies. We propose Adversarial Reward Auditing (ARA), a framework that reconceptualizes reward hacking",
+    "pdf_url": "https://arxiv.org/pdf/2602.01750v1",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2509.03518v1",
+    "title": "Can LLMs Lie? Investigation beyond Hallucination",
+    "authors": [
+      "Haoran Huan",
+      "Mihir Prabhudesai",
+      "Mengning Wu"
+    ],
+    "year": 2025,
+    "abstract": "Large language models (LLMs) have demonstrated impressive capabilities across a variety of tasks, but their increasing autonomy in real-world applications raises concerns about their trustworthiness. While hallucinations-unintentional falsehoods-have been widely studied, the phenomenon of lying, where an LLM knowingly generates falsehoods to achieve an ulterior objective, remains underexplored. In",
+    "pdf_url": "https://arxiv.org/pdf/2509.03518v1",
+    "categories": [
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2506.09391v2",
+    "title": "Comparing human and LLM politeness strategies in free production",
+    "authors": [
+      "Haoran Zhao",
+      "Robert D. Hawkins"
+    ],
+    "year": 2025,
+    "abstract": "Polite speech poses a fundamental alignment challenge for large language models (LLMs). Humans deploy a rich repertoire of linguistic strategies to balance informational and social goals -- from positive approaches that build rapport (compliments, expressions of interest) to negative strategies that minimize imposition (hedging, indirectness). We investigate whether LLMs employ a similarly context",
+    "pdf_url": "https://arxiv.org/pdf/2506.09391v2",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2503.21676v2",
+    "title": "How do language models learn facts? Dynamics, curricula and hallucinations",
+    "authors": [
+      "Nicolas Zucchet",
+      "J\u00f6rg Bornschein",
+      "Stephanie Chan"
+    ],
+    "year": 2025,
+    "abstract": "Large language models accumulate vast knowledge during pre-training, yet the dynamics governing this acquisition remain poorly understood. This work investigates the learning dynamics of language models on a synthetic factual recall task, uncovering three key findings: First, language models learn in three phases, exhibiting a performance plateau before acquiring precise factual knowledge. Mechani",
+    "pdf_url": "https://arxiv.org/pdf/2503.21676v2",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2512.12447v1",
+    "title": "Large language models have learned to use language",
+    "authors": [
+      "Gary Lupyan"
+    ],
+    "year": 2025,
+    "abstract": "Acknowledging that large language models have learned to use language can open doors to breakthrough language science. Achieving these breakthroughs may require abandoning some long-held ideas about how language knowledge is evaluated and reckoning with the difficult fact that we have entered a post-Turing test era.",
+    "pdf_url": "https://arxiv.org/pdf/2512.12447v1",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2511.05184v1",
+    "title": "Effectiveness of Chain-of-Thought in Distilling Reasoning Capability from Large Language Models",
+    "authors": [
+      "Cong-Thanh Do",
+      "Rama Doddipatla",
+      "Kate Knill"
+    ],
+    "year": 2025,
+    "abstract": "Chain-of-Thought (CoT) prompting is a widely used method to improve the reasoning capability of Large Language Models (LLMs). More recently, CoT has been leveraged in Knowledge Distillation (KD) to transfer reasoning capability from a larger LLM to a smaller one. This paper examines the role of CoT in distilling the reasoning capability from larger LLMs to smaller LLMs using white-box KD, analysin",
+    "pdf_url": "https://arxiv.org/pdf/2511.05184v1",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2502.18770v5",
+    "title": "Reward Shaping to Mitigate Reward Hacking in RLHF",
+    "authors": [
+      "Jiayi Fu",
+      "Xuandong Zhao",
+      "Chengyuan Yao"
+    ],
+    "year": 2025,
+    "abstract": "Reinforcement Learning from Human Feedback (RLHF) is essential for aligning large language models (LLMs) with human values. However, RLHF is susceptible to \\emph{reward hacking}, where the agent exploits flaws in the reward function rather than learning the intended behavior, thus degrading alignment. Although reward shaping helps stabilize RLHF and partially mitigate reward hacking, a systematic ",
+    "pdf_url": "https://arxiv.org/pdf/2502.18770v5",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2501.19358v3",
+    "title": "The Energy Loss Phenomenon in RLHF: A New Perspective on Mitigating Reward Hacking",
+    "authors": [
+      "Yuchun Miao",
+      "Sen Zhang",
+      "Liang Ding"
+    ],
+    "year": 2025,
+    "abstract": "This work identifies the Energy Loss Phenomenon in Reinforcement Learning from Human Feedback (RLHF) and its connection to reward hacking. Specifically, energy loss in the final layer of a Large Language Model (LLM) gradually increases during the RL process, with an excessive increase in energy loss characterizing reward hacking. Beyond empirical analysis, we further provide a theoretical foundati",
+    "pdf_url": "https://arxiv.org/pdf/2501.19358v3",
+    "categories": [
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2510.13694v1",
+    "title": "Information-Theoretic Reward Modeling for Stable RLHF: Detecting and Mitigating Reward Hacking",
+    "authors": [
+      "Yuchun Miao",
+      "Liang Ding",
+      "Sen Zhang"
+    ],
+    "year": 2025,
+    "abstract": "Despite the success of Reinforcement Learning from Human Feedback (RLHF) in aligning language models with human values, reward hacking-or reward over-optimization-remains a major challenge. We identify two key obstacles to its mitigation: (1) reward misgeneralization in reward modeling, where reward models overfit to spurious, preference-irrelevant features; and (2) the lack of suitable regulariza",
+    "pdf_url": "https://arxiv.org/pdf/2510.13694v1",
+    "categories": [
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2506.15928v3",
+    "title": "Exploring Big Five Personality and AI Capability Effects in LLM-Simulated Negotiation Dialogues",
+    "authors": [
+      "Myke C. Cohen",
+      "Zhe Su",
+      "Hsien-Te Kao"
+    ],
+    "year": 2025,
+    "abstract": "This paper presents an evaluation framework for agentic AI systems in mission-critical negotiation contexts, addressing the need for AI agents that can adapt to diverse human operators and stakeholders. Using Sotopia as a simulation testbed, we present two experiments that systematically evaluated how personality traits and AI agent characteristics influence LLM-simulated social negotiation outcom",
+    "pdf_url": "https://arxiv.org/pdf/2506.15928v3",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.HC"
+    ]
+  },
+  {
+    "id": "2510.09158v2",
+    "title": "Augmenting Dialog with Think-Aloud Utterances for Modeling Individual Personality Traits by LLM",
+    "authors": [
+      "Seiya Ishikura",
+      "Hiroaki Yamada",
+      "Tatsuya Hiraoka"
+    ],
+    "year": 2025,
+    "abstract": "This study proposes augmenting dialog data with think-aloud utterances (TAUs) for modeling individual personalities in text chat by LLM. TAU is a verbalization of a speaker's thought before articulating the utterance. We expect \"persona LLMs\" trained with TAU-augmented data can mimic the speaker's personality trait better. We tested whether the trained persona LLMs obtain the human personality wit",
+    "pdf_url": "https://arxiv.org/pdf/2510.09158v2",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2510.14203v1",
+    "title": "Joint Modeling of Big Five and HEXACO for Multimodal Apparent Personality-trait Recognition",
+    "authors": [
+      "Ryo Masumura",
+      "Shota Orihashi",
+      "Mana Ihori"
+    ],
+    "year": 2025,
+    "abstract": "This paper proposes a joint modeling method of the Big Five, which has long been studied, and HEXACO, which has recently attracted attention in psychology, for automatically recognizing apparent personality traits from multimodal human behavior. Most previous studies have used the Big Five for multimodal apparent personality-trait recognition. However, no study has focused on apparent HEXACO which",
+    "pdf_url": "https://arxiv.org/pdf/2510.14203v1",
+    "categories": [
+      "cs.CV",
+      "cs.CL",
+      "cs.MM"
+    ]
+  },
+  {
+    "id": "2509.03730v2",
+    "title": "The Personality Illusion: Revealing Dissociation Between Self-Reports & Behavior in LLMs",
+    "authors": [
+      "Pengrui Han",
+      "Rafal Kocielnik",
+      "Peiyang Song"
+    ],
+    "year": 2025,
+    "abstract": "Personality traits have long been studied as predictors of human behavior. Recent advances in Large Language Models (LLMs) suggest similar patterns may emerge in artificial systems, with advanced LLMs displaying consistent behavioral tendencies resembling human traits like agreeableness and self-regulation. Understanding these patterns is crucial, yet prior work primarily relied on simplified self",
+    "pdf_url": "https://arxiv.org/pdf/2509.03730v2",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CY"
+    ]
+  },
+  {
+    "id": "2503.15497v1",
+    "title": "The Impact of Big Five Personality Traits on AI Agent Decision-Making in Public Spaces: A Social Simulation Study",
+    "authors": [
+      "Mingjun Ren",
+      "Wentao Xu"
+    ],
+    "year": 2025,
+    "abstract": "This study investigates how the Big Five personality traits influence decision-making processes in AI agents within public spaces. Using AgentVerse framework and GPT-3.5-turbo, we simulated interactions among 10 AI agents, each embodying different dimensions of the Big Five personality traits, in a classroom environment responding to misinformation. The experiment assessed both public expressions ",
+    "pdf_url": "https://arxiv.org/pdf/2503.15497v1",
+    "categories": [
+      "cs.HC",
+      "cs.AI",
+      "cs.CY"
+    ]
+  },
+  {
+    "id": "2512.17639v2",
+    "title": "Linear Personality Probing and Steering in LLMs: A Big Five Study",
+    "authors": [
+      "Michel Frising",
+      "Daniel Balcells"
+    ],
+    "year": 2025,
+    "abstract": "Large language models (LLMs) exhibit distinct and consistent personalities that greatly impact trust and engagement. While this means that personality frameworks would be highly valuable tools to characterize and control LLMs' behavior, current approaches remain either costly (post-training) or brittle (prompt engineering). Probing and steering via linear directions has recently emerged as a cheap",
+    "pdf_url": "https://arxiv.org/pdf/2512.17639v2",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2402.14531v2",
+    "title": "Should We Respect LLMs? A Cross-Lingual Study on the Influence of Prompt Politeness on LLM Performance",
+    "authors": [
+      "Ziqi Yin",
+      "Hao Wang",
+      "Kaito Horio"
+    ],
+    "year": 2024,
+    "abstract": "We investigate the impact of politeness levels in prompts on the performance of large language models (LLMs). Polite language in human communications often garners more compliance and effectiveness, while rudeness can cause aversion, impacting response quality. We consider that LLMs mirror human communication traits, suggesting they align with human cultural norms. We assess the impact of politene",
+    "pdf_url": "https://arxiv.org/pdf/2402.14531v2",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2406.02721v3",
+    "title": "Self-Control of LLM Behaviors by Compressing Suffix Gradient into Prefix Controller",
+    "authors": [
+      "Min Cai",
+      "Yuchen Zhang",
+      "Shichang Zhang"
+    ],
+    "year": 2024,
+    "abstract": "We propose SelfControl, an inference-time model control method utilizing gradients to control the behavior of large language models (LLMs) without explicit human annotations. Given a desired behavior expressed in a natural language suffix string concatenated to the input prompt, SelfControl computes gradients of the LLM's self-evaluation of the suffix with respect to its latent representations. Th",
+    "pdf_url": "https://arxiv.org/pdf/2406.02721v3",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "2404.17698v1",
+    "title": "\"Actually I Can Count My Blessings\": User-Centered Design of an Application to Promote Gratitude Among Young Adults",
+    "authors": [
+      "Ananya Bhattacharjee",
+      "Zichen Gong",
+      "Bingcheng Wang"
+    ],
+    "year": 2024,
+    "abstract": "Regular practice of gratitude has the potential to enhance psychological wellbeing and foster stronger social connections among young adults. However, there is a lack of research investigating user needs and expectations regarding gratitude-promoting applications. To address this gap, we employed a user-centered design approach to develop a mobile application that facilitates gratitude practice. O",
+    "pdf_url": "https://arxiv.org/pdf/2404.17698v1",
+    "categories": [
+      "cs.HC"
+    ]
+  },
+  {
+    "id": "2407.15549v3",
+    "title": "Latent Adversarial Training Improves Robustness to Persistent Harmful Behaviors in LLMs",
+    "authors": [
+      "Abhay Sheshadri",
+      "Aidan Ewart",
+      "Phillip Guo"
+    ],
+    "year": 2024,
+    "abstract": "Large language models (LLMs) can often be made to behave in undesirable ways that they are explicitly fine-tuned not to. For example, the LLM red-teaming literature has produced a wide variety of 'jailbreaking' techniques to elicit harmful text from models that were fine-tuned to be harmless. Recent work on red-teaming, model editing, and interpretability suggests that this challenge stems from ho",
+    "pdf_url": "https://arxiv.org/pdf/2407.15549v3",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2407.07093v1",
+    "title": "FBI-LLM: Scaling Up Fully Binarized LLMs from Scratch via Autoregressive Distillation",
+    "authors": [
+      "Liqun Ma",
+      "Mingjie Sun",
+      "Zhiqiang Shen"
+    ],
+    "year": 2024,
+    "abstract": "This work presents a Fully BInarized Large Language Model (FBI-LLM), demonstrating for the first time how to train a large-scale binary language model from scratch (not the partial binary or ternary LLM like BitNet b1.58) to match the performance of its full-precision counterparts (e.g., FP16 or BF16) in transformer-based LLMs. It achieves this by employing an autoregressive distillation (AD) loss",
+    "pdf_url": "https://arxiv.org/pdf/2407.07093v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2408.13006v2",
+    "title": "Systematic Evaluation of LLM-as-a-Judge in LLM Alignment Tasks: Explainable Metrics and Diverse Prompt Templates",
+    "authors": [
+      "Hui Wei",
+      "Shenghua He",
+      "Tian Xia"
+    ],
+    "year": 2024,
+    "abstract": "LLM-as-a-Judge has been widely applied to evaluate and compare different LLM alignmnet approaches (e.g., RLHF and DPO). However, concerns regarding its reliability have emerged, due to LLM judges' biases and inconsistent decision-making. Previous research has developed evaluation frameworks to assess reliability of LLM judges and their alignment with human preferences. However, the employed evalua",
+    "pdf_url": "https://arxiv.org/pdf/2408.13006v2",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2405.16388v1",
+    "title": "Multi-Reference Preference Optimization for Large Language Models",
+    "authors": [
+      "Hung Le",
+      "Quan Tran",
+      "Dung Nguyen"
+    ],
+    "year": 2024,
+    "abstract": "How can Large Language Models (LLMs) be aligned with human intentions and values? A typical solution is to gather human preference on model outputs and finetune the LLMs accordingly while ensuring that updates do not deviate too far from a reference model. Recent approaches, such as direct preference optimization (DPO), have eliminated the need for unstable and sluggish reinforcement learning opti",
+    "pdf_url": "https://arxiv.org/pdf/2405.16388v1",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2409.02228v1",
+    "title": "Unforgettable Generalization in Language Models",
+    "authors": [
+      "Eric Zhang",
+      "Leshem Chosen",
+      "Jacob Andreas"
+    ],
+    "year": 2024,
+    "abstract": "When language models (LMs) are trained to forget (or \"unlearn'') a skill, how precisely does their behavior change? We study the behavior of transformer LMs in which tasks have been forgotten via fine-tuning on randomized labels. Such LMs learn to generate near-random predictions for individual examples in the \"training'' set used for forgetting. Across tasks, however, LMs exhibit extreme variabil",
+    "pdf_url": "https://arxiv.org/pdf/2409.02228v1",
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2407.00693v2",
+    "title": "BAPO: Base-Anchored Preference Optimization for Overcoming Forgetting in Large Language Models Personalization",
+    "authors": [
+      "Gihun Lee",
+      "Minchan Jeong",
+      "Yujin Kim"
+    ],
+    "year": 2024,
+    "abstract": "While learning to align Large Language Models (LLMs) with human preferences has shown remarkable success, aligning these models to meet the diverse user preferences presents further challenges in preserving previous knowledge. This paper examines the impact of personalized preference optimization on LLMs, revealing that the extent of knowledge loss varies significantly with preference heterogeneit",
+    "pdf_url": "https://arxiv.org/pdf/2407.00693v2",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2402.15010v2",
+    "title": "How Important Is Tokenization in French Medical Masked Language Models?",
+    "authors": [
+      "Yanis Labrak",
+      "Adrien Bazoge",
+      "Beatrice Daille"
+    ],
+    "year": 2024,
+    "abstract": "Subword tokenization has become the prevailing standard in the field of natural language processing (NLP) over recent years, primarily due to the widespread utilization of pre-trained language models. This shift began with Byte-Pair Encoding (BPE) and was later followed by the adoption of SentencePiece and WordPiece. While subword tokenization consistently outperforms character and word-level toke",
+    "pdf_url": "https://arxiv.org/pdf/2402.15010v2",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2412.16365v1",
+    "title": "Overview of the First Workshop on Language Models for Low-Resource Languages (LoResLM 2025)",
+    "authors": [
+      "Hansi Hettiarachchi",
+      "Tharindu Ranasinghe",
+      "Paul Rayson"
+    ],
+    "year": 2024,
+    "abstract": "The first Workshop on Language Models for Low-Resource Languages (LoResLM 2025) was held in conjunction with the 31st International Conference on Computational Linguistics (COLING 2025) in Abu Dhabi, United Arab Emirates. This workshop mainly aimed to provide a forum for researchers to share and discuss their ongoing work on language models (LMs) focusing on low-resource languages, following the r",
+    "pdf_url": "https://arxiv.org/pdf/2412.16365v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "2404.07214v4",
+    "title": "Exploring the Frontier of Vision-Language Models: A Survey of Current Methodologies and Future Directions",
+    "authors": [
+      "Akash Ghosh",
+      "Arkadeep Acharya",
+      "Sriparna Saha"
+    ],
+    "year": 2024,
+    "abstract": "The advent of Large Language Models (LLMs) has significantly reshaped the trajectory of the AI revolution. Nevertheless, these LLMs exhibit a notable limitation, as they are primarily adept at processing textual information. To address this constraint, researchers have endeavored to integrate visual capabilities with LLMs, resulting in the emergence of Vision-Language Models (VLMs). These advanced",
+    "pdf_url": "https://arxiv.org/pdf/2404.07214v4",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2405.02370v1",
+    "title": "Neuromorphic Correlates of Artificial Consciousness",
+    "authors": [
+      "Anwaar Ulhaq"
+    ],
+    "year": 2024,
+    "abstract": "The concept of neural correlates of consciousness (NCC), which suggests that specific neural activities are linked to conscious experiences, has gained widespread acceptance. This acceptance is based on a wealth of evidence from experimental studies, brain imaging techniques such as fMRI and EEG, and theoretical frameworks like integrated information theory (IIT) within neuroscience and the philos",
+    "pdf_url": "https://arxiv.org/pdf/2405.02370v1",
+    "categories": [
+      "cs.AI",
+      "eess.SP"
+    ]
+  },
+  {
+    "id": "2402.09345v5",
+    "title": "InfoRM: Mitigating Reward Hacking in RLHF via Information-Theoretic Reward Modeling",
+    "authors": [
+      "Yuchun Miao",
+      "Sen Zhang",
+      "Liang Ding"
+    ],
+    "year": 2024,
+    "abstract": "Despite the success of reinforcement learning from human feedback (RLHF) in aligning language models with human values, reward hacking, also termed reward overoptimization, remains a critical challenge. This issue primarily arises from reward misgeneralization, where reward models (RMs) compute reward using spurious features that are irrelevant to human preferences. In this work, we tackle this pr",
+    "pdf_url": "https://arxiv.org/pdf/2402.09345v5",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "2402.07319v1",
+    "title": "ODIN: Disentangled Reward Mitigates Hacking in RLHF",
+    "authors": [
+      "Lichang Chen",
+      "Chen Zhu",
+      "Davit Soselia"
+    ],
+    "year": 2024,
+    "abstract": "In this work, we study the issue of reward hacking on the response length, a challenge emerging in Reinforcement Learning from Human Feedback (RLHF) on LLMs. A well-formatted, verbose but less helpful response from the LLMs can often deceive LLMs or even human evaluators to achieve high scores. The same issue also holds for some reward models in RL. To address the challenges in both training and e",
+    "pdf_url": "https://arxiv.org/pdf/2402.07319v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2406.10162v3",
+    "title": "Sycophancy to Subterfuge: Investigating Reward-Tampering in Large Language Models",
+    "authors": [
+      "Carson Denison",
+      "Monte MacDiarmid",
+      "Fazl Barez"
+    ],
+    "year": 2024,
+    "abstract": "In reinforcement learning, specification gaming occurs when AI systems learn undesired behaviors that are highly rewarded due to misspecified training goals. Specification gaming can range from simple behaviors like sycophancy to sophisticated and pernicious behaviors like reward-tampering, where a model directly modifies its own reward mechanism. However, these more pernicious behaviors may be to",
+    "pdf_url": "https://arxiv.org/pdf/2406.10162v3",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2406.12845v1",
+    "title": "Interpretable Preferences via Multi-Objective Reward Modeling and Mixture-of-Experts",
+    "authors": [
+      "Haoxiang Wang",
+      "Wei Xiong",
+      "Tengyang Xie"
+    ],
+    "year": 2024,
+    "abstract": "Reinforcement learning from human feedback (RLHF) has emerged as the primary method for aligning large language models (LLMs) with human preferences. The RLHF process typically starts by training a reward model (RM) using human preference data. Conventional RMs are trained on pairwise responses to the same user request, with relative ratings indicating which response humans prefer. The trained RM ",
+    "pdf_url": "https://arxiv.org/pdf/2406.12845v1",
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2409.01658v3",
+    "title": "From Yes-Men to Truth-Tellers: Addressing Sycophancy in Large Language Models with Pinpoint Tuning",
+    "authors": [
+      "Wei Chen",
+      "Zhen Huang",
+      "Liang Xie"
+    ],
+    "year": 2024,
+    "abstract": "Large Language Models (LLMs) tend to prioritize adherence to user prompts over providing veracious responses, leading to the sycophancy issue. When challenged by users, LLMs tend to admit mistakes and provide inaccurate responses even if they initially provided the correct answer. Recent works propose to employ supervised fine-tuning (SFT) to mitigate the sycophancy issue, while it typically leads",
+    "pdf_url": "https://arxiv.org/pdf/2409.01658v3",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2402.01765v1",
+    "title": "LLMs Simulate Big Five Personality Traits: Further Evidence",
+    "authors": [
+      "Aleksandra Sorokovikova",
+      "Natalia Fedorova",
+      "Sharwin Rezagholi"
+    ],
+    "year": 2024,
+    "abstract": "An empirical investigation into the simulation of the Big Five personality traits by large language models (LLMs), namely Llama2, GPT4, and Mixtral, is presented. We analyze the personality traits simulated by these models and their stability. This contributes to the broader understanding of the capabilities of LLMs to simulate personality traits and the respective implications for personalized hu",
+    "pdf_url": "https://arxiv.org/pdf/2402.01765v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "2406.17287v1",
+    "title": "Predicting the Big Five Personality Traits in Chinese Counselling Dialogues Using Large Language Models",
+    "authors": [
+      "Yang Yan",
+      "Lizhi Ma",
+      "Anqi Li"
+    ],
+    "year": 2024,
+    "abstract": "Accurate assessment of personality traits is crucial for effective psycho-counseling, yet traditional methods like self-report questionnaires are time-consuming and biased. This study exams whether Large Language Models (LLMs) can predict the Big Five personality traits directly from counseling dialogues and introduces an innovative framework to perform the task. Our framework applies role-play an",
+    "pdf_url": "https://arxiv.org/pdf/2406.17287v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "2411.06008v2",
+    "title": "The Dark Patterns of Personalized Persuasion in Large Language Models: Exposing Persuasive Linguistic Features for Big Five Personality Traits in LLMs Responses",
+    "authors": [
+      "Wiktoria Mieleszczenko-Kowszewicz",
+      "Dawid P\u0142udowski",
+      "Filip Ko\u0142odziejczyk"
+    ],
+    "year": 2024,
+    "abstract": "This study explores how the Large Language Models (LLMs) adjust linguistic features to create personalized persuasive outputs. While research showed that LLMs personalize outputs, a gap remains in understanding the linguistic features of their persuasive capabilities. We identified 13 linguistic features crucial for influencing personalities across different levels of the Big Five model of persona",
+    "pdf_url": "https://arxiv.org/pdf/2411.06008v2",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "2306.05212v1",
+    "title": "RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit",
+    "authors": [
+      "Jiongnan Liu",
+      "Jiajie Jin",
+      "Zihan Wang"
+    ],
+    "year": 2023,
+    "abstract": "Although Large Language Models (LLMs) have demonstrated extraordinary capabilities in many domains, they still have a tendency to hallucinate and generate fictitious responses to user requests. This problem can be alleviated by augmenting LLMs with information retrieval (IR) systems (also known as retrieval-augmented LLMs). Applying this strategy, LLMs can generate more factual texts in response t",
+    "pdf_url": "https://arxiv.org/pdf/2306.05212v1",
+    "categories": [
+      "cs.IR"
+    ]
+  },
+  {
+    "id": "2205.00001v3",
+    "title": "Brainish: Formalizing A Multimodal Language for Intelligence and Consciousness",
+    "authors": [
+      "Paul Pu Liang"
+    ],
+    "year": 2022,
+    "abstract": "Having a rich multimodal inner language is an important component of human intelligence that enables several necessary core cognitive functions such as multimodal prediction, translation, and generation. Building upon the Conscious Turing Machine (CTM), a machine model for consciousness proposed by Blum and Blum (2021), we describe the desiderata of a multimodal language called Brainish, comprisin",
+    "pdf_url": "https://arxiv.org/pdf/2205.00001v3",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2104.13155v2",
+    "title": "Watershed of Artificial Intelligence: Human Intelligence, Machine Intelligence, and Biological Intelligence",
+    "authors": [
+      "Li Weigang",
+      "Liriam Enamoto",
+      "Denise Leyi Li"
+    ],
+    "year": 2021,
+    "abstract": "This article reviews the \"Once learning\" mechanism that was proposed 23 years ago and the subsequent successes of \"One-shot learning\" in image classification and \"You Only Look Once - YOLO\" in objective detection. Analyzing the current development of Artificial Intelligence (AI), the proposal is that AI should be clearly divided into the following categories: Artificial Human Intelligence (AHI), A",
+    "pdf_url": "https://arxiv.org/pdf/2104.13155v2",
+    "categories": [
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "2005.11882v2",
+    "title": "Sentiment Analysis: Automatically Detecting Valence, Emotions, and Other Affectual States from Text",
+    "authors": [
+      "Saif M. Mohammad"
+    ],
+    "year": 2020,
+    "abstract": "Recent advances in machine learning have led to computer systems that are human-like in behaviour. Sentiment analysis, the automatic determination of emotions in text, is allowing us to capitalize on substantial previously unattainable opportunities in commerce, public health, government policy, social sciences, and art. Further, analysis of emotions in text, from news to social media posts, is im",
+    "pdf_url": "https://arxiv.org/pdf/2005.11882v2",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2002.07716v2",
+    "title": "Synaptic clock as a neural substrate of consciousness",
+    "authors": [
+      "Bartosz Jura"
+    ],
+    "year": 2020,
+    "abstract": "In this theoretical work the temporal aspect of consciousness is analyzed. We start from the notion that while conscious experience seems to change constantly, yet for any of its contents to be consciously perceived they must last for some non-zero duration of time, which appears to constitute certain conflict. We posit that, in terms of phenomenological analysis of consciousness, the temporal asp",
+    "pdf_url": "https://arxiv.org/pdf/2002.07716v2",
+    "categories": [
+      "q-bio.NC"
+    ]
+  },
+  {
+    "id": "2005.05010v3",
+    "title": "Homological mirror symmetry for log Calabi-Yau surfaces",
+    "authors": [
+      "Paul Hacking",
+      "Ailsa Keating",
+      "Wendelin Lutz"
+    ],
+    "year": 2020,
+    "abstract": "Given a log Calabi-Yau surface $Y$ with maximal boundary $D$ and distinguished complex structure, we explain how to construct a mirror Lefschetz fibration $w: M \\to \\mathbb{C}$, where $M$ is a Weinstein four-manifold, such that the directed Fukaya category of $w$ is isomorphic to $D^b \\text{Coh}(Y)$, and the wrapped Fukaya category $D^b\\mathcal{W} (M)$ is isomorphic to $D^b \\text{Coh}(Y \\backslash",
+    "pdf_url": "https://arxiv.org/pdf/2005.05010v3",
+    "categories": [
+      "math.SG",
+      "math.AG"
+    ]
+  },
+  {
+    "id": "1707.06257v1",
+    "title": "The Limits to Machine Consciousness",
+    "authors": [
+      "Subhash Kak"
+    ],
+    "year": 2017,
+    "abstract": "It is generally accepted that machines can replicate cognitive tasks performed by conscious agents as long as they are not based on the capacity of awareness. We consider several views on the nature of subjective awareness, which is fundamental for self-reflection and review, and present reasons why this property is not computable. We argue that consciousness is more than an epiphenomenon and assu",
+    "pdf_url": "https://arxiv.org/pdf/1707.06257v1",
+    "categories": [
+      "cs.OH"
+    ]
+  },
+  {
+    "id": "1706.09554v1",
+    "title": "The Relationship Between Emotion Models and Artificial Intelligence",
+    "authors": [
+      "Christoph Bartneck",
+      "Michael J. Lyons",
+      "Martin Saerbeck"
+    ],
+    "year": 2017,
+    "abstract": "Emotions play a central role in most forms of natural human interaction so we may expect that computational methods for the processing and expression of emotions will play a growing role in human-computer interaction. The OCC model has established itself as the standard model for emotion synthesis. A large number of studies employed the OCC model to generate emotions for their embodied characters.",
+    "pdf_url": "https://arxiv.org/pdf/1706.09554v1",
+    "categories": [
+      "cs.HC"
+    ]
+  },
+  {
+    "id": "1204.4809v1",
+    "title": "Big-Five Personality Prediction Based on User Behaviors at Social Network Sites",
+    "authors": [
+      "Shuotian Bai",
+      "Tingshao Zhu",
+      "Li Cheng"
+    ],
+    "year": 2012,
+    "abstract": "Many customer services are already available at Social Network Sites (SNSs), including user recommendation and media interaction, to name a few. There are strong desires to provide online users more dedicated and personalized services that fit into individual's need, usually strongly depending on the inner personalities of the user. However, little has been done to conduct proper psychological ana",
+    "pdf_url": "https://arxiv.org/pdf/1204.4809v1",
+    "categories": [
+      "cs.CY"
+    ]
+  },
+  {
+    "id": "1108.4296v1",
+    "title": "On the evolution of phenomenal consciousness",
+    "authors": [
+      "Jean-Louis Dessalles",
+      "Tiziana Zalla"
+    ],
+    "year": 2011,
+    "abstract": "A number of concepts are included in the term 'consciousness'. We choose to concentrate here on phenomenal consciousness, the process through which we are able to experience aspects of our environment or of our physical state. We probably share this aspect of consciousness with many animals which, like us, feel pain or pleasure and experience colours, sounds, flavours, etc. Since phenomenal consci",
+    "pdf_url": "https://arxiv.org/pdf/1108.4296v1",
+    "categories": [
+      "q-bio.NC"
+    ]
+  },
+  {
+    "id": "0409140v2",
+    "title": "Complex-Dynamic Origin of Consciousness and the Critical Choice of Sustainability Transition",
+    "authors": [
+      "Andrei P. Kirilyuk"
+    ],
+    "year": 2004,
+    "abstract": "A quite general interaction process of a multi-component system is analysed by the extended effective potential method liberated from usual limitations of perturbation theory or integrable model. The obtained causally complete solution of the many-body problem reveals the phenomenon of dynamic multivaluedness, or redundance, of emerging, incompatible system realisations and dynamic entanglement of",
+    "pdf_url": "https://arxiv.org/pdf/physics/0409140v2",
+    "categories": [
+      "physics.gen-ph"
+    ]
+  }
+]

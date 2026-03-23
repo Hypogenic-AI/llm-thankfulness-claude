@@ -1,0 +1,19 @@
+\section{Introduction}
+\label{sec:intro}
+
+When a user thanks a language model, the model says ``you're welcome.'' When an LLM receives help in a roleplay scenario, it expresses gratitude. These behaviors feel natural---but do they reflect anything beyond statistical regularities in training data? As LLMs increasingly serve as conversational partners, understanding whether their social behaviors are genuine or performative has direct consequences for alignment evaluation, interaction design, and our philosophical understanding of artificial minds.
+
+{\bf Why does this matter?} The question is not merely academic. If LLM gratitude is a reliable signal of internal preference states, then self-reports could serve as a cheap proxy for alignment auditing. If it is purely performative, then the growing practice of designing ``polite'' AI interactions rests on an illusion---one that may nonetheless be functionally useful. Prior work has documented a broad dissociation between LLM self-reported personality traits and behavior \citep{han2025personality}, and has shown that politeness affects LLM task performance \citep{yin2024politeness}. However, no study has specifically investigated gratitude---a social behavior that sits at the intersection of personality, politeness, and cooperative preference.
+
+{\bf What is missing?} Three gaps remain in the literature. First, while sycophancy \citep{denison2024sycophancy, cheng2025elephant} and politeness \citep{zhao2025politeness} have been studied, gratitude itself has not been isolated as a target of empirical investigation. Second, existing work examines either the \emph{expression} or \emph{reception} of social behaviors, but not both directions within a single study. Third, the critical test---whether self-reported gratitude predicts cooperative behavior---has not been conducted, despite its importance for alignment evaluation.
+
+{\bf Our approach.} We design three experiments that probe LLM thankfulness from complementary angles. Experiment~1 tests whether \gptfour expresses gratitude in contextually appropriate ways across 20 scenarios. Experiment~2 measures how receiving gratitude from users affects the model's task performance across 4 politeness levels and 20 knowledge questions. Experiment~3 directly tests whether self-reported gratitude predicts behavioral cooperation by comparing self-report scores and behavioral task outcomes across 3 persona conditions.
+
+Our main findings are:
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item \gptfour exhibits 95\% accuracy in context-sensitive gratitude expression ($p < 0.001$, $\varphi = 0.804$), demonstrating that RLHF instills nuanced social rules for when gratitude is appropriate.
+    \item User gratitude increases response length by 2.7$\times$ (from 41 to 109 words) but slightly \emph{decreases} quality (from 5.0 to 4.6 on a 5-point scale), as the model adds social filler that dilutes informational content.
+    \item Self-reported gratitude shifts dramatically under persona manipulation ($p = 0.016$) while behavioral cooperation does not ($p = 0.68$), replicating and extending the personality illusion documented by \citet{han2025personality} to the specific domain of gratitude.
+\end{itemize}
+
+We contribute (1) the first empirical study isolating gratitude as a target behavior in LLMs, (2) a bidirectional experimental design testing both expression and reception of thankfulness, and (3) evidence that the self-report--behavior dissociation previously documented for broad personality traits extends to gratitude, with implications for alignment evaluation. The remainder of this paper is organized as follows: \secref{sec:related} reviews related work, \secref{sec:method} describes our methodology, \secref{sec:results} presents results, \secref{sec:discussion} discusses implications and limitations, and \secref{sec:conclusion} concludes.

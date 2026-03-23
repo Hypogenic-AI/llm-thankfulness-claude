@@ -1,0 +1,16 @@
+# Exclude large raw dataset downloads and HuggingFace cache
+.cache/
+__pycache__/
+
+# Ignore any full dataset dumps (large files)
+*_full.jsonl
+*_full.csv
+*_complete.jsonl
+
+# HuggingFace hub cache (can be gigabytes)
+hub/
+
+# Keep sample files (*.jsonl, *.csv) - they are intentionally small (<5MB each)
+# Keep documentation
+# !*.jsonl  # sample files are intentionally committed
+# !*.csv    # sample files are intentionally committed

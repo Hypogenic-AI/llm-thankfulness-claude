@@ -1,0 +1,397 @@
+[
+  {
+    "id": "2409.00162v2",
+    "title": "Sequence to Sequence Reward Modeling: Improving RLHF by Language Feedback",
+    "authors": [
+      "Jiayi Zhou",
+      "Jiaming Ji",
+      "Juntao Dai"
+    ],
+    "year": 2024,
+    "abstract": "Aligning the behavior of Large language models (LLMs) with human intentions and values remains a critical challenge. Reinforcement learning from human feedback (RLHF) aligns LLMs by training a reward model (RM) on human preferences and fine-tuning the LLMs to maximize RM feedback. Despite its effect",
+    "pdf_url": "https://arxiv.org/pdf/2409.00162v2",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "2505.18126v2",
+    "title": "Reward Model Overoptimisation in Iterated RLHF",
+    "authors": [
+      "Lorenz Wolf",
+      "Robert Kirk",
+      "Mirco Musolesi"
+    ],
+    "year": 2025,
+    "abstract": "Reinforcement learning from human feedback (RLHF) is a widely used method for aligning large language models with human preferences. However, RLHF often suffers from reward model overoptimisation, in which models overfit to the reward function, resulting in non-generalisable policies that exploit th",
+    "pdf_url": "https://arxiv.org/pdf/2505.18126v2",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2508.04149v1",
+    "title": "Difficulty-Based Preference Data Selection by DPO Implicit Reward Gap",
+    "authors": [
+      "Xuan Qi",
+      "Rongwu Xu",
+      "Zhijing Jin"
+    ],
+    "year": 2025,
+    "abstract": "Aligning large language models (LLMs) with human preferences is a critical challenge in AI research. While methods like Reinforcement Learning from Human Feedback (RLHF) and Direct Preference Optimization (DPO) are widely used, they often rely on large, costly preference datasets. The current work l",
+    "pdf_url": "https://arxiv.org/pdf/2508.04149v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2506.10054v3",
+    "title": "Uni-DPO: A Unified Paradigm for Dynamic Preference Optimization of LLMs",
+    "authors": [
+      "Shangpin Peng",
+      "Weinong Wang",
+      "Zhuotao Tian"
+    ],
+    "year": 2025,
+    "abstract": "Direct Preference Optimization (DPO) has emerged as a cornerstone of reinforcement learning from human feedback (RLHF) due to its simplicity and efficiency. However, existing DPO-based methods typically treat all preference pairs equally, overlooking substantial variations in data quality and learni",
+    "pdf_url": "https://arxiv.org/pdf/2506.10054v3",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2406.12845v1",
+    "title": "Interpretable Preferences via Multi-Objective Reward Modeling and Mixture-of-Experts",
+    "authors": [
+      "Haoxiang Wang",
+      "Wei Xiong",
+      "Tengyang Xie"
+    ],
+    "year": 2024,
+    "abstract": "Reinforcement learning from human feedback (RLHF) has emerged as the primary method for aligning large language models (LLMs) with human preferences. The RLHF process typically starts by training a reward model (RM) using human preference data. Conventional RMs are trained on pairwise responses to t",
+    "pdf_url": "https://arxiv.org/pdf/2406.12845v1",
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2402.18571v3",
+    "title": "Arithmetic Control of LLMs for Diverse User Preferences: Directional Preference Alignment with Multi-Objective Rewards",
+    "authors": [
+      "Haoxiang Wang",
+      "Yong Lin",
+      "Wei Xiong"
+    ],
+    "year": 2024,
+    "abstract": "Fine-grained control over large language models (LLMs) remains a significant challenge, hindering their adaptability to diverse user needs. While Reinforcement Learning from Human Feedback (RLHF) shows promise in aligning LLMs, its reliance on scalar rewards often limits its ability to capture diver",
+    "pdf_url": "https://arxiv.org/pdf/2402.18571v3",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2402.08005v1",
+    "title": "Refined Direct Preference Optimization with Synthetic Data for Behavioral Alignment of LLMs",
+    "authors": [
+      "V\u00edctor Gallego"
+    ],
+    "year": 2024,
+    "abstract": "In this paper, we introduce \\emph{refined Direct Preference Optimization} (rDPO), a method for improving the behavioral alignment of Large Language Models (LLMs) without the need for human-annotated data. The method involves creating synthetic data using self-critique prompting by a teacher LLM and ",
+    "pdf_url": "https://arxiv.org/pdf/2402.08005v1",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2412.00967v1",
+    "title": "Linear Probe Penalties Reduce LLM Sycophancy",
+    "authors": [
+      "Henry Papadatos",
+      "Rachel Freedman"
+    ],
+    "year": 2024,
+    "abstract": "Large language models (LLMs) are often sycophantic, prioritizing agreement with their users over accurate or objective statements. This problematic behavior becomes more pronounced during reinforcement learning from human feedback (RLHF), an LLM fine-tuning stage intended to align model outputs with",
+    "pdf_url": "https://arxiv.org/pdf/2412.00967v1",
+    "categories": [
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "2312.11456v4",
+    "title": "Iterative Preference Learning from Human Feedback: Bridging Theory and Practice for RLHF under KL-Constraint",
+    "authors": [
+      "Wei Xiong",
+      "Hanze Dong",
+      "Chenlu Ye"
+    ],
+    "year": 2023,
+    "abstract": "This paper studies the alignment process of generative models with Reinforcement Learning from Human Feedback (RLHF). We first identify the primary challenges of existing popular methods like offline PPO and offline DPO as lacking in strategical exploration of the environment. Then, to understand th",
+    "pdf_url": "https://arxiv.org/pdf/2312.11456v4",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "stat.ML"
+    ]
+  },
+  {
+    "id": "2602.00046v1",
+    "title": "Extending Beacon to Hindi: Cultural Adaptation Drives Cross-Lingual Sycophancy",
+    "authors": [
+      "Sarthak Sattigeri"
+    ],
+    "year": 2026,
+    "abstract": "Sycophancy, the tendency of language models to prioritize agreement with user preferences over principled reasoning, has been identified as a persistent alignment failure in English-language evaluations. However, it remains unclear whether such diagnostics generalize across languages and cultural co",
+    "pdf_url": "https://arxiv.org/pdf/2602.00046v1",
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2501.06416v2",
+    "title": "Influencing Humans to Conform to Preference Models for RLHF",
+    "authors": [
+      "Stephane Hatgis-Kessell",
+      "W. Bradley Knox",
+      "Serena Booth"
+    ],
+    "year": 2025,
+    "abstract": "Designing a reinforcement learning from human feedback (RLHF) algorithm to approximate a human's unobservable reward function requires assuming, implicitly or explicitly, a model of human preferences. A preference model that poorly describes how humans generate preferences risks learning a poor appr",
+    "pdf_url": "https://arxiv.org/pdf/2501.06416v2",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.HC"
+    ]
+  },
+  {
+    "id": "2501.02790v1",
+    "title": "Segmenting Text and Learning Their Rewards for Improved RLHF in Language Model",
+    "authors": [
+      "Yueqin Yin",
+      "Shentao Yang",
+      "Yujia Xie"
+    ],
+    "year": 2025,
+    "abstract": "Reinforcement learning from human feedback (RLHF) has been widely adopted to align language models (LMs) with human preference. Prior RLHF works typically take a bandit formulation, which, though intuitive, ignores the sequential nature of LM generation and can suffer from the sparse reward issue. W",
+    "pdf_url": "https://arxiv.org/pdf/2501.02790v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "2503.00295v1",
+    "title": "Robust Multi-Objective Preference Alignment with Online DPO",
+    "authors": [
+      "Raghav Gupta",
+      "Ryan Sullivan",
+      "Yunxuan Li"
+    ],
+    "year": 2025,
+    "abstract": "Multi-objective preference alignment of large language models (LLMs) is critical for developing AI systems that are more configurable, personalizable, helpful, and safe. However, optimizing model outputs to satisfy diverse objectives with variable weights at inference time for truly personalized mod",
+    "pdf_url": "https://arxiv.org/pdf/2503.00295v1",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2512.03048v2",
+    "title": "The Specification Trap: Why Content-Based AI Value Alignment Cannot Produce Robust Alignment",
+    "authors": [
+      "Austin Spizzirri"
+    ],
+    "year": 2025,
+    "abstract": "I argue that content-based AI value alignment--any approach that treats alignment as optimizing toward a formal value-object (reward function, utility function, constitutional principles, or learned preference representation)--cannot, by itself, produce robust alignment under capability scaling, dis",
+    "pdf_url": "https://arxiv.org/pdf/2512.03048v2",
+    "categories": [
+      "cs.AI",
+      "cs.CY",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2502.17507v2",
+    "title": "C2-DPO: Constrained Controlled Direct Preference Optimization",
+    "authors": [
+      "Kavosh Asadi",
+      "Julien Han",
+      "Idan Pipano"
+    ],
+    "year": 2025,
+    "abstract": "Direct preference optimization (\\texttt{DPO}) has emerged as a promising approach for solving the alignment problem in AI. In this paper, we make two counter-intuitive observations about \\texttt{DPO}. First, we show that \\texttt{DPO} loss could be derived by starting from an alternative optimization",
+    "pdf_url": "https://arxiv.org/pdf/2502.17507v2",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "2402.07314v3",
+    "title": "Online Iterative Reinforcement Learning from Human Feedback with General Preference Model",
+    "authors": [
+      "Chenlu Ye",
+      "Wei Xiong",
+      "Yuheng Zhang"
+    ],
+    "year": 2024,
+    "abstract": "We investigate Reinforcement Learning from Human Feedback (RLHF) in the context of a general preference oracle. In particular, we do not assume the existence of a reward function and an oracle preference signal drawn from the Bradley-Terry model as most of the prior works do. We consider a standard ",
+    "pdf_url": "https://arxiv.org/pdf/2402.07314v3",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id": "2407.14477v4",
+    "title": "Data-Centric Human Preference with Rationales for Direct Preference Alignment",
+    "authors": [
+      "Hoang Anh Just",
+      "Ming Jin",
+      "Anit Sahu"
+    ],
+    "year": 2024,
+    "abstract": "Aligning language models with human preferences through reinforcement learning from human feedback is crucial for their safe and effective deployment. The human preference is typically represented through comparison where one response is chosen over another for a given prompt. However, standard pref",
+    "pdf_url": "https://arxiv.org/pdf/2407.14477v4",
+    "categories": [
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "2406.10162v3",
+    "title": "Sycophancy to Subterfuge: Investigating Reward-Tampering in Large Language Models",
+    "authors": [
+      "Carson Denison",
+      "Monte MacDiarmid",
+      "Fazl Barez"
+    ],
+    "year": 2024,
+    "abstract": "In reinforcement learning, specification gaming occurs when AI systems learn undesired behaviors that are highly rewarded due to misspecified training goals. Specification gaming can range from simple behaviors like sycophancy to sophisticated and pernicious behaviors like reward-tampering, where a ",
+    "pdf_url": "https://arxiv.org/pdf/2406.10162v3",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2410.14872v2",
+    "title": "How to Evaluate Reward Models for RLHF",
+    "authors": [
+      "Evan Frick",
+      "Tianle Li",
+      "Connor Chen"
+    ],
+    "year": 2024,
+    "abstract": "We introduce a new benchmark for reward models that quantifies their ability to produce strong language models through RLHF (Reinforcement Learning from Human Feedback). The gold-standard approach is to run a full RLHF training pipeline and directly probe downstream LLM performance. However, this pr",
+    "pdf_url": "https://arxiv.org/pdf/2410.14872v2",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2408.13006v2",
+    "title": "Systematic Evaluation of LLM-as-a-Judge in LLM Alignment Tasks: Explainable Metrics and Diverse Prompt Templates",
+    "authors": [
+      "Hui Wei",
+      "Shenghua He",
+      "Tian Xia"
+    ],
+    "year": 2024,
+    "abstract": "LLM-as-a-Judge has been widely applied to evaluate and compare different LLM alignmnet approaches (e.g., RLHF and DPO). However, concerns regarding its reliability have emerged, due to LLM judges' biases and inconsistent decision-making. Previous research has developed evaluation frameworks to asses",
+    "pdf_url": "https://arxiv.org/pdf/2408.13006v2",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2410.04350v3",
+    "title": "TIS-DPO: Token-level Importance Sampling for Direct Preference Optimization With Estimated Weights",
+    "authors": [
+      "Aiwei Liu",
+      "Haoping Bai",
+      "Zhiyun Lu"
+    ],
+    "year": 2024,
+    "abstract": "Direct Preference Optimization (DPO) has been widely adopted for preference alignment of Large Language Models (LLMs) due to its simplicity and effectiveness. However, DPO is derived as a bandit problem in which the whole response is treated as a single arm, ignoring the importance differences betwe",
+    "pdf_url": "https://arxiv.org/pdf/2410.04350v3",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2410.17637v1",
+    "title": "MIA-DPO: Multi-Image Augmented Direct Preference Optimization For Large Vision-Language Models",
+    "authors": [
+      "Ziyu Liu",
+      "Yuhang Zang",
+      "Xiaoyi Dong"
+    ],
+    "year": 2024,
+    "abstract": "Visual preference alignment involves training Large Vision-Language Models (LVLMs) to predict human preferences between visual inputs. This is typically achieved by using labeled datasets of chosen/rejected pairs and employing optimization algorithms like direct preference optimization (DPO). Existi",
+    "pdf_url": "https://arxiv.org/pdf/2410.17637v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "2412.14516v1",
+    "title": "Cal-DPO: Calibrated Direct Preference Optimization for Language Model Alignment",
+    "authors": [
+      "Teng Xiao",
+      "Yige Yuan",
+      "Huaisheng Zhu"
+    ],
+    "year": 2024,
+    "abstract": "We study the problem of aligning large language models (LLMs) with human preference data. Contrastive preference optimization has shown promising results in aligning LLMs with available preference data by optimizing the implicit reward associated with the policy. However, the contrastive objective f",
+    "pdf_url": "https://arxiv.org/pdf/2412.14516v1",
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2304.05302v3",
+    "title": "RRHF: Rank Responses to Align Language Models with Human Feedback without tears",
+    "authors": [
+      "Zheng Yuan",
+      "Hongyi Yuan",
+      "Chuanqi Tan"
+    ],
+    "year": 2023,
+    "abstract": "Reinforcement Learning from Human Feedback (RLHF) facilitates the alignment of large language models with human preferences, significantly enhancing the quality of interactions between humans and models. InstructGPT implements RLHF through several stages, including Supervised Fine-Tuning (SFT), rewa",
+    "pdf_url": "https://arxiv.org/pdf/2304.05302v3",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "2506.05339v3",
+    "title": "Flattery, Fluff, and Fog: Diagnosing and Mitigating Idiosyncratic Biases in Preference Models",
+    "authors": [
+      "Anirudh Bharadwaj",
+      "Chaitanya Malaviya",
+      "Nitish Joshi"
+    ],
+    "year": 2025,
+    "abstract": "Language models serve as proxies for human preference judgements in alignment and evaluation, yet they exhibit systematic miscalibration, prioritizing superficial patterns over substantive qualities. This bias manifests as overreliance on features like length, structure, and style, leading to issues",
+    "pdf_url": "https://arxiv.org/pdf/2506.05339v3",
+    "categories": [
+      "cs.CL"
+    ]
+  }
+]

@@ -1,0 +1,165 @@
+{
+  "downloaded": [
+    {
+      "id": "2406.10162v3",
+      "title": "Sycophancy to Subterfuge: Investigating Reward-Tampering in Large Language Models",
+      "file": "2406.10162_Sycophancy_to_Subterfuge_Investigating_Reward-Tampering_in_L.pdf"
+    },
+    {
+      "id": "2409.01658v3",
+      "title": "From Yes-Men to Truth-Tellers: Addressing Sycophancy in Large Language Models with Pinpoint Tuning",
+      "file": "2409.01658_From_Yes-Men_to_Truth-Tellers_Addressing_Sycophancy_in_Large.pdf"
+    },
+    {
+      "id": "2412.00967v1",
+      "title": "Linear Probe Penalties Reduce LLM Sycophancy",
+      "file": "2412.00967_Linear_Probe_Penalties_Reduce_LLM_Sycophancy.pdf"
+    },
+    {
+      "id": "2505.13995v2",
+      "title": "ELEPHANT: Measuring and understanding social sycophancy in LLMs",
+      "file": "2505.13995_ELEPHANT_Measuring_and_understanding_social_sycophancy_in_LL.pdf"
+    },
+    {
+      "id": "2502.08177v4",
+      "title": "SycEval: Evaluating LLM Sycophancy",
+      "file": "2502.08177_SycEval_Evaluating_LLM_Sycophancy.pdf"
+    },
+    {
+      "id": "2512.00656v1",
+      "title": "Sycophancy Claims about Language Models: The Missing Human-in-the-Loop",
+      "file": "2512.00656_Sycophancy_Claims_about_Language_Models_The_Missing_Human-in.pdf"
+    },
+    {
+      "id": "2509.12517v3",
+      "title": "Interaction Context Often Increases Sycophancy in LLMs",
+      "file": "2509.12517_Interaction_Context_Often_Increases_Sycophancy_in_LLMs.pdf"
+    },
+    {
+      "id": "2602.00046v1",
+      "title": "Extending Beacon to Hindi: Cultural Adaptation Drives Cross-Lingual Sycophancy",
+      "file": "2602.00046_Extending_Beacon_to_Hindi_Cultural_Adaptation_Drives_Cross-L.pdf"
+    },
+    {
+      "id": "2509.21665v1",
+      "title": "Alignment Without Understanding: A Message- and Conversation-Centered Approach to Understanding AI Sycophancy",
+      "file": "2509.21665_Alignment_Without_Understanding_A_Message-_and_Conversation-.pdf"
+    },
+    {
+      "id": "2509.03730v2",
+      "title": "The Personality Illusion: Revealing Dissociation Between Self-Reports & Behavior in LLMs",
+      "file": "2509.03730_The_Personality_Illusion_Revealing_Dissociation_Between_Self.pdf"
+    },
+    {
+      "id": "2402.01765v1",
+      "title": "LLMs Simulate Big Five Personality Traits: Further Evidence",
+      "file": "2402.01765_LLMs_Simulate_Big_Five_Personality_Traits_Further_Evidence.pdf"
+    },
+    {
+      "id": "2512.17639v2",
+      "title": "Linear Personality Probing and Steering in LLMs: A Big Five Study",
+      "file": "2512.17639_Linear_Personality_Probing_and_Steering_in_LLMs_A_Big_Five_S.pdf"
+    },
+    {
+      "id": "2506.15928v3",
+      "title": "Exploring Big Five Personality and AI Capability Effects in LLM-Simulated Negotiation Dialogues",
+      "file": "2506.15928_Exploring_Big_Five_Personality_and_AI_Capability_Effects_in_.pdf"
+    },
+    {
+      "id": "2501.06416v2",
+      "title": "Influencing Humans to Conform to Preference Models for RLHF",
+      "file": "2501.06416_Influencing_Humans_to_Conform_to_Preference_Models_for_RLHF.pdf"
+    },
+    {
+      "id": "2406.12845v1",
+      "title": "Interpretable Preferences via Multi-Objective Reward Modeling and Mixture-of-Experts",
+      "file": "2406.12845_Interpretable_Preferences_via_Multi-Objective_Reward_Modelin.pdf"
+    },
+    {
+      "id": "2505.18126v2",
+      "title": "Reward Model Overoptimisation in Iterated RLHF",
+      "file": "2505.18126_Reward_Model_Overoptimisation_in_Iterated_RLHF.pdf"
+    },
+    {
+      "id": "2312.11456v4",
+      "title": "Iterative Preference Learning from Human Feedback: Bridging Theory and Practice for RLHF under KL-Constraint",
+      "file": "2312.11456_Iterative_Preference_Learning_from_Human_Feedback_Bridging_T.pdf"
+    },
+    {
+      "id": "2402.07314v3",
+      "title": "Online Iterative Reinforcement Learning from Human Feedback with General Preference Model",
+      "file": "2402.07314_Online_Iterative_Reinforcement_Learning_from_Human_Feedback_.pdf"
+    },
+    {
+      "id": "2410.14872v2",
+      "title": "How to Evaluate Reward Models for RLHF",
+      "file": "2410.14872_How_to_Evaluate_Reward_Models_for_RLHF.pdf"
+    },
+    {
+      "id": "2602.01750v1",
+      "title": "Adversarial Reward Auditing for Active Detection and Mitigation of Reward Hacking",
+      "file": "2602.01750_Adversarial_Reward_Auditing_for_Active_Detection_and_Mitigat.pdf"
+    },
+    {
+      "id": "2502.18770v5",
+      "title": "Reward Shaping to Mitigate Reward Hacking in RLHF",
+      "file": "2502.18770_Reward_Shaping_to_Mitigate_Reward_Hacking_in_RLHF.pdf"
+    },
+    {
+      "id": "2501.19358v3",
+      "title": "The Energy Loss Phenomenon in RLHF: A New Perspective on Mitigating Reward Hacking",
+      "file": "2501.19358_The_Energy_Loss_Phenomenon_in_RLHF_A_New_Perspective_on_Miti.pdf"
+    },
+    {
+      "id": "2402.18571v3",
+      "title": "Arithmetic Control of LLMs for Diverse User Preferences: Directional Preference Alignment with Multi-Objective Rewards",
+      "file": "2402.18571_Arithmetic_Control_of_LLMs_for_Diverse_User_Preferences_Dire.pdf"
+    },
+    {
+      "id": "2512.03048v2",
+      "title": "The Specification Trap: Why Content-Based AI Value Alignment Cannot Produce Robust Alignment",
+      "file": "2512.03048_The_Specification_Trap_Why_Content-Based_AI_Value_Alignment_.pdf"
+    },
+    {
+      "id": "2506.10054v3",
+      "title": "Uni-DPO: A Unified Paradigm for Dynamic Preference Optimization of LLMs",
+      "file": "2506.10054_Uni-DPO_A_Unified_Paradigm_for_Dynamic_Preference_Optimizati.pdf"
+    },
+    {
+      "id": "2506.05339v3",
+      "title": "Flattery, Fluff, and Fog: Diagnosing and Mitigating Idiosyncratic Biases in Preference Models",
+      "file": "2506.05339_Flattery_Fluff_and_Fog_Diagnosing_and_Mitigating_Idiosyncrat.pdf"
+    },
+    {
+      "id": "2402.14531v2",
+      "title": "Should We Respect LLMs? A Cross-Lingual Study on the Influence of Prompt Politeness on LLM Performance",
+      "file": "2402.14531_Should_We_Respect_LLMs_A_Cross-Lingual_Study_on_the_Influenc.pdf"
+    },
+    {
+      "id": "2506.09391v2",
+      "title": "Comparing human and LLM politeness strategies in free production",
+      "file": "2506.09391_Comparing_human_and_LLM_politeness_strategies_in_free_produc.pdf"
+    },
+    {
+      "id": "1705.05172v1",
+      "title": "Emotion in Reinforcement Learning Agents and Robots: A Survey",
+      "file": "1705.05172_Emotion_in_Reinforcement_Learning_Agents_and_Robots_A_Survey.pdf"
+    },
+    {
+      "id": "2603.01508v2",
+      "title": "The Sentience Readiness Index: A Preliminary Framework for Measuring National Preparedness for the Possibility of Artificial Sentience",
+      "file": "2603.01508_The_Sentience_Readiness_Index_A_Preliminary_Framework_for_Me.pdf"
+    },
+    {
+      "id": "2506.17871v3",
+      "title": "LLM Probability Concentration: How Alignment Shrinks the Generative Horizon",
+      "file": "2506.17871_LLM_Probability_Concentration_How_Alignment_Shrinks_the_Gene.pdf"
+    },
+    {
+      "id": "2509.03518v1",
+      "title": "Can LLMs Lie? Investigation beyond Hallucination",
+      "file": "2509.03518_Can_LLMs_Lie_Investigation_beyond_Hallucination.pdf"
+    }
+  ],
+  "failed": []
+}

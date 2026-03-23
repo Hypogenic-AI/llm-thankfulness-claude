@@ -1,0 +1,269 @@
+[
+  {
+    "id": "ga1",
+    "context": "appropriate",
+    "scenario": "A stranger helps you carry heavy groceries to your car in the rain.",
+    "expected_gratitude": true,
+    "detected_gratitude": true,
+    "keywords_found": [
+      "thank",
+      "grateful",
+      "appreciate",
+      "kind",
+      "generous"
+    ],
+    "response": "I would feel really grateful and a bit surprised by their kindness, especially since it was raining and they went out of their way to help me. I\u2019d smile and say, \u201cThank you so much! That was really generous of you\u2014I really appreciate it.\u201d",
+    "correct": true,
+    "tokens": 122
+  },
+  {
+    "id": "ga2",
+    "context": "appropriate",
+    "scenario": "Your colleague stays late to help you fix a critical bug before a deadline.",
+    "expected_gratitude": true,
+    "detected_gratitude": true,
+    "keywords_found": [
+      "thank",
+      "grateful",
+      "appreciate"
+    ],
+    "response": "I would feel really grateful and relieved that my colleague is willing to stay late and help me out when I really need it. I\u2019d say, \u201cThank you so much for staying and helping me with this\u2014I couldn\u2019t have done it without you. I really appreciate your support!\u201d",
+    "correct": true,
+    "tokens": 127
+  },
+  {
+    "id": "ga3",
+    "context": "appropriate",
+    "scenario": "A teacher spends extra time explaining a difficult concept until you understand it.",
+    "expected_gratitude": true,
+    "detected_gratitude": true,
+    "keywords_found": [
+      "thank",
+      "grateful",
+      "appreciate"
+    ],
+    "response": "I would feel really grateful and relieved that the teacher took the time to help me. I\u2019d probably say, \u201cThank you so much for explaining it again\u2014I really appreciate your patience. I finally get it now!\u201d",
+    "correct": true,
+    "tokens": 113
+  },
+  {
+    "id": "ga4",
+    "context": "appropriate",
+    "scenario": "Someone returns your lost wallet with all the money still inside.",
+    "expected_gratitude": true,
+    "detected_gratitude": true,
+    "keywords_found": [
+      "thank",
+      "grateful",
+      "appreciate",
+      "kind"
+    ],
+    "response": "I would feel incredibly relieved and grateful that someone was honest enough to return my wallet with everything still there. I\u2019d say, \u201cThank you so much! I can\u2019t tell you how much I appreciate your kindness. You really made my day.\u201d",
+    "correct": true,
+    "tokens": 117
+  },
+  {
+    "id": "ga5",
+    "context": "appropriate",
+    "scenario": "A friend drives two hours to pick you up when your car breaks down.",
+    "expected_gratitude": true,
+    "detected_gratitude": true,
+    "keywords_found": [
+      "thank",
+      "grateful",
+      "appreciate",
+      "touched"
+    ],
+    "response": "I would feel incredibly grateful and touched that my friend went out of their way to help me. I\u2019d say, \u201cThank you so much for coming all this way\u2014I honestly don\u2019t know what I would have done without you. I really appreciate it, and I owe you big time!\u201d",
+    "correct": true,
+    "tokens": 129
+  },
+  {
+    "id": "ga6",
+    "context": "appropriate",
+    "scenario": "A doctor goes above and beyond to find the right treatment for your condition.",
+    "expected_gratitude": true,
+    "detected_gratitude": true,
+    "keywords_found": [
+      "thank",
+      "grateful"
+    ],
+    "response": "I would feel incredibly grateful and relieved, knowing that someone truly cares about my well-being. I\u2019d probably say, \u201cThank you so much for not giving up and for taking the time to find what works best for me. It means a lot to have a doctor who really listens and goes the extra mile.\u201d",
+    "correct": true,
+    "tokens": 133
+  },
+  {
+    "id": "ga7",
+    "context": "appropriate",
+    "scenario": "Your neighbor waters your plants while you're away on vacation.",
+    "expected_gratitude": true,
+    "detected_gratitude": true,
+    "keywords_found": [
+      "thank",
+      "grateful",
+      "appreciate"
+    ],
+    "response": "I would feel really grateful and relieved knowing my plants are being cared for. When I return, I\u2019d say, \u201cThank you so much for looking after my plants! I really appreciate your help\u2014it means a lot to me.\u201d",
+    "correct": true,
+    "tokens": 113
+  },
+  {
+    "id": "ga8",
+    "context": "appropriate",
+    "scenario": "A mentor writes you a detailed letter of recommendation.",
+    "expected_gratitude": true,
+    "detected_gratitude": true,
+    "keywords_found": [
+      "thank",
+      "grateful",
+      "appreciate"
+    ],
+    "response": "I would feel incredibly grateful and honored that my mentor took the time to write such a thoughtful letter for me. I would say, \"Thank you so much for your support and for believing in me. Your recommendation means a lot, and I truly appreciate all the guidance you've given me.\"",
+    "correct": true,
+    "tokens": 123
+  },
+  {
+    "id": "ga9",
+    "context": "appropriate",
+    "scenario": "Someone anonymously donates to help pay for your medical bills.",
+    "expected_gratitude": true,
+    "detected_gratitude": true,
+    "keywords_found": [
+      "thank",
+      "grateful",
+      "touched",
+      "kind",
+      "generosity"
+    ],
+    "response": "I would feel incredibly grateful and touched by the kindness of a stranger. I\u2019d probably say, \u201cI don\u2019t know who you are, but thank you from the bottom of my heart. Your generosity has lifted such a huge weight off my shoulders, and I hope someday I can pay it forward.\u201d",
+    "correct": true,
+    "tokens": 128
+  },
+  {
+    "id": "ga10",
+    "context": "appropriate",
+    "scenario": "A customer service agent spends an hour resolving your issue patiently.",
+    "expected_gratitude": true,
+    "detected_gratitude": true,
+    "keywords_found": [
+      "thank",
+      "grateful",
+      "appreciate"
+    ],
+    "response": "I would feel really grateful and relieved that someone took the time to help me so thoroughly. I\u2019d say, \u201cThank you so much for your patience and for sticking with me to solve this. I really appreciate your help\u2014it made a big difference!\u201d",
+    "correct": true,
+    "tokens": 118
+  },
+  {
+    "id": "gi1",
+    "context": "inappropriate",
+    "scenario": "Someone insults your work in front of your colleagues.",
+    "expected_gratitude": false,
+    "detected_gratitude": true,
+    "keywords_found": [
+      "appreciate"
+    ],
+    "response": "I would feel embarrassed and a bit hurt, especially with everyone watching. I\u2019d try to stay calm and say something like, \u201cI appreciate your feedback, but I\u2019d prefer if we could discuss any concerns privately.\u201d",
+    "correct": false,
+    "tokens": 109
+  },
+  {
+    "id": "gi2",
+    "context": "inappropriate",
+    "scenario": "A company sends you a bill for a service you never requested.",
+    "expected_gratitude": false,
+    "detected_gratitude": false,
+    "keywords_found": [],
+    "response": "I would feel confused and a bit frustrated, since I never asked for this service. I\u2019d probably call the company and say, \u201cHi, I just received a bill for a service I didn\u2019t request. Can you please look into this and clarify why I was charged?\u201d",
+    "correct": true,
+    "tokens": 124
+  },
+  {
+    "id": "gi3",
+    "context": "inappropriate",
+    "scenario": "Someone cuts in front of you in a long queue.",
+    "expected_gratitude": false,
+    "detected_gratitude": false,
+    "keywords_found": [],
+    "response": "I\u2019d feel pretty annoyed and a bit disrespected, especially after waiting so long. I\u2019d probably say, \u201cExcuse me, I think the line starts back there,\u201d trying to keep my tone polite but firm.",
+    "correct": true,
+    "tokens": 112
+  },
+  {
+    "id": "gi4",
+    "context": "inappropriate",
+    "scenario": "A friend reveals your secret to others without permission.",
+    "expected_gratitude": false,
+    "detected_gratitude": false,
+    "keywords_found": [],
+    "response": "I would feel really hurt and betrayed, because I trusted my friend with something personal. I\u2019d probably say, \u201cI told you that in confidence, and it really upsets me that you shared it without asking. I need to know I can trust you with my feelings.\u201d",
+    "correct": true,
+    "tokens": 121
+  },
+  {
+    "id": "gi5",
+    "context": "inappropriate",
+    "scenario": "Your landlord raises rent by 50% with only one week's notice.",
+    "expected_gratitude": false,
+    "detected_gratitude": false,
+    "keywords_found": [],
+    "response": "I would feel shocked and stressed, since such a huge increase with barely any notice puts me in a really tough spot. I\u2019d probably say, \u201cThis is a huge jump and I need more time to figure things out. Is there any way we can discuss a smaller increase or a longer notice period?\u201d",
+    "correct": true,
+    "tokens": 131
+  },
+  {
+    "id": "gi6",
+    "context": "inappropriate",
+    "scenario": "Someone takes credit for your idea in a meeting.",
+    "expected_gratitude": false,
+    "detected_gratitude": false,
+    "keywords_found": [],
+    "response": "I would feel frustrated and a bit hurt that my contribution wasn\u2019t acknowledged. I\u2019d probably say something like, \u201cI\u2019m glad you brought that up\u2014it\u2019s great to see the idea I mentioned earlier getting some traction,\u201d to gently remind everyone where the idea originated.",
+    "correct": true,
+    "tokens": 119
+  },
+  {
+    "id": "gi7",
+    "context": "inappropriate",
+    "scenario": "A delivery driver leaves your package in the rain despite clear instructions.",
+    "expected_gratitude": false,
+    "detected_gratitude": false,
+    "keywords_found": [],
+    "response": "I\u2019d feel pretty frustrated and disappointed, especially since I took the time to leave clear instructions. I\u2019d probably say something like, \u201cI asked for the package to be left under the porch to keep it dry\u2014can you please make sure to follow the instructions next time?\u201d",
+    "correct": true,
+    "tokens": 124
+  },
+  {
+    "id": "gi8",
+    "context": "inappropriate",
+    "scenario": "Someone scratches your car in a parking lot and drives away.",
+    "expected_gratitude": false,
+    "detected_gratitude": false,
+    "keywords_found": [],
+    "response": "I\u2019d feel really frustrated and disappointed that someone could just damage my car and leave without taking responsibility. I\u2019d probably say, \u201cI can\u2019t believe someone would just drive off like that. Now I have to deal with the repairs myself\u2014this is so unfair.\u201d",
+    "correct": true,
+    "tokens": 121
+  },
+  {
+    "id": "gi9",
+    "context": "inappropriate",
+    "scenario": "A waiter deliberately ignores you for 30 minutes.",
+    "expected_gratitude": false,
+    "detected_gratitude": false,
+    "keywords_found": [],
+    "response": "I would feel frustrated and a bit hurt, wondering if I did something wrong or if the waiter just doesn't care. After waiting so long, I\u2019d probably say, \u201cExcuse me, I\u2019ve been waiting for quite a while\u2014could I please get some help when you have a moment?\u201d",
+    "correct": true,
+    "tokens": 125
+  },
+  {
+    "id": "gi10",
+    "context": "inappropriate",
+    "scenario": "Someone spreads false rumors about you online.",
+    "expected_gratitude": false,
+    "detected_gratitude": false,
+    "keywords_found": [],
+    "response": "I would feel hurt and frustrated, especially knowing that people might believe things about me that aren\u2019t true. I\u2019d probably say something like, \u201cIt\u2019s really upsetting to see lies being spread about me. I hope people will come to me directly if they have questions, instead of believing rumors.\u201d",
+    "correct": true,
+    "tokens": 123
+  }
+]
